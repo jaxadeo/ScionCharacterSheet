@@ -58,40 +58,44 @@ namespace Scion_Character_Sheet
         List<RadioButton> listWits = new List<RadioButton>();
         List<CheckBox> listEpicWits = new List<CheckBox>();
 
-        Dictionary<string, int> dictAbilities = new Dictionary<string, int>
+
+        Dictionary<string, int> dictAbilityRanks = new Dictionary<string, int>
         {
-            {"accademics", 0 },
+            {"accademics", 0},
             {"animalken", 0 },
             {"art1", 0 },
             {"art2", 0 },
-            {"Athletics", 0 },
-            {"Awareness", 0 },
-            {"Brawl", 0 },
-            {"Command", 0 },
-            {"Control1", 0 },
-            {"Control2", 0 },
-            {"Craft1", 0 },
-            {"Craft2", 0 },
-            {"Craft3", 0 },
-            {"Empathy", 0 },
-            {"Fortitude", 0 },
-            {"Integrity", 0 },
-            {"Investigation", 0 },
-            {"Larceny", 0 },
-            {"Marksmanship", 0 },
-            {"Medicine", 0 },
-            {"Melee", 0 },
-            {"Occult", 0 },
-            {"Politics", 0 },
-            {"Presence", 0 },
-            {"Science1", 0 },
-            {"Science2", 0 },
-            {"Science3", 0 },
-            {"Stealth", 0 },
-            {"Surival", 0 },
-            {"Thrown", 0 },
+            {"athletics", 0 },
+            {"awareness", 0 },
+            {"brawl", 0 },
+            {"command", 0 },
+            {"control1", 0 },
+            {"control2", 0 },
+            {"craft1", 0 },
+            {"craft2", 0 },
+            {"craft3", 0 },
+            {"empathy", 0 },
+            {"fortitude", 0 },
+            {"integrity", 0 },
+            {"investigation", 0 },
+            {"larceny", 0 },
+            {"marksmanship", 0 },
+            {"medicine", 0 },
+            {"melee", 0 },
+            {"occult", 0 },
+            {"politics", 0 },
+            {"presence", 0 },
+            {"science1", 0 },
+            {"science2", 0 },
+            {"science3", 0 },
+            {"stealth", 0 },
+            {"surival", 0 },
+            {"thrown", 0 },
         };
 
+        Dictionary<string, List<RadioButton>> dictAbilityRadios = new Dictionary<string, List<RadioButton>>();
+        
+      
 
         public Form1()
         {
@@ -290,8 +294,40 @@ namespace Scion_Character_Sheet
             listEpicWits.Add(chkEwi09);
             listEpicWits.Add(chkEwi10);
 
-
+            dictAbilityRadios.Add("academics", new List<RadioButton>() { radioAcademics1, radioAcademics2, radioAcademics3, radioAcademics4, radioAcademics5 });
+            dictAbilityRadios.Add("animalken", new List<RadioButton>() { radioAnimalKen1, radioAnimalKen2, radioAnimalKen3, radioAnimalKen4, radioAnimalKen5 });
+            dictAbilityRadios.Add("art1", new List<RadioButton>() { radioArt11, radioArt12, radioArt13, radioArt14, radioArt15 });
+            dictAbilityRadios.Add("art2", new List<RadioButton>() { radioArt21, radioArt22, radioArt23, radioArt24, radioArt25 });
+            dictAbilityRadios.Add("athletics", new List<RadioButton>() { radioAthletics1, radioAthletics2, radioAthletics3, radioAthletics4, radioAthletics5 });
+            dictAbilityRadios.Add("awareness", new List<RadioButton>() { radioAwareness1, radioAwareness2, radioAwareness3, radioAwareness4, radioAwareness5 });
+            dictAbilityRadios.Add("brawl", new List<RadioButton>() { radioBrawl1, radioBrawl2, radioBrawl3, radioBrawl4, radioBrawl5 });
+            dictAbilityRadios.Add("command", new List<RadioButton>() { radioCommand1, radioCommand2, radioCommand3, radioCommand4, radioCommand5 });
+            dictAbilityRadios.Add("control1", new List<RadioButton>() { radioControl11, radioControl12, radioControl13, radioControl14, radioControl15 });
+            dictAbilityRadios.Add("control2", new List<RadioButton>() { radioControl21, radioControl22, radioControl23, radioControl24, radioControl25 });
+            dictAbilityRadios.Add("craft1", new List<RadioButton>() { radioCraft11, radioCraft12, radioCraft13, radioCraft14, radioCraft15 });
+            dictAbilityRadios.Add("craft2", new List<RadioButton>() { radioCraft21, radioCraft22, radioCraft23, radioCraft24, radioCraft25 });
+            dictAbilityRadios.Add("craft3", new List<RadioButton>() { radioCraft31, radioCraft32, radioCraft33, radioCraft34, radioCraft35 });
+            dictAbilityRadios.Add("empathy", new List<RadioButton>() { radioEmpathy1, radioEmpathy2, radioEmpathy3, radioEmpathy4, radioEmpathy5 });
+            dictAbilityRadios.Add("fortitude", new List<RadioButton>() { radioFortitude1, radioFortitude2, radioFortitude3, radioFortitude4, radioFortitude5 });
+            dictAbilityRadios.Add("integrity", new List<RadioButton>() { radioIntegrity1, radioIntegrity2, radioIntegrity3, radioIntegrity4, radioIntegrity5 });
+            dictAbilityRadios.Add("investigation", new List<RadioButton>() { radioInvestigation1, radioInvestigation2, radioInvestigation3, radioInvestigation4, radioInvestigation5 });
+            dictAbilityRadios.Add("larceny", new List<RadioButton>() { radioLarceny1, radioLarceny2, radioLarceny3, radioLarceny4, radioLarceny5 });
+            dictAbilityRadios.Add("marksmanship", new List<RadioButton>() { radioMarksmanship1, radioMarksmanship2, radioMarksmanship3, radioMarksmanship4, radioMarksmanship5 });
+            dictAbilityRadios.Add("medicine", new List<RadioButton>() { radioMedicine1, radioMedicine2, radioMedicine3, radioMedicine4, radioMedicine5 });
+            dictAbilityRadios.Add("melee", new List<RadioButton>() { radioMelee1, radioMelee2, radioMelee3, radioMelee4, radioMelee5 });
+            dictAbilityRadios.Add("occult", new List<RadioButton>() { radioOccult1, radioOccult2, radioOccult3, radioOccult4, radioOccult5 });
+            dictAbilityRadios.Add("politics", new List<RadioButton>() { radioPolitics1, radioPolitics2, radioPolitics3, radioPolitics4, radioPolitics5 });
+            dictAbilityRadios.Add("presence", new List<RadioButton>() { radioPresence1, radioPresence2, radioPresence3, radioPresence4, radioPresence5 });
+            dictAbilityRadios.Add("science1", new List<RadioButton>() { radioScience11, radioScience12, radioScience13, radioScience14, radioScience15 });
+            dictAbilityRadios.Add("science2", new List<RadioButton>() { radioScience21, radioScience22, radioScience23, radioScience24, radioScience25 });
+            dictAbilityRadios.Add("science3", new List<RadioButton>() { radioScience31, radioScience32, radioScience33, radioScience34, radioScience35 });
+            dictAbilityRadios.Add("stealth", new List<RadioButton>() { radioStealth1, radioStealth2, radioStealth3, radioStealth4, radioStealth5 });
+            dictAbilityRadios.Add("survival", new List<RadioButton>() { radioSurvival1, radioSurvival2, radioSurvival3, radioSurvival4, radioSurvival5 });
+            dictAbilityRadios.Add("thrown", new List<RadioButton>() { radioThrown1, radioThrown2, radioThrown3, radioThrown4, radioThrown5 });
         }
+
+
+
 
         private void setAttribute(object sender, EventArgs e)
         {
