@@ -58,6 +58,41 @@ namespace Scion_Character_Sheet
         List<RadioButton> listWits = new List<RadioButton>();
         List<CheckBox> listEpicWits = new List<CheckBox>();
 
+        Dictionary<string, int> dictAbilities = new Dictionary<string, int>
+        {
+            {"accademics", 0 },
+            {"animalken", 0 },
+            {"art1", 0 },
+            {"art2", 0 },
+            {"Athletics", 0 },
+            {"Awareness", 0 },
+            {"Brawl", 0 },
+            {"Command", 0 },
+            {"Control1", 0 },
+            {"Control2", 0 },
+            {"Craft1", 0 },
+            {"Craft2", 0 },
+            {"Craft3", 0 },
+            {"Empathy", 0 },
+            {"Fortitude", 0 },
+            {"Integrity", 0 },
+            {"Investigation", 0 },
+            {"Larceny", 0 },
+            {"Marksmanship", 0 },
+            {"Medicine", 0 },
+            {"Melee", 0 },
+            {"Occult", 0 },
+            {"Politics", 0 },
+            {"Presence", 0 },
+            {"Science1", 0 },
+            {"Science2", 0 },
+            {"Science3", 0 },
+            {"Stealth", 0 },
+            {"Surival", 0 },
+            {"Thrown", 0 },
+        };
+
+
         public Form1()
         {
             InitializeComponent();
