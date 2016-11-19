@@ -75,8 +75,20 @@ namespace Scion_Character_Sheet
             }
 
         }
-        Dictionary<string, abilityInfo> abilityInformation = new Dictionary<string, abilityInfo>();        
-      
+        Dictionary<string, abilityInfo> abilityInformation = new Dictionary<string, abilityInfo>();
+        Dictionary<string, string> abilityTags = new Dictionary<string, string>
+        {
+            {"art1",""},
+            {"art2",""},
+            {"control1",""},
+            {"control2",""},
+            {"craft1",""},
+            {"craft2",""},
+            {"craft3",""},
+            {"science1",""},
+            {"science2",""},
+            {"science3",""},
+        };
 
         public Form1()
         {
@@ -338,6 +350,8 @@ namespace Scion_Character_Sheet
             int value = 0;
             int oldEpic;
             string identifier = "";
+
+            // Code determines if the object is a checkbox or radio button. This also is a decent hacky way to identify them as normal or epic stats
             if(sender is RadioButton)
             {
                 RadioButton val = (RadioButton)sender;
@@ -350,7 +364,7 @@ namespace Scion_Character_Sheet
                 Int32.TryParse(val.Name.Substring(val.Name.Length - 2), out value);
                 identifier = val.Name.Substring(val.Name.Length - 5, 3);
             }
-            
+            // This was before I discovered I could simplify it to use dictionaries and custom classes for multideminsional array type objects
             switch (identifier.ToLower())
             {
                 case "str":
@@ -501,6 +515,20 @@ namespace Scion_Character_Sheet
             {
                 labelSuccesses.Text = "0";
             }
+        }
+
+        private void groupAbilities_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void setAbilityTag(object sender, EventArgs e)
+        {
+            string identifier = "";
+            TextBox val = (TextBox)sender;
+            identifier = val.Name.Substring(7, val.Name.Length - 7).ToLower();
+            abilityTags[identifier] = val.Text;
+
         }
     }
 }

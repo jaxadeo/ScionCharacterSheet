@@ -243,6 +243,33 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupAbilities = new System.Windows.Forms.GroupBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBoxArt2 = new System.Windows.Forms.TextBox();
+            this.textBoxArt1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.radioThrown5 = new System.Windows.Forms.RadioButton();
             this.radioThrown4 = new System.Windows.Forms.RadioButton();
             this.radioThrown3 = new System.Windows.Forms.RadioButton();
@@ -423,8 +450,17 @@
             this.chkArt1 = new System.Windows.Forms.CheckBox();
             this.chkAnimalKen = new System.Windows.Forms.CheckBox();
             this.chkAcademics = new System.Windows.Forms.CheckBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabAbilities = new System.Windows.Forms.TabPage();
+            this.tabItems = new System.Windows.Forms.TabPage();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupAttributes.SuspendLayout();
             this.groupAbilities.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabAbilities.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxName
@@ -1509,7 +1545,7 @@
             this.groupAttributes.Controls.Add(this.chkEst01);
             this.groupAttributes.Controls.Add(this.label8);
             this.groupAttributes.Controls.Add(this.label7);
-            this.groupAttributes.Location = new System.Drawing.Point(16, 55);
+            this.groupAttributes.Location = new System.Drawing.Point(6, 6);
             this.groupAttributes.Name = "groupAttributes";
             this.groupAttributes.Size = new System.Drawing.Size(660, 147);
             this.groupAttributes.TabIndex = 12;
@@ -3084,6 +3120,36 @@
             // 
             // groupAbilities
             // 
+            this.groupAbilities.Controls.Add(this.label30);
+            this.groupAbilities.Controls.Add(this.label27);
+            this.groupAbilities.Controls.Add(this.label38);
+            this.groupAbilities.Controls.Add(this.label28);
+            this.groupAbilities.Controls.Add(this.label37);
+            this.groupAbilities.Controls.Add(this.label36);
+            this.groupAbilities.Controls.Add(this.label35);
+            this.groupAbilities.Controls.Add(this.label34);
+            this.groupAbilities.Controls.Add(this.label32);
+            this.groupAbilities.Controls.Add(this.label33);
+            this.groupAbilities.Controls.Add(this.label31);
+            this.groupAbilities.Controls.Add(this.label29);
+            this.groupAbilities.Controls.Add(this.label25);
+            this.groupAbilities.Controls.Add(this.label19);
+            this.groupAbilities.Controls.Add(this.label26);
+            this.groupAbilities.Controls.Add(this.label20);
+            this.groupAbilities.Controls.Add(this.label13);
+            this.groupAbilities.Controls.Add(this.label18);
+            this.groupAbilities.Controls.Add(this.textBoxArt2);
+            this.groupAbilities.Controls.Add(this.textBoxArt1);
+            this.groupAbilities.Controls.Add(this.label12);
+            this.groupAbilities.Controls.Add(this.label11);
+            this.groupAbilities.Controls.Add(this.textBox6);
+            this.groupAbilities.Controls.Add(this.textBox7);
+            this.groupAbilities.Controls.Add(this.textBox8);
+            this.groupAbilities.Controls.Add(this.textBox5);
+            this.groupAbilities.Controls.Add(this.textBox4);
+            this.groupAbilities.Controls.Add(this.textBox3);
+            this.groupAbilities.Controls.Add(this.textBox2);
+            this.groupAbilities.Controls.Add(this.textBox1);
             this.groupAbilities.Controls.Add(this.radioThrown5);
             this.groupAbilities.Controls.Add(this.radioThrown4);
             this.groupAbilities.Controls.Add(this.radioThrown3);
@@ -3264,18 +3330,235 @@
             this.groupAbilities.Controls.Add(this.chkArt1);
             this.groupAbilities.Controls.Add(this.chkAnimalKen);
             this.groupAbilities.Controls.Add(this.chkAcademics);
-            this.groupAbilities.Location = new System.Drawing.Point(16, 209);
+            this.groupAbilities.Location = new System.Drawing.Point(6, 160);
             this.groupAbilities.Name = "groupAbilities";
-            this.groupAbilities.Size = new System.Drawing.Size(660, 174);
+            this.groupAbilities.Size = new System.Drawing.Size(660, 232);
             this.groupAbilities.TabIndex = 13;
             this.groupAbilities.TabStop = false;
             this.groupAbilities.Text = "Abilities";
+            this.groupAbilities.Enter += new System.EventHandler(this.groupAbilities_Enter);
+            // 
+            // label38
+            // 
+            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label38.Location = new System.Drawing.Point(498, 216);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(70, 2);
+            this.label38.TabIndex = 379;
+            // 
+            // label37
+            // 
+            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label37.Location = new System.Drawing.Point(503, 195);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(65, 2);
+            this.label37.TabIndex = 381;
+            // 
+            // label36
+            // 
+            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label36.Location = new System.Drawing.Point(498, 173);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(70, 2);
+            this.label36.TabIndex = 380;
+            // 
+            // label35
+            // 
+            this.label35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label35.Location = new System.Drawing.Point(507, 90);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(60, 2);
+            this.label35.TabIndex = 379;
+            // 
+            // label34
+            // 
+            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label34.Location = new System.Drawing.Point(498, 69);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(70, 2);
+            this.label34.TabIndex = 378;
+            // 
+            // label32
+            // 
+            this.label32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label32.Location = new System.Drawing.Point(498, 27);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(70, 2);
+            this.label32.TabIndex = 377;
+            // 
+            // label33
+            // 
+            this.label33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label33.Location = new System.Drawing.Point(498, 47);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(70, 2);
+            this.label33.TabIndex = 376;
+            // 
+            // label31
+            // 
+            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label31.Location = new System.Drawing.Point(288, 216);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(66, 2);
+            this.label31.TabIndex = 375;
+            // 
+            // label29
+            // 
+            this.label29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label29.Location = new System.Drawing.Point(284, 173);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(70, 2);
+            this.label29.TabIndex = 373;
+            // 
+            // label25
+            // 
+            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label25.Location = new System.Drawing.Point(285, 110);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(70, 2);
+            this.label25.TabIndex = 372;
+            // 
+            // label19
+            // 
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label19.Location = new System.Drawing.Point(84, 173);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(50, 2);
+            this.label19.TabIndex = 372;
+            // 
+            // label26
+            // 
+            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label26.Location = new System.Drawing.Point(285, 90);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(70, 2);
+            this.label26.TabIndex = 371;
+            // 
+            // label20
+            // 
+            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label20.Location = new System.Drawing.Point(59, 153);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(75, 2);
+            this.label20.TabIndex = 371;
+            // 
+            // label13
+            // 
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label13.Location = new System.Drawing.Point(84, 131);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(50, 2);
+            this.label13.TabIndex = 374;
+            // 
+            // label18
+            // 
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label18.Location = new System.Drawing.Point(84, 111);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(50, 2);
+            this.label18.TabIndex = 373;
+            // 
+            // textBoxArt2
+            // 
+            this.textBoxArt2.Location = new System.Drawing.Point(48, 81);
+            this.textBoxArt2.Name = "textBoxArt2";
+            this.textBoxArt2.Size = new System.Drawing.Size(89, 20);
+            this.textBoxArt2.TabIndex = 372;
+            this.textBoxArt2.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBoxArt1
+            // 
+            this.textBoxArt1.Location = new System.Drawing.Point(48, 60);
+            this.textBoxArt1.Name = "textBoxArt1";
+            this.textBoxArt1.Size = new System.Drawing.Size(89, 20);
+            this.textBoxArt1.TabIndex = 371;
+            this.textBoxArt1.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // label12
+            // 
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label12.Location = new System.Drawing.Point(84, 47);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(50, 2);
+            this.label12.TabIndex = 370;
+            // 
+            // label11
+            // 
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label11.Location = new System.Drawing.Point(84, 27);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(50, 2);
+            this.label11.TabIndex = 369;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(498, 143);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(75, 20);
+            this.textBox6.TabIndex = 368;
+            this.textBox6.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(498, 122);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(75, 20);
+            this.textBox7.TabIndex = 367;
+            this.textBox7.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(498, 101);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(75, 20);
+            this.textBox8.TabIndex = 366;
+            this.textBox8.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(264, 59);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(93, 20);
+            this.textBox5.TabIndex = 365;
+            this.textBox5.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(264, 38);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(93, 20);
+            this.textBox4.TabIndex = 364;
+            this.textBox4.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(264, 17);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(93, 20);
+            this.textBox3.TabIndex = 363;
+            this.textBox3.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(63, 207);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(74, 20);
+            this.textBox2.TabIndex = 362;
+            this.textBox2.TextChanged += new System.EventHandler(this.setAbilityTag);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(63, 186);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(74, 20);
+            this.textBox1.TabIndex = 361;
+            this.textBox1.TextChanged += new System.EventHandler(this.setAbilityTag);
             // 
             // radioThrown5
             // 
             this.radioThrown5.AutoCheck = false;
             this.radioThrown5.AutoSize = true;
-            this.radioThrown5.Location = new System.Drawing.Point(634, 147);
+            this.radioThrown5.Location = new System.Drawing.Point(634, 210);
             this.radioThrown5.Name = "radioThrown5";
             this.radioThrown5.Size = new System.Drawing.Size(14, 13);
             this.radioThrown5.TabIndex = 360;
@@ -3288,7 +3571,7 @@
             // 
             this.radioThrown4.AutoCheck = false;
             this.radioThrown4.AutoSize = true;
-            this.radioThrown4.Location = new System.Drawing.Point(619, 147);
+            this.radioThrown4.Location = new System.Drawing.Point(618, 210);
             this.radioThrown4.Name = "radioThrown4";
             this.radioThrown4.Size = new System.Drawing.Size(14, 13);
             this.radioThrown4.TabIndex = 359;
@@ -3301,7 +3584,7 @@
             // 
             this.radioThrown3.AutoCheck = false;
             this.radioThrown3.AutoSize = true;
-            this.radioThrown3.Location = new System.Drawing.Point(604, 147);
+            this.radioThrown3.Location = new System.Drawing.Point(603, 210);
             this.radioThrown3.Name = "radioThrown3";
             this.radioThrown3.Size = new System.Drawing.Size(14, 13);
             this.radioThrown3.TabIndex = 358;
@@ -3314,7 +3597,7 @@
             // 
             this.radioThrown2.AutoCheck = false;
             this.radioThrown2.AutoSize = true;
-            this.radioThrown2.Location = new System.Drawing.Point(589, 147);
+            this.radioThrown2.Location = new System.Drawing.Point(588, 210);
             this.radioThrown2.Name = "radioThrown2";
             this.radioThrown2.Size = new System.Drawing.Size(14, 13);
             this.radioThrown2.TabIndex = 357;
@@ -3327,7 +3610,7 @@
             // 
             this.radioThrown1.AutoCheck = false;
             this.radioThrown1.AutoSize = true;
-            this.radioThrown1.Location = new System.Drawing.Point(574, 147);
+            this.radioThrown1.Location = new System.Drawing.Point(574, 210);
             this.radioThrown1.Name = "radioThrown1";
             this.radioThrown1.Size = new System.Drawing.Size(14, 13);
             this.radioThrown1.TabIndex = 356;
@@ -3340,7 +3623,7 @@
             // 
             this.radioSurvival5.AutoCheck = false;
             this.radioSurvival5.AutoSize = true;
-            this.radioSurvival5.Location = new System.Drawing.Point(634, 133);
+            this.radioSurvival5.Location = new System.Drawing.Point(634, 189);
             this.radioSurvival5.Name = "radioSurvival5";
             this.radioSurvival5.Size = new System.Drawing.Size(14, 13);
             this.radioSurvival5.TabIndex = 355;
@@ -3353,7 +3636,7 @@
             // 
             this.radioSurvival4.AutoCheck = false;
             this.radioSurvival4.AutoSize = true;
-            this.radioSurvival4.Location = new System.Drawing.Point(619, 133);
+            this.radioSurvival4.Location = new System.Drawing.Point(619, 189);
             this.radioSurvival4.Name = "radioSurvival4";
             this.radioSurvival4.Size = new System.Drawing.Size(14, 13);
             this.radioSurvival4.TabIndex = 354;
@@ -3366,7 +3649,7 @@
             // 
             this.radioSurvival3.AutoCheck = false;
             this.radioSurvival3.AutoSize = true;
-            this.radioSurvival3.Location = new System.Drawing.Point(604, 133);
+            this.radioSurvival3.Location = new System.Drawing.Point(604, 189);
             this.radioSurvival3.Name = "radioSurvival3";
             this.radioSurvival3.Size = new System.Drawing.Size(14, 13);
             this.radioSurvival3.TabIndex = 353;
@@ -3379,7 +3662,7 @@
             // 
             this.radioSurvival2.AutoCheck = false;
             this.radioSurvival2.AutoSize = true;
-            this.radioSurvival2.Location = new System.Drawing.Point(589, 133);
+            this.radioSurvival2.Location = new System.Drawing.Point(589, 189);
             this.radioSurvival2.Name = "radioSurvival2";
             this.radioSurvival2.Size = new System.Drawing.Size(14, 13);
             this.radioSurvival2.TabIndex = 352;
@@ -3392,7 +3675,7 @@
             // 
             this.radioSurvival1.AutoCheck = false;
             this.radioSurvival1.AutoSize = true;
-            this.radioSurvival1.Location = new System.Drawing.Point(574, 133);
+            this.radioSurvival1.Location = new System.Drawing.Point(574, 189);
             this.radioSurvival1.Name = "radioSurvival1";
             this.radioSurvival1.Size = new System.Drawing.Size(14, 13);
             this.radioSurvival1.TabIndex = 351;
@@ -3405,7 +3688,7 @@
             // 
             this.radioStealth5.AutoCheck = false;
             this.radioStealth5.AutoSize = true;
-            this.radioStealth5.Location = new System.Drawing.Point(634, 119);
+            this.radioStealth5.Location = new System.Drawing.Point(634, 168);
             this.radioStealth5.Name = "radioStealth5";
             this.radioStealth5.Size = new System.Drawing.Size(14, 13);
             this.radioStealth5.TabIndex = 350;
@@ -3418,7 +3701,7 @@
             // 
             this.radioStealth4.AutoCheck = false;
             this.radioStealth4.AutoSize = true;
-            this.radioStealth4.Location = new System.Drawing.Point(619, 119);
+            this.radioStealth4.Location = new System.Drawing.Point(619, 168);
             this.radioStealth4.Name = "radioStealth4";
             this.radioStealth4.Size = new System.Drawing.Size(14, 13);
             this.radioStealth4.TabIndex = 349;
@@ -3431,7 +3714,7 @@
             // 
             this.radioStealth3.AutoCheck = false;
             this.radioStealth3.AutoSize = true;
-            this.radioStealth3.Location = new System.Drawing.Point(604, 119);
+            this.radioStealth3.Location = new System.Drawing.Point(604, 168);
             this.radioStealth3.Name = "radioStealth3";
             this.radioStealth3.Size = new System.Drawing.Size(14, 13);
             this.radioStealth3.TabIndex = 348;
@@ -3444,7 +3727,7 @@
             // 
             this.radioStealth2.AutoCheck = false;
             this.radioStealth2.AutoSize = true;
-            this.radioStealth2.Location = new System.Drawing.Point(589, 119);
+            this.radioStealth2.Location = new System.Drawing.Point(589, 168);
             this.radioStealth2.Name = "radioStealth2";
             this.radioStealth2.Size = new System.Drawing.Size(14, 13);
             this.radioStealth2.TabIndex = 347;
@@ -3457,7 +3740,7 @@
             // 
             this.radioStealth1.AutoCheck = false;
             this.radioStealth1.AutoSize = true;
-            this.radioStealth1.Location = new System.Drawing.Point(574, 119);
+            this.radioStealth1.Location = new System.Drawing.Point(574, 168);
             this.radioStealth1.Name = "radioStealth1";
             this.radioStealth1.Size = new System.Drawing.Size(14, 13);
             this.radioStealth1.TabIndex = 346;
@@ -3470,7 +3753,7 @@
             // 
             this.radioScience35.AutoCheck = false;
             this.radioScience35.AutoSize = true;
-            this.radioScience35.Location = new System.Drawing.Point(634, 105);
+            this.radioScience35.Location = new System.Drawing.Point(634, 147);
             this.radioScience35.Name = "radioScience35";
             this.radioScience35.Size = new System.Drawing.Size(14, 13);
             this.radioScience35.TabIndex = 345;
@@ -3483,7 +3766,7 @@
             // 
             this.radioScience34.AutoCheck = false;
             this.radioScience34.AutoSize = true;
-            this.radioScience34.Location = new System.Drawing.Point(619, 105);
+            this.radioScience34.Location = new System.Drawing.Point(619, 147);
             this.radioScience34.Name = "radioScience34";
             this.radioScience34.Size = new System.Drawing.Size(14, 13);
             this.radioScience34.TabIndex = 344;
@@ -3496,7 +3779,7 @@
             // 
             this.radioScience33.AutoCheck = false;
             this.radioScience33.AutoSize = true;
-            this.radioScience33.Location = new System.Drawing.Point(604, 105);
+            this.radioScience33.Location = new System.Drawing.Point(604, 147);
             this.radioScience33.Name = "radioScience33";
             this.radioScience33.Size = new System.Drawing.Size(14, 13);
             this.radioScience33.TabIndex = 343;
@@ -3509,7 +3792,7 @@
             // 
             this.radioScience32.AutoCheck = false;
             this.radioScience32.AutoSize = true;
-            this.radioScience32.Location = new System.Drawing.Point(589, 105);
+            this.radioScience32.Location = new System.Drawing.Point(589, 147);
             this.radioScience32.Name = "radioScience32";
             this.radioScience32.Size = new System.Drawing.Size(14, 13);
             this.radioScience32.TabIndex = 342;
@@ -3522,7 +3805,7 @@
             // 
             this.radioScience31.AutoCheck = false;
             this.radioScience31.AutoSize = true;
-            this.radioScience31.Location = new System.Drawing.Point(574, 105);
+            this.radioScience31.Location = new System.Drawing.Point(574, 147);
             this.radioScience31.Name = "radioScience31";
             this.radioScience31.Size = new System.Drawing.Size(14, 13);
             this.radioScience31.TabIndex = 341;
@@ -3535,7 +3818,7 @@
             // 
             this.radioScience25.AutoCheck = false;
             this.radioScience25.AutoSize = true;
-            this.radioScience25.Location = new System.Drawing.Point(634, 91);
+            this.radioScience25.Location = new System.Drawing.Point(634, 126);
             this.radioScience25.Name = "radioScience25";
             this.radioScience25.Size = new System.Drawing.Size(14, 13);
             this.radioScience25.TabIndex = 340;
@@ -3548,7 +3831,7 @@
             // 
             this.radioScience24.AutoCheck = false;
             this.radioScience24.AutoSize = true;
-            this.radioScience24.Location = new System.Drawing.Point(619, 91);
+            this.radioScience24.Location = new System.Drawing.Point(619, 126);
             this.radioScience24.Name = "radioScience24";
             this.radioScience24.Size = new System.Drawing.Size(14, 13);
             this.radioScience24.TabIndex = 339;
@@ -3561,7 +3844,7 @@
             // 
             this.radioScience23.AutoCheck = false;
             this.radioScience23.AutoSize = true;
-            this.radioScience23.Location = new System.Drawing.Point(604, 91);
+            this.radioScience23.Location = new System.Drawing.Point(604, 126);
             this.radioScience23.Name = "radioScience23";
             this.radioScience23.Size = new System.Drawing.Size(14, 13);
             this.radioScience23.TabIndex = 338;
@@ -3574,7 +3857,7 @@
             // 
             this.radioScience22.AutoCheck = false;
             this.radioScience22.AutoSize = true;
-            this.radioScience22.Location = new System.Drawing.Point(589, 91);
+            this.radioScience22.Location = new System.Drawing.Point(589, 126);
             this.radioScience22.Name = "radioScience22";
             this.radioScience22.Size = new System.Drawing.Size(14, 13);
             this.radioScience22.TabIndex = 337;
@@ -3587,7 +3870,7 @@
             // 
             this.radioScience21.AutoCheck = false;
             this.radioScience21.AutoSize = true;
-            this.radioScience21.Location = new System.Drawing.Point(574, 91);
+            this.radioScience21.Location = new System.Drawing.Point(574, 126);
             this.radioScience21.Name = "radioScience21";
             this.radioScience21.Size = new System.Drawing.Size(14, 13);
             this.radioScience21.TabIndex = 336;
@@ -3600,7 +3883,7 @@
             // 
             this.radioScience15.AutoCheck = false;
             this.radioScience15.AutoSize = true;
-            this.radioScience15.Location = new System.Drawing.Point(634, 77);
+            this.radioScience15.Location = new System.Drawing.Point(634, 105);
             this.radioScience15.Name = "radioScience15";
             this.radioScience15.Size = new System.Drawing.Size(14, 13);
             this.radioScience15.TabIndex = 335;
@@ -3613,7 +3896,7 @@
             // 
             this.radioScience14.AutoCheck = false;
             this.radioScience14.AutoSize = true;
-            this.radioScience14.Location = new System.Drawing.Point(619, 77);
+            this.radioScience14.Location = new System.Drawing.Point(619, 105);
             this.radioScience14.Name = "radioScience14";
             this.radioScience14.Size = new System.Drawing.Size(14, 13);
             this.radioScience14.TabIndex = 334;
@@ -3626,7 +3909,7 @@
             // 
             this.radioScience13.AutoCheck = false;
             this.radioScience13.AutoSize = true;
-            this.radioScience13.Location = new System.Drawing.Point(604, 77);
+            this.radioScience13.Location = new System.Drawing.Point(604, 105);
             this.radioScience13.Name = "radioScience13";
             this.radioScience13.Size = new System.Drawing.Size(14, 13);
             this.radioScience13.TabIndex = 333;
@@ -3639,7 +3922,7 @@
             // 
             this.radioScience12.AutoCheck = false;
             this.radioScience12.AutoSize = true;
-            this.radioScience12.Location = new System.Drawing.Point(589, 77);
+            this.radioScience12.Location = new System.Drawing.Point(589, 105);
             this.radioScience12.Name = "radioScience12";
             this.radioScience12.Size = new System.Drawing.Size(14, 13);
             this.radioScience12.TabIndex = 332;
@@ -3652,7 +3935,7 @@
             // 
             this.radioScience11.AutoCheck = false;
             this.radioScience11.AutoSize = true;
-            this.radioScience11.Location = new System.Drawing.Point(574, 77);
+            this.radioScience11.Location = new System.Drawing.Point(574, 105);
             this.radioScience11.Name = "radioScience11";
             this.radioScience11.Size = new System.Drawing.Size(14, 13);
             this.radioScience11.TabIndex = 331;
@@ -3665,7 +3948,7 @@
             // 
             this.radioPresence5.AutoCheck = false;
             this.radioPresence5.AutoSize = true;
-            this.radioPresence5.Location = new System.Drawing.Point(634, 63);
+            this.radioPresence5.Location = new System.Drawing.Point(634, 84);
             this.radioPresence5.Name = "radioPresence5";
             this.radioPresence5.Size = new System.Drawing.Size(14, 13);
             this.radioPresence5.TabIndex = 330;
@@ -3678,7 +3961,7 @@
             // 
             this.radioPresence4.AutoCheck = false;
             this.radioPresence4.AutoSize = true;
-            this.radioPresence4.Location = new System.Drawing.Point(619, 63);
+            this.radioPresence4.Location = new System.Drawing.Point(619, 84);
             this.radioPresence4.Name = "radioPresence4";
             this.radioPresence4.Size = new System.Drawing.Size(14, 13);
             this.radioPresence4.TabIndex = 329;
@@ -3691,7 +3974,7 @@
             // 
             this.radioPresence3.AutoCheck = false;
             this.radioPresence3.AutoSize = true;
-            this.radioPresence3.Location = new System.Drawing.Point(604, 63);
+            this.radioPresence3.Location = new System.Drawing.Point(604, 84);
             this.radioPresence3.Name = "radioPresence3";
             this.radioPresence3.Size = new System.Drawing.Size(14, 13);
             this.radioPresence3.TabIndex = 328;
@@ -3704,7 +3987,7 @@
             // 
             this.radioPresence2.AutoCheck = false;
             this.radioPresence2.AutoSize = true;
-            this.radioPresence2.Location = new System.Drawing.Point(589, 63);
+            this.radioPresence2.Location = new System.Drawing.Point(589, 84);
             this.radioPresence2.Name = "radioPresence2";
             this.radioPresence2.Size = new System.Drawing.Size(14, 13);
             this.radioPresence2.TabIndex = 327;
@@ -3717,7 +4000,7 @@
             // 
             this.radioPresence1.AutoCheck = false;
             this.radioPresence1.AutoSize = true;
-            this.radioPresence1.Location = new System.Drawing.Point(574, 63);
+            this.radioPresence1.Location = new System.Drawing.Point(574, 84);
             this.radioPresence1.Name = "radioPresence1";
             this.radioPresence1.Size = new System.Drawing.Size(14, 13);
             this.radioPresence1.TabIndex = 326;
@@ -3730,7 +4013,7 @@
             // 
             this.radioPolitics5.AutoCheck = false;
             this.radioPolitics5.AutoSize = true;
-            this.radioPolitics5.Location = new System.Drawing.Point(634, 49);
+            this.radioPolitics5.Location = new System.Drawing.Point(634, 63);
             this.radioPolitics5.Name = "radioPolitics5";
             this.radioPolitics5.Size = new System.Drawing.Size(14, 13);
             this.radioPolitics5.TabIndex = 325;
@@ -3743,7 +4026,7 @@
             // 
             this.radioPolitics4.AutoCheck = false;
             this.radioPolitics4.AutoSize = true;
-            this.radioPolitics4.Location = new System.Drawing.Point(619, 49);
+            this.radioPolitics4.Location = new System.Drawing.Point(619, 63);
             this.radioPolitics4.Name = "radioPolitics4";
             this.radioPolitics4.Size = new System.Drawing.Size(14, 13);
             this.radioPolitics4.TabIndex = 324;
@@ -3756,7 +4039,7 @@
             // 
             this.radioPolitics3.AutoCheck = false;
             this.radioPolitics3.AutoSize = true;
-            this.radioPolitics3.Location = new System.Drawing.Point(604, 49);
+            this.radioPolitics3.Location = new System.Drawing.Point(604, 63);
             this.radioPolitics3.Name = "radioPolitics3";
             this.radioPolitics3.Size = new System.Drawing.Size(14, 13);
             this.radioPolitics3.TabIndex = 323;
@@ -3769,7 +4052,7 @@
             // 
             this.radioPolitics2.AutoCheck = false;
             this.radioPolitics2.AutoSize = true;
-            this.radioPolitics2.Location = new System.Drawing.Point(589, 49);
+            this.radioPolitics2.Location = new System.Drawing.Point(589, 63);
             this.radioPolitics2.Name = "radioPolitics2";
             this.radioPolitics2.Size = new System.Drawing.Size(14, 13);
             this.radioPolitics2.TabIndex = 322;
@@ -3782,7 +4065,7 @@
             // 
             this.radioPolitics1.AutoCheck = false;
             this.radioPolitics1.AutoSize = true;
-            this.radioPolitics1.Location = new System.Drawing.Point(574, 49);
+            this.radioPolitics1.Location = new System.Drawing.Point(574, 63);
             this.radioPolitics1.Name = "radioPolitics1";
             this.radioPolitics1.Size = new System.Drawing.Size(14, 13);
             this.radioPolitics1.TabIndex = 321;
@@ -3795,7 +4078,7 @@
             // 
             this.radioOccult5.AutoCheck = false;
             this.radioOccult5.AutoSize = true;
-            this.radioOccult5.Location = new System.Drawing.Point(634, 35);
+            this.radioOccult5.Location = new System.Drawing.Point(634, 42);
             this.radioOccult5.Name = "radioOccult5";
             this.radioOccult5.Size = new System.Drawing.Size(14, 13);
             this.radioOccult5.TabIndex = 320;
@@ -3808,7 +4091,7 @@
             // 
             this.radioOccult4.AutoCheck = false;
             this.radioOccult4.AutoSize = true;
-            this.radioOccult4.Location = new System.Drawing.Point(619, 35);
+            this.radioOccult4.Location = new System.Drawing.Point(619, 42);
             this.radioOccult4.Name = "radioOccult4";
             this.radioOccult4.Size = new System.Drawing.Size(14, 13);
             this.radioOccult4.TabIndex = 319;
@@ -3821,7 +4104,7 @@
             // 
             this.radioOccult3.AutoCheck = false;
             this.radioOccult3.AutoSize = true;
-            this.radioOccult3.Location = new System.Drawing.Point(604, 35);
+            this.radioOccult3.Location = new System.Drawing.Point(604, 42);
             this.radioOccult3.Name = "radioOccult3";
             this.radioOccult3.Size = new System.Drawing.Size(14, 13);
             this.radioOccult3.TabIndex = 318;
@@ -3834,7 +4117,7 @@
             // 
             this.radioOccult2.AutoCheck = false;
             this.radioOccult2.AutoSize = true;
-            this.radioOccult2.Location = new System.Drawing.Point(589, 35);
+            this.radioOccult2.Location = new System.Drawing.Point(589, 42);
             this.radioOccult2.Name = "radioOccult2";
             this.radioOccult2.Size = new System.Drawing.Size(14, 13);
             this.radioOccult2.TabIndex = 317;
@@ -3847,7 +4130,7 @@
             // 
             this.radioOccult1.AutoCheck = false;
             this.radioOccult1.AutoSize = true;
-            this.radioOccult1.Location = new System.Drawing.Point(574, 35);
+            this.radioOccult1.Location = new System.Drawing.Point(574, 42);
             this.radioOccult1.Name = "radioOccult1";
             this.radioOccult1.Size = new System.Drawing.Size(14, 13);
             this.radioOccult1.TabIndex = 316;
@@ -3925,7 +4208,7 @@
             // 
             this.radioMedicine5.AutoCheck = false;
             this.radioMedicine5.AutoSize = true;
-            this.radioMedicine5.Location = new System.Drawing.Point(419, 146);
+            this.radioMedicine5.Location = new System.Drawing.Point(419, 209);
             this.radioMedicine5.Name = "radioMedicine5";
             this.radioMedicine5.Size = new System.Drawing.Size(14, 13);
             this.radioMedicine5.TabIndex = 310;
@@ -3938,7 +4221,7 @@
             // 
             this.radioMedicine4.AutoCheck = false;
             this.radioMedicine4.AutoSize = true;
-            this.radioMedicine4.Location = new System.Drawing.Point(404, 146);
+            this.radioMedicine4.Location = new System.Drawing.Point(404, 209);
             this.radioMedicine4.Name = "radioMedicine4";
             this.radioMedicine4.Size = new System.Drawing.Size(14, 13);
             this.radioMedicine4.TabIndex = 309;
@@ -3951,7 +4234,7 @@
             // 
             this.radioMedicine3.AutoCheck = false;
             this.radioMedicine3.AutoSize = true;
-            this.radioMedicine3.Location = new System.Drawing.Point(389, 146);
+            this.radioMedicine3.Location = new System.Drawing.Point(389, 209);
             this.radioMedicine3.Name = "radioMedicine3";
             this.radioMedicine3.Size = new System.Drawing.Size(14, 13);
             this.radioMedicine3.TabIndex = 308;
@@ -3964,7 +4247,7 @@
             // 
             this.radioMedicine2.AutoCheck = false;
             this.radioMedicine2.AutoSize = true;
-            this.radioMedicine2.Location = new System.Drawing.Point(374, 146);
+            this.radioMedicine2.Location = new System.Drawing.Point(374, 209);
             this.radioMedicine2.Name = "radioMedicine2";
             this.radioMedicine2.Size = new System.Drawing.Size(14, 13);
             this.radioMedicine2.TabIndex = 307;
@@ -3977,7 +4260,7 @@
             // 
             this.radioMedicine1.AutoCheck = false;
             this.radioMedicine1.AutoSize = true;
-            this.radioMedicine1.Location = new System.Drawing.Point(359, 146);
+            this.radioMedicine1.Location = new System.Drawing.Point(359, 209);
             this.radioMedicine1.Name = "radioMedicine1";
             this.radioMedicine1.Size = new System.Drawing.Size(14, 13);
             this.radioMedicine1.TabIndex = 306;
@@ -3990,7 +4273,7 @@
             // 
             this.radioMarksmanship5.AutoCheck = false;
             this.radioMarksmanship5.AutoSize = true;
-            this.radioMarksmanship5.Location = new System.Drawing.Point(419, 132);
+            this.radioMarksmanship5.Location = new System.Drawing.Point(419, 188);
             this.radioMarksmanship5.Name = "radioMarksmanship5";
             this.radioMarksmanship5.Size = new System.Drawing.Size(14, 13);
             this.radioMarksmanship5.TabIndex = 305;
@@ -4003,7 +4286,7 @@
             // 
             this.radioMarksmanship4.AutoCheck = false;
             this.radioMarksmanship4.AutoSize = true;
-            this.radioMarksmanship4.Location = new System.Drawing.Point(404, 132);
+            this.radioMarksmanship4.Location = new System.Drawing.Point(404, 188);
             this.radioMarksmanship4.Name = "radioMarksmanship4";
             this.radioMarksmanship4.Size = new System.Drawing.Size(14, 13);
             this.radioMarksmanship4.TabIndex = 304;
@@ -4016,7 +4299,7 @@
             // 
             this.radioMarksmanship3.AutoCheck = false;
             this.radioMarksmanship3.AutoSize = true;
-            this.radioMarksmanship3.Location = new System.Drawing.Point(389, 132);
+            this.radioMarksmanship3.Location = new System.Drawing.Point(389, 188);
             this.radioMarksmanship3.Name = "radioMarksmanship3";
             this.radioMarksmanship3.Size = new System.Drawing.Size(14, 13);
             this.radioMarksmanship3.TabIndex = 303;
@@ -4029,7 +4312,7 @@
             // 
             this.radioMarksmanship2.AutoCheck = false;
             this.radioMarksmanship2.AutoSize = true;
-            this.radioMarksmanship2.Location = new System.Drawing.Point(374, 132);
+            this.radioMarksmanship2.Location = new System.Drawing.Point(374, 188);
             this.radioMarksmanship2.Name = "radioMarksmanship2";
             this.radioMarksmanship2.Size = new System.Drawing.Size(14, 13);
             this.radioMarksmanship2.TabIndex = 302;
@@ -4042,7 +4325,7 @@
             // 
             this.radioMarksmanship1.AutoCheck = false;
             this.radioMarksmanship1.AutoSize = true;
-            this.radioMarksmanship1.Location = new System.Drawing.Point(359, 132);
+            this.radioMarksmanship1.Location = new System.Drawing.Point(359, 188);
             this.radioMarksmanship1.Name = "radioMarksmanship1";
             this.radioMarksmanship1.Size = new System.Drawing.Size(14, 13);
             this.radioMarksmanship1.TabIndex = 301;
@@ -4055,7 +4338,7 @@
             // 
             this.radioLarceny5.AutoCheck = false;
             this.radioLarceny5.AutoSize = true;
-            this.radioLarceny5.Location = new System.Drawing.Point(419, 118);
+            this.radioLarceny5.Location = new System.Drawing.Point(419, 167);
             this.radioLarceny5.Name = "radioLarceny5";
             this.radioLarceny5.Size = new System.Drawing.Size(14, 13);
             this.radioLarceny5.TabIndex = 300;
@@ -4068,7 +4351,7 @@
             // 
             this.radioLarceny4.AutoCheck = false;
             this.radioLarceny4.AutoSize = true;
-            this.radioLarceny4.Location = new System.Drawing.Point(404, 118);
+            this.radioLarceny4.Location = new System.Drawing.Point(404, 167);
             this.radioLarceny4.Name = "radioLarceny4";
             this.radioLarceny4.Size = new System.Drawing.Size(14, 13);
             this.radioLarceny4.TabIndex = 299;
@@ -4081,7 +4364,7 @@
             // 
             this.radioLarceny3.AutoCheck = false;
             this.radioLarceny3.AutoSize = true;
-            this.radioLarceny3.Location = new System.Drawing.Point(389, 118);
+            this.radioLarceny3.Location = new System.Drawing.Point(389, 167);
             this.radioLarceny3.Name = "radioLarceny3";
             this.radioLarceny3.Size = new System.Drawing.Size(14, 13);
             this.radioLarceny3.TabIndex = 298;
@@ -4094,7 +4377,7 @@
             // 
             this.radioLarceny2.AutoCheck = false;
             this.radioLarceny2.AutoSize = true;
-            this.radioLarceny2.Location = new System.Drawing.Point(374, 118);
+            this.radioLarceny2.Location = new System.Drawing.Point(374, 167);
             this.radioLarceny2.Name = "radioLarceny2";
             this.radioLarceny2.Size = new System.Drawing.Size(14, 13);
             this.radioLarceny2.TabIndex = 297;
@@ -4107,7 +4390,7 @@
             // 
             this.radioLarceny1.AutoCheck = false;
             this.radioLarceny1.AutoSize = true;
-            this.radioLarceny1.Location = new System.Drawing.Point(359, 118);
+            this.radioLarceny1.Location = new System.Drawing.Point(359, 167);
             this.radioLarceny1.Name = "radioLarceny1";
             this.radioLarceny1.Size = new System.Drawing.Size(14, 13);
             this.radioLarceny1.TabIndex = 296;
@@ -4120,7 +4403,7 @@
             // 
             this.radioInvestigation5.AutoCheck = false;
             this.radioInvestigation5.AutoSize = true;
-            this.radioInvestigation5.Location = new System.Drawing.Point(419, 104);
+            this.radioInvestigation5.Location = new System.Drawing.Point(419, 146);
             this.radioInvestigation5.Name = "radioInvestigation5";
             this.radioInvestigation5.Size = new System.Drawing.Size(14, 13);
             this.radioInvestigation5.TabIndex = 295;
@@ -4133,7 +4416,7 @@
             // 
             this.radioInvestigation4.AutoCheck = false;
             this.radioInvestigation4.AutoSize = true;
-            this.radioInvestigation4.Location = new System.Drawing.Point(404, 104);
+            this.radioInvestigation4.Location = new System.Drawing.Point(404, 146);
             this.radioInvestigation4.Name = "radioInvestigation4";
             this.radioInvestigation4.Size = new System.Drawing.Size(14, 13);
             this.radioInvestigation4.TabIndex = 294;
@@ -4146,7 +4429,7 @@
             // 
             this.radioInvestigation3.AutoCheck = false;
             this.radioInvestigation3.AutoSize = true;
-            this.radioInvestigation3.Location = new System.Drawing.Point(389, 104);
+            this.radioInvestigation3.Location = new System.Drawing.Point(389, 146);
             this.radioInvestigation3.Name = "radioInvestigation3";
             this.radioInvestigation3.Size = new System.Drawing.Size(14, 13);
             this.radioInvestigation3.TabIndex = 293;
@@ -4159,7 +4442,7 @@
             // 
             this.radioInvestigation2.AutoCheck = false;
             this.radioInvestigation2.AutoSize = true;
-            this.radioInvestigation2.Location = new System.Drawing.Point(374, 104);
+            this.radioInvestigation2.Location = new System.Drawing.Point(374, 146);
             this.radioInvestigation2.Name = "radioInvestigation2";
             this.radioInvestigation2.Size = new System.Drawing.Size(14, 13);
             this.radioInvestigation2.TabIndex = 292;
@@ -4172,7 +4455,7 @@
             // 
             this.radioInvestigation1.AutoCheck = false;
             this.radioInvestigation1.AutoSize = true;
-            this.radioInvestigation1.Location = new System.Drawing.Point(359, 104);
+            this.radioInvestigation1.Location = new System.Drawing.Point(359, 146);
             this.radioInvestigation1.Name = "radioInvestigation1";
             this.radioInvestigation1.Size = new System.Drawing.Size(14, 13);
             this.radioInvestigation1.TabIndex = 291;
@@ -4185,7 +4468,7 @@
             // 
             this.radioIntegrity5.AutoCheck = false;
             this.radioIntegrity5.AutoSize = true;
-            this.radioIntegrity5.Location = new System.Drawing.Point(419, 90);
+            this.radioIntegrity5.Location = new System.Drawing.Point(419, 125);
             this.radioIntegrity5.Name = "radioIntegrity5";
             this.radioIntegrity5.Size = new System.Drawing.Size(14, 13);
             this.radioIntegrity5.TabIndex = 290;
@@ -4198,7 +4481,7 @@
             // 
             this.radioIntegrity4.AutoCheck = false;
             this.radioIntegrity4.AutoSize = true;
-            this.radioIntegrity4.Location = new System.Drawing.Point(404, 90);
+            this.radioIntegrity4.Location = new System.Drawing.Point(404, 125);
             this.radioIntegrity4.Name = "radioIntegrity4";
             this.radioIntegrity4.Size = new System.Drawing.Size(14, 13);
             this.radioIntegrity4.TabIndex = 289;
@@ -4211,7 +4494,7 @@
             // 
             this.radioIntegrity3.AutoCheck = false;
             this.radioIntegrity3.AutoSize = true;
-            this.radioIntegrity3.Location = new System.Drawing.Point(389, 90);
+            this.radioIntegrity3.Location = new System.Drawing.Point(389, 125);
             this.radioIntegrity3.Name = "radioIntegrity3";
             this.radioIntegrity3.Size = new System.Drawing.Size(14, 13);
             this.radioIntegrity3.TabIndex = 288;
@@ -4224,7 +4507,7 @@
             // 
             this.radioIntegrity2.AutoCheck = false;
             this.radioIntegrity2.AutoSize = true;
-            this.radioIntegrity2.Location = new System.Drawing.Point(374, 90);
+            this.radioIntegrity2.Location = new System.Drawing.Point(374, 125);
             this.radioIntegrity2.Name = "radioIntegrity2";
             this.radioIntegrity2.Size = new System.Drawing.Size(14, 13);
             this.radioIntegrity2.TabIndex = 287;
@@ -4237,7 +4520,7 @@
             // 
             this.radioIntegrity1.AutoCheck = false;
             this.radioIntegrity1.AutoSize = true;
-            this.radioIntegrity1.Location = new System.Drawing.Point(359, 90);
+            this.radioIntegrity1.Location = new System.Drawing.Point(359, 125);
             this.radioIntegrity1.Name = "radioIntegrity1";
             this.radioIntegrity1.Size = new System.Drawing.Size(14, 13);
             this.radioIntegrity1.TabIndex = 286;
@@ -4250,7 +4533,7 @@
             // 
             this.radioFortitude5.AutoCheck = false;
             this.radioFortitude5.AutoSize = true;
-            this.radioFortitude5.Location = new System.Drawing.Point(419, 76);
+            this.radioFortitude5.Location = new System.Drawing.Point(419, 104);
             this.radioFortitude5.Name = "radioFortitude5";
             this.radioFortitude5.Size = new System.Drawing.Size(14, 13);
             this.radioFortitude5.TabIndex = 285;
@@ -4263,7 +4546,7 @@
             // 
             this.radioFortitude4.AutoCheck = false;
             this.radioFortitude4.AutoSize = true;
-            this.radioFortitude4.Location = new System.Drawing.Point(404, 76);
+            this.radioFortitude4.Location = new System.Drawing.Point(404, 104);
             this.radioFortitude4.Name = "radioFortitude4";
             this.radioFortitude4.Size = new System.Drawing.Size(14, 13);
             this.radioFortitude4.TabIndex = 284;
@@ -4276,7 +4559,7 @@
             // 
             this.radioFortitude3.AutoCheck = false;
             this.radioFortitude3.AutoSize = true;
-            this.radioFortitude3.Location = new System.Drawing.Point(389, 76);
+            this.radioFortitude3.Location = new System.Drawing.Point(389, 104);
             this.radioFortitude3.Name = "radioFortitude3";
             this.radioFortitude3.Size = new System.Drawing.Size(14, 13);
             this.radioFortitude3.TabIndex = 283;
@@ -4289,7 +4572,7 @@
             // 
             this.radioFortitude2.AutoCheck = false;
             this.radioFortitude2.AutoSize = true;
-            this.radioFortitude2.Location = new System.Drawing.Point(374, 76);
+            this.radioFortitude2.Location = new System.Drawing.Point(374, 104);
             this.radioFortitude2.Name = "radioFortitude2";
             this.radioFortitude2.Size = new System.Drawing.Size(14, 13);
             this.radioFortitude2.TabIndex = 282;
@@ -4302,7 +4585,7 @@
             // 
             this.radioFortitude1.AutoCheck = false;
             this.radioFortitude1.AutoSize = true;
-            this.radioFortitude1.Location = new System.Drawing.Point(359, 76);
+            this.radioFortitude1.Location = new System.Drawing.Point(359, 104);
             this.radioFortitude1.Name = "radioFortitude1";
             this.radioFortitude1.Size = new System.Drawing.Size(14, 13);
             this.radioFortitude1.TabIndex = 281;
@@ -4315,7 +4598,7 @@
             // 
             this.radioEmpathy5.AutoCheck = false;
             this.radioEmpathy5.AutoSize = true;
-            this.radioEmpathy5.Location = new System.Drawing.Point(419, 62);
+            this.radioEmpathy5.Location = new System.Drawing.Point(419, 83);
             this.radioEmpathy5.Name = "radioEmpathy5";
             this.radioEmpathy5.Size = new System.Drawing.Size(14, 13);
             this.radioEmpathy5.TabIndex = 280;
@@ -4328,7 +4611,7 @@
             // 
             this.radioEmpathy4.AutoCheck = false;
             this.radioEmpathy4.AutoSize = true;
-            this.radioEmpathy4.Location = new System.Drawing.Point(404, 62);
+            this.radioEmpathy4.Location = new System.Drawing.Point(404, 83);
             this.radioEmpathy4.Name = "radioEmpathy4";
             this.radioEmpathy4.Size = new System.Drawing.Size(14, 13);
             this.radioEmpathy4.TabIndex = 279;
@@ -4341,7 +4624,7 @@
             // 
             this.radioEmpathy3.AutoCheck = false;
             this.radioEmpathy3.AutoSize = true;
-            this.radioEmpathy3.Location = new System.Drawing.Point(389, 62);
+            this.radioEmpathy3.Location = new System.Drawing.Point(389, 83);
             this.radioEmpathy3.Name = "radioEmpathy3";
             this.radioEmpathy3.Size = new System.Drawing.Size(14, 13);
             this.radioEmpathy3.TabIndex = 278;
@@ -4354,7 +4637,7 @@
             // 
             this.radioEmpathy2.AutoCheck = false;
             this.radioEmpathy2.AutoSize = true;
-            this.radioEmpathy2.Location = new System.Drawing.Point(374, 62);
+            this.radioEmpathy2.Location = new System.Drawing.Point(374, 83);
             this.radioEmpathy2.Name = "radioEmpathy2";
             this.radioEmpathy2.Size = new System.Drawing.Size(14, 13);
             this.radioEmpathy2.TabIndex = 277;
@@ -4367,7 +4650,7 @@
             // 
             this.radioEmpathy1.AutoCheck = false;
             this.radioEmpathy1.AutoSize = true;
-            this.radioEmpathy1.Location = new System.Drawing.Point(359, 62);
+            this.radioEmpathy1.Location = new System.Drawing.Point(359, 83);
             this.radioEmpathy1.Name = "radioEmpathy1";
             this.radioEmpathy1.Size = new System.Drawing.Size(14, 13);
             this.radioEmpathy1.TabIndex = 276;
@@ -4380,7 +4663,7 @@
             // 
             this.radioCraft35.AutoCheck = false;
             this.radioCraft35.AutoSize = true;
-            this.radioCraft35.Location = new System.Drawing.Point(419, 48);
+            this.radioCraft35.Location = new System.Drawing.Point(419, 62);
             this.radioCraft35.Name = "radioCraft35";
             this.radioCraft35.Size = new System.Drawing.Size(14, 13);
             this.radioCraft35.TabIndex = 275;
@@ -4393,7 +4676,7 @@
             // 
             this.radioCraft34.AutoCheck = false;
             this.radioCraft34.AutoSize = true;
-            this.radioCraft34.Location = new System.Drawing.Point(404, 48);
+            this.radioCraft34.Location = new System.Drawing.Point(404, 62);
             this.radioCraft34.Name = "radioCraft34";
             this.radioCraft34.Size = new System.Drawing.Size(14, 13);
             this.radioCraft34.TabIndex = 274;
@@ -4406,7 +4689,7 @@
             // 
             this.radioCraft33.AutoCheck = false;
             this.radioCraft33.AutoSize = true;
-            this.radioCraft33.Location = new System.Drawing.Point(389, 48);
+            this.radioCraft33.Location = new System.Drawing.Point(389, 62);
             this.radioCraft33.Name = "radioCraft33";
             this.radioCraft33.Size = new System.Drawing.Size(14, 13);
             this.radioCraft33.TabIndex = 273;
@@ -4419,7 +4702,7 @@
             // 
             this.radioCraft32.AutoCheck = false;
             this.radioCraft32.AutoSize = true;
-            this.radioCraft32.Location = new System.Drawing.Point(374, 48);
+            this.radioCraft32.Location = new System.Drawing.Point(374, 62);
             this.radioCraft32.Name = "radioCraft32";
             this.radioCraft32.Size = new System.Drawing.Size(14, 13);
             this.radioCraft32.TabIndex = 272;
@@ -4432,7 +4715,7 @@
             // 
             this.radioCraft31.AutoCheck = false;
             this.radioCraft31.AutoSize = true;
-            this.radioCraft31.Location = new System.Drawing.Point(359, 48);
+            this.radioCraft31.Location = new System.Drawing.Point(359, 62);
             this.radioCraft31.Name = "radioCraft31";
             this.radioCraft31.Size = new System.Drawing.Size(14, 13);
             this.radioCraft31.TabIndex = 271;
@@ -4445,7 +4728,7 @@
             // 
             this.radioCraft25.AutoCheck = false;
             this.radioCraft25.AutoSize = true;
-            this.radioCraft25.Location = new System.Drawing.Point(419, 34);
+            this.radioCraft25.Location = new System.Drawing.Point(419, 41);
             this.radioCraft25.Name = "radioCraft25";
             this.radioCraft25.Size = new System.Drawing.Size(14, 13);
             this.radioCraft25.TabIndex = 270;
@@ -4458,7 +4741,7 @@
             // 
             this.radioCraft24.AutoCheck = false;
             this.radioCraft24.AutoSize = true;
-            this.radioCraft24.Location = new System.Drawing.Point(404, 34);
+            this.radioCraft24.Location = new System.Drawing.Point(404, 41);
             this.radioCraft24.Name = "radioCraft24";
             this.radioCraft24.Size = new System.Drawing.Size(14, 13);
             this.radioCraft24.TabIndex = 269;
@@ -4471,7 +4754,7 @@
             // 
             this.radioCraft23.AutoCheck = false;
             this.radioCraft23.AutoSize = true;
-            this.radioCraft23.Location = new System.Drawing.Point(389, 34);
+            this.radioCraft23.Location = new System.Drawing.Point(389, 41);
             this.radioCraft23.Name = "radioCraft23";
             this.radioCraft23.Size = new System.Drawing.Size(14, 13);
             this.radioCraft23.TabIndex = 268;
@@ -4484,7 +4767,7 @@
             // 
             this.radioCraft22.AutoCheck = false;
             this.radioCraft22.AutoSize = true;
-            this.radioCraft22.Location = new System.Drawing.Point(374, 34);
+            this.radioCraft22.Location = new System.Drawing.Point(374, 41);
             this.radioCraft22.Name = "radioCraft22";
             this.radioCraft22.Size = new System.Drawing.Size(14, 13);
             this.radioCraft22.TabIndex = 267;
@@ -4497,7 +4780,7 @@
             // 
             this.radioCraft21.AutoCheck = false;
             this.radioCraft21.AutoSize = true;
-            this.radioCraft21.Location = new System.Drawing.Point(359, 34);
+            this.radioCraft21.Location = new System.Drawing.Point(359, 41);
             this.radioCraft21.Name = "radioCraft21";
             this.radioCraft21.Size = new System.Drawing.Size(14, 13);
             this.radioCraft21.TabIndex = 266;
@@ -4575,7 +4858,7 @@
             // 
             this.radioControl25.AutoCheck = false;
             this.radioControl25.AutoSize = true;
-            this.radioControl25.Location = new System.Drawing.Point(200, 147);
+            this.radioControl25.Location = new System.Drawing.Point(198, 210);
             this.radioControl25.Name = "radioControl25";
             this.radioControl25.Size = new System.Drawing.Size(14, 13);
             this.radioControl25.TabIndex = 260;
@@ -4588,7 +4871,7 @@
             // 
             this.radioControl24.AutoCheck = false;
             this.radioControl24.AutoSize = true;
-            this.radioControl24.Location = new System.Drawing.Point(185, 147);
+            this.radioControl24.Location = new System.Drawing.Point(183, 210);
             this.radioControl24.Name = "radioControl24";
             this.radioControl24.Size = new System.Drawing.Size(14, 13);
             this.radioControl24.TabIndex = 259;
@@ -4601,7 +4884,7 @@
             // 
             this.radioControl23.AutoCheck = false;
             this.radioControl23.AutoSize = true;
-            this.radioControl23.Location = new System.Drawing.Point(170, 147);
+            this.radioControl23.Location = new System.Drawing.Point(168, 210);
             this.radioControl23.Name = "radioControl23";
             this.radioControl23.Size = new System.Drawing.Size(14, 13);
             this.radioControl23.TabIndex = 258;
@@ -4614,7 +4897,7 @@
             // 
             this.radioControl22.AutoCheck = false;
             this.radioControl22.AutoSize = true;
-            this.radioControl22.Location = new System.Drawing.Point(155, 147);
+            this.radioControl22.Location = new System.Drawing.Point(153, 210);
             this.radioControl22.Name = "radioControl22";
             this.radioControl22.Size = new System.Drawing.Size(14, 13);
             this.radioControl22.TabIndex = 257;
@@ -4627,7 +4910,7 @@
             // 
             this.radioControl21.AutoCheck = false;
             this.radioControl21.AutoSize = true;
-            this.radioControl21.Location = new System.Drawing.Point(140, 147);
+            this.radioControl21.Location = new System.Drawing.Point(138, 210);
             this.radioControl21.Name = "radioControl21";
             this.radioControl21.Size = new System.Drawing.Size(14, 13);
             this.radioControl21.TabIndex = 256;
@@ -4640,7 +4923,7 @@
             // 
             this.radioControl15.AutoCheck = false;
             this.radioControl15.AutoSize = true;
-            this.radioControl15.Location = new System.Drawing.Point(200, 133);
+            this.radioControl15.Location = new System.Drawing.Point(198, 189);
             this.radioControl15.Name = "radioControl15";
             this.radioControl15.Size = new System.Drawing.Size(14, 13);
             this.radioControl15.TabIndex = 255;
@@ -4653,7 +4936,7 @@
             // 
             this.radioControl14.AutoCheck = false;
             this.radioControl14.AutoSize = true;
-            this.radioControl14.Location = new System.Drawing.Point(185, 133);
+            this.radioControl14.Location = new System.Drawing.Point(183, 189);
             this.radioControl14.Name = "radioControl14";
             this.radioControl14.Size = new System.Drawing.Size(14, 13);
             this.radioControl14.TabIndex = 254;
@@ -4666,7 +4949,7 @@
             // 
             this.radioControl13.AutoCheck = false;
             this.radioControl13.AutoSize = true;
-            this.radioControl13.Location = new System.Drawing.Point(170, 133);
+            this.radioControl13.Location = new System.Drawing.Point(168, 189);
             this.radioControl13.Name = "radioControl13";
             this.radioControl13.Size = new System.Drawing.Size(14, 13);
             this.radioControl13.TabIndex = 253;
@@ -4679,7 +4962,7 @@
             // 
             this.radioControl12.AutoCheck = false;
             this.radioControl12.AutoSize = true;
-            this.radioControl12.Location = new System.Drawing.Point(155, 133);
+            this.radioControl12.Location = new System.Drawing.Point(153, 189);
             this.radioControl12.Name = "radioControl12";
             this.radioControl12.Size = new System.Drawing.Size(14, 13);
             this.radioControl12.TabIndex = 252;
@@ -4692,7 +4975,7 @@
             // 
             this.radioControl11.AutoCheck = false;
             this.radioControl11.AutoSize = true;
-            this.radioControl11.Location = new System.Drawing.Point(140, 133);
+            this.radioControl11.Location = new System.Drawing.Point(138, 189);
             this.radioControl11.Name = "radioControl11";
             this.radioControl11.Size = new System.Drawing.Size(14, 13);
             this.radioControl11.TabIndex = 251;
@@ -4705,7 +4988,7 @@
             // 
             this.radioCommand5.AutoCheck = false;
             this.radioCommand5.AutoSize = true;
-            this.radioCommand5.Location = new System.Drawing.Point(200, 119);
+            this.radioCommand5.Location = new System.Drawing.Point(198, 168);
             this.radioCommand5.Name = "radioCommand5";
             this.radioCommand5.Size = new System.Drawing.Size(14, 13);
             this.radioCommand5.TabIndex = 250;
@@ -4718,7 +5001,7 @@
             // 
             this.radioCommand4.AutoCheck = false;
             this.radioCommand4.AutoSize = true;
-            this.radioCommand4.Location = new System.Drawing.Point(185, 119);
+            this.radioCommand4.Location = new System.Drawing.Point(183, 168);
             this.radioCommand4.Name = "radioCommand4";
             this.radioCommand4.Size = new System.Drawing.Size(14, 13);
             this.radioCommand4.TabIndex = 249;
@@ -4731,7 +5014,7 @@
             // 
             this.radioCommand3.AutoCheck = false;
             this.radioCommand3.AutoSize = true;
-            this.radioCommand3.Location = new System.Drawing.Point(170, 119);
+            this.radioCommand3.Location = new System.Drawing.Point(168, 168);
             this.radioCommand3.Name = "radioCommand3";
             this.radioCommand3.Size = new System.Drawing.Size(14, 13);
             this.radioCommand3.TabIndex = 248;
@@ -4744,7 +5027,7 @@
             // 
             this.radioCommand2.AutoCheck = false;
             this.radioCommand2.AutoSize = true;
-            this.radioCommand2.Location = new System.Drawing.Point(155, 119);
+            this.radioCommand2.Location = new System.Drawing.Point(153, 168);
             this.radioCommand2.Name = "radioCommand2";
             this.radioCommand2.Size = new System.Drawing.Size(14, 13);
             this.radioCommand2.TabIndex = 247;
@@ -4757,7 +5040,7 @@
             // 
             this.radioCommand1.AutoCheck = false;
             this.radioCommand1.AutoSize = true;
-            this.radioCommand1.Location = new System.Drawing.Point(140, 119);
+            this.radioCommand1.Location = new System.Drawing.Point(138, 168);
             this.radioCommand1.Name = "radioCommand1";
             this.radioCommand1.Size = new System.Drawing.Size(14, 13);
             this.radioCommand1.TabIndex = 246;
@@ -4770,7 +5053,7 @@
             // 
             this.radioBrawl5.AutoCheck = false;
             this.radioBrawl5.AutoSize = true;
-            this.radioBrawl5.Location = new System.Drawing.Point(200, 105);
+            this.radioBrawl5.Location = new System.Drawing.Point(198, 147);
             this.radioBrawl5.Name = "radioBrawl5";
             this.radioBrawl5.Size = new System.Drawing.Size(14, 13);
             this.radioBrawl5.TabIndex = 245;
@@ -4783,7 +5066,7 @@
             // 
             this.radioBrawl4.AutoCheck = false;
             this.radioBrawl4.AutoSize = true;
-            this.radioBrawl4.Location = new System.Drawing.Point(185, 105);
+            this.radioBrawl4.Location = new System.Drawing.Point(183, 147);
             this.radioBrawl4.Name = "radioBrawl4";
             this.radioBrawl4.Size = new System.Drawing.Size(14, 13);
             this.radioBrawl4.TabIndex = 244;
@@ -4796,7 +5079,7 @@
             // 
             this.radioBrawl3.AutoCheck = false;
             this.radioBrawl3.AutoSize = true;
-            this.radioBrawl3.Location = new System.Drawing.Point(170, 105);
+            this.radioBrawl3.Location = new System.Drawing.Point(168, 147);
             this.radioBrawl3.Name = "radioBrawl3";
             this.radioBrawl3.Size = new System.Drawing.Size(14, 13);
             this.radioBrawl3.TabIndex = 243;
@@ -4809,7 +5092,7 @@
             // 
             this.radioBrawl2.AutoCheck = false;
             this.radioBrawl2.AutoSize = true;
-            this.radioBrawl2.Location = new System.Drawing.Point(155, 105);
+            this.radioBrawl2.Location = new System.Drawing.Point(153, 147);
             this.radioBrawl2.Name = "radioBrawl2";
             this.radioBrawl2.Size = new System.Drawing.Size(14, 13);
             this.radioBrawl2.TabIndex = 242;
@@ -4822,7 +5105,7 @@
             // 
             this.radioBrawl1.AutoCheck = false;
             this.radioBrawl1.AutoSize = true;
-            this.radioBrawl1.Location = new System.Drawing.Point(140, 105);
+            this.radioBrawl1.Location = new System.Drawing.Point(138, 147);
             this.radioBrawl1.Name = "radioBrawl1";
             this.radioBrawl1.Size = new System.Drawing.Size(14, 13);
             this.radioBrawl1.TabIndex = 241;
@@ -4835,7 +5118,7 @@
             // 
             this.radioAwareness5.AutoCheck = false;
             this.radioAwareness5.AutoSize = true;
-            this.radioAwareness5.Location = new System.Drawing.Point(200, 91);
+            this.radioAwareness5.Location = new System.Drawing.Point(198, 126);
             this.radioAwareness5.Name = "radioAwareness5";
             this.radioAwareness5.Size = new System.Drawing.Size(14, 13);
             this.radioAwareness5.TabIndex = 240;
@@ -4848,7 +5131,7 @@
             // 
             this.radioAwareness4.AutoCheck = false;
             this.radioAwareness4.AutoSize = true;
-            this.radioAwareness4.Location = new System.Drawing.Point(185, 91);
+            this.radioAwareness4.Location = new System.Drawing.Point(183, 126);
             this.radioAwareness4.Name = "radioAwareness4";
             this.radioAwareness4.Size = new System.Drawing.Size(14, 13);
             this.radioAwareness4.TabIndex = 239;
@@ -4861,7 +5144,7 @@
             // 
             this.radioAwareness3.AutoCheck = false;
             this.radioAwareness3.AutoSize = true;
-            this.radioAwareness3.Location = new System.Drawing.Point(170, 91);
+            this.radioAwareness3.Location = new System.Drawing.Point(168, 126);
             this.radioAwareness3.Name = "radioAwareness3";
             this.radioAwareness3.Size = new System.Drawing.Size(14, 13);
             this.radioAwareness3.TabIndex = 238;
@@ -4874,7 +5157,7 @@
             // 
             this.radioAwareness2.AutoCheck = false;
             this.radioAwareness2.AutoSize = true;
-            this.radioAwareness2.Location = new System.Drawing.Point(155, 91);
+            this.radioAwareness2.Location = new System.Drawing.Point(153, 126);
             this.radioAwareness2.Name = "radioAwareness2";
             this.radioAwareness2.Size = new System.Drawing.Size(14, 13);
             this.radioAwareness2.TabIndex = 237;
@@ -4887,7 +5170,7 @@
             // 
             this.radioAwareness1.AutoCheck = false;
             this.radioAwareness1.AutoSize = true;
-            this.radioAwareness1.Location = new System.Drawing.Point(140, 91);
+            this.radioAwareness1.Location = new System.Drawing.Point(138, 126);
             this.radioAwareness1.Name = "radioAwareness1";
             this.radioAwareness1.Size = new System.Drawing.Size(14, 13);
             this.radioAwareness1.TabIndex = 236;
@@ -4900,7 +5183,7 @@
             // 
             this.radioAthletics5.AutoCheck = false;
             this.radioAthletics5.AutoSize = true;
-            this.radioAthletics5.Location = new System.Drawing.Point(200, 77);
+            this.radioAthletics5.Location = new System.Drawing.Point(198, 105);
             this.radioAthletics5.Name = "radioAthletics5";
             this.radioAthletics5.Size = new System.Drawing.Size(14, 13);
             this.radioAthletics5.TabIndex = 235;
@@ -4913,7 +5196,7 @@
             // 
             this.radioAthletics4.AutoCheck = false;
             this.radioAthletics4.AutoSize = true;
-            this.radioAthletics4.Location = new System.Drawing.Point(185, 77);
+            this.radioAthletics4.Location = new System.Drawing.Point(183, 105);
             this.radioAthletics4.Name = "radioAthletics4";
             this.radioAthletics4.Size = new System.Drawing.Size(14, 13);
             this.radioAthletics4.TabIndex = 234;
@@ -4926,7 +5209,7 @@
             // 
             this.radioAthletics3.AutoCheck = false;
             this.radioAthletics3.AutoSize = true;
-            this.radioAthletics3.Location = new System.Drawing.Point(170, 77);
+            this.radioAthletics3.Location = new System.Drawing.Point(168, 105);
             this.radioAthletics3.Name = "radioAthletics3";
             this.radioAthletics3.Size = new System.Drawing.Size(14, 13);
             this.radioAthletics3.TabIndex = 233;
@@ -4939,7 +5222,7 @@
             // 
             this.radioAthletics2.AutoCheck = false;
             this.radioAthletics2.AutoSize = true;
-            this.radioAthletics2.Location = new System.Drawing.Point(155, 77);
+            this.radioAthletics2.Location = new System.Drawing.Point(153, 105);
             this.radioAthletics2.Name = "radioAthletics2";
             this.radioAthletics2.Size = new System.Drawing.Size(14, 13);
             this.radioAthletics2.TabIndex = 232;
@@ -4952,7 +5235,7 @@
             // 
             this.radioAthletics1.AutoCheck = false;
             this.radioAthletics1.AutoSize = true;
-            this.radioAthletics1.Location = new System.Drawing.Point(140, 77);
+            this.radioAthletics1.Location = new System.Drawing.Point(138, 105);
             this.radioAthletics1.Name = "radioAthletics1";
             this.radioAthletics1.Size = new System.Drawing.Size(14, 13);
             this.radioAthletics1.TabIndex = 231;
@@ -4965,7 +5248,7 @@
             // 
             this.radioArt25.AutoCheck = false;
             this.radioArt25.AutoSize = true;
-            this.radioArt25.Location = new System.Drawing.Point(200, 63);
+            this.radioArt25.Location = new System.Drawing.Point(198, 84);
             this.radioArt25.Name = "radioArt25";
             this.radioArt25.Size = new System.Drawing.Size(14, 13);
             this.radioArt25.TabIndex = 230;
@@ -4978,7 +5261,7 @@
             // 
             this.radioArt24.AutoCheck = false;
             this.radioArt24.AutoSize = true;
-            this.radioArt24.Location = new System.Drawing.Point(185, 63);
+            this.radioArt24.Location = new System.Drawing.Point(183, 84);
             this.radioArt24.Name = "radioArt24";
             this.radioArt24.Size = new System.Drawing.Size(14, 13);
             this.radioArt24.TabIndex = 229;
@@ -4991,7 +5274,7 @@
             // 
             this.radioArt23.AutoCheck = false;
             this.radioArt23.AutoSize = true;
-            this.radioArt23.Location = new System.Drawing.Point(170, 63);
+            this.radioArt23.Location = new System.Drawing.Point(168, 84);
             this.radioArt23.Name = "radioArt23";
             this.radioArt23.Size = new System.Drawing.Size(14, 13);
             this.radioArt23.TabIndex = 228;
@@ -5004,7 +5287,7 @@
             // 
             this.radioArt22.AutoCheck = false;
             this.radioArt22.AutoSize = true;
-            this.radioArt22.Location = new System.Drawing.Point(155, 63);
+            this.radioArt22.Location = new System.Drawing.Point(153, 84);
             this.radioArt22.Name = "radioArt22";
             this.radioArt22.Size = new System.Drawing.Size(14, 13);
             this.radioArt22.TabIndex = 227;
@@ -5017,7 +5300,7 @@
             // 
             this.radioArt21.AutoCheck = false;
             this.radioArt21.AutoSize = true;
-            this.radioArt21.Location = new System.Drawing.Point(140, 63);
+            this.radioArt21.Location = new System.Drawing.Point(138, 84);
             this.radioArt21.Name = "radioArt21";
             this.radioArt21.Size = new System.Drawing.Size(14, 13);
             this.radioArt21.TabIndex = 226;
@@ -5030,7 +5313,7 @@
             // 
             this.radioArt15.AutoCheck = false;
             this.radioArt15.AutoSize = true;
-            this.radioArt15.Location = new System.Drawing.Point(200, 49);
+            this.radioArt15.Location = new System.Drawing.Point(198, 63);
             this.radioArt15.Name = "radioArt15";
             this.radioArt15.Size = new System.Drawing.Size(14, 13);
             this.radioArt15.TabIndex = 225;
@@ -5043,7 +5326,7 @@
             // 
             this.radioArt14.AutoCheck = false;
             this.radioArt14.AutoSize = true;
-            this.radioArt14.Location = new System.Drawing.Point(185, 49);
+            this.radioArt14.Location = new System.Drawing.Point(183, 63);
             this.radioArt14.Name = "radioArt14";
             this.radioArt14.Size = new System.Drawing.Size(14, 13);
             this.radioArt14.TabIndex = 224;
@@ -5056,7 +5339,7 @@
             // 
             this.radioArt13.AutoCheck = false;
             this.radioArt13.AutoSize = true;
-            this.radioArt13.Location = new System.Drawing.Point(170, 49);
+            this.radioArt13.Location = new System.Drawing.Point(168, 63);
             this.radioArt13.Name = "radioArt13";
             this.radioArt13.Size = new System.Drawing.Size(14, 13);
             this.radioArt13.TabIndex = 223;
@@ -5069,7 +5352,7 @@
             // 
             this.radioArt12.AutoCheck = false;
             this.radioArt12.AutoSize = true;
-            this.radioArt12.Location = new System.Drawing.Point(155, 49);
+            this.radioArt12.Location = new System.Drawing.Point(153, 63);
             this.radioArt12.Name = "radioArt12";
             this.radioArt12.Size = new System.Drawing.Size(14, 13);
             this.radioArt12.TabIndex = 222;
@@ -5082,7 +5365,7 @@
             // 
             this.radioArt11.AutoCheck = false;
             this.radioArt11.AutoSize = true;
-            this.radioArt11.Location = new System.Drawing.Point(140, 49);
+            this.radioArt11.Location = new System.Drawing.Point(138, 63);
             this.radioArt11.Name = "radioArt11";
             this.radioArt11.Size = new System.Drawing.Size(14, 13);
             this.radioArt11.TabIndex = 221;
@@ -5095,7 +5378,7 @@
             // 
             this.radioAnimalKen5.AutoCheck = false;
             this.radioAnimalKen5.AutoSize = true;
-            this.radioAnimalKen5.Location = new System.Drawing.Point(200, 35);
+            this.radioAnimalKen5.Location = new System.Drawing.Point(198, 42);
             this.radioAnimalKen5.Name = "radioAnimalKen5";
             this.radioAnimalKen5.Size = new System.Drawing.Size(14, 13);
             this.radioAnimalKen5.TabIndex = 220;
@@ -5108,7 +5391,7 @@
             // 
             this.radioAnimalKen4.AutoCheck = false;
             this.radioAnimalKen4.AutoSize = true;
-            this.radioAnimalKen4.Location = new System.Drawing.Point(185, 35);
+            this.radioAnimalKen4.Location = new System.Drawing.Point(183, 42);
             this.radioAnimalKen4.Name = "radioAnimalKen4";
             this.radioAnimalKen4.Size = new System.Drawing.Size(14, 13);
             this.radioAnimalKen4.TabIndex = 219;
@@ -5121,7 +5404,7 @@
             // 
             this.radioAnimalKen3.AutoCheck = false;
             this.radioAnimalKen3.AutoSize = true;
-            this.radioAnimalKen3.Location = new System.Drawing.Point(170, 35);
+            this.radioAnimalKen3.Location = new System.Drawing.Point(168, 42);
             this.radioAnimalKen3.Name = "radioAnimalKen3";
             this.radioAnimalKen3.Size = new System.Drawing.Size(14, 13);
             this.radioAnimalKen3.TabIndex = 218;
@@ -5134,7 +5417,7 @@
             // 
             this.radioAnimalKen2.AutoCheck = false;
             this.radioAnimalKen2.AutoSize = true;
-            this.radioAnimalKen2.Location = new System.Drawing.Point(155, 35);
+            this.radioAnimalKen2.Location = new System.Drawing.Point(153, 42);
             this.radioAnimalKen2.Name = "radioAnimalKen2";
             this.radioAnimalKen2.Size = new System.Drawing.Size(14, 13);
             this.radioAnimalKen2.TabIndex = 217;
@@ -5147,7 +5430,7 @@
             // 
             this.radioAnimalKen1.AutoCheck = false;
             this.radioAnimalKen1.AutoSize = true;
-            this.radioAnimalKen1.Location = new System.Drawing.Point(140, 35);
+            this.radioAnimalKen1.Location = new System.Drawing.Point(138, 42);
             this.radioAnimalKen1.Name = "radioAnimalKen1";
             this.radioAnimalKen1.Size = new System.Drawing.Size(14, 13);
             this.radioAnimalKen1.TabIndex = 216;
@@ -5160,7 +5443,7 @@
             // 
             this.radioAcademics5.AutoCheck = false;
             this.radioAcademics5.AutoSize = true;
-            this.radioAcademics5.Location = new System.Drawing.Point(200, 21);
+            this.radioAcademics5.Location = new System.Drawing.Point(198, 21);
             this.radioAcademics5.Name = "radioAcademics5";
             this.radioAcademics5.Size = new System.Drawing.Size(14, 13);
             this.radioAcademics5.TabIndex = 215;
@@ -5173,7 +5456,7 @@
             // 
             this.radioAcademics4.AutoCheck = false;
             this.radioAcademics4.AutoSize = true;
-            this.radioAcademics4.Location = new System.Drawing.Point(185, 21);
+            this.radioAcademics4.Location = new System.Drawing.Point(183, 21);
             this.radioAcademics4.Name = "radioAcademics4";
             this.radioAcademics4.Size = new System.Drawing.Size(14, 13);
             this.radioAcademics4.TabIndex = 214;
@@ -5186,7 +5469,7 @@
             // 
             this.chkThrown.AccessibleName = "";
             this.chkThrown.AutoSize = true;
-            this.chkThrown.Location = new System.Drawing.Point(439, 145);
+            this.chkThrown.Location = new System.Drawing.Point(439, 208);
             this.chkThrown.Name = "chkThrown";
             this.chkThrown.Size = new System.Drawing.Size(62, 17);
             this.chkThrown.TabIndex = 29;
@@ -5198,7 +5481,7 @@
             // 
             this.radioAcademics3.AutoCheck = false;
             this.radioAcademics3.AutoSize = true;
-            this.radioAcademics3.Location = new System.Drawing.Point(170, 21);
+            this.radioAcademics3.Location = new System.Drawing.Point(168, 21);
             this.radioAcademics3.Name = "radioAcademics3";
             this.radioAcademics3.Size = new System.Drawing.Size(14, 13);
             this.radioAcademics3.TabIndex = 213;
@@ -5211,7 +5494,7 @@
             // 
             this.chkSurvival.AccessibleName = "";
             this.chkSurvival.AutoSize = true;
-            this.chkSurvival.Location = new System.Drawing.Point(439, 131);
+            this.chkSurvival.Location = new System.Drawing.Point(439, 187);
             this.chkSurvival.Name = "chkSurvival";
             this.chkSurvival.Size = new System.Drawing.Size(64, 17);
             this.chkSurvival.TabIndex = 28;
@@ -5223,7 +5506,7 @@
             // 
             this.radioAcademics2.AutoCheck = false;
             this.radioAcademics2.AutoSize = true;
-            this.radioAcademics2.Location = new System.Drawing.Point(155, 21);
+            this.radioAcademics2.Location = new System.Drawing.Point(153, 21);
             this.radioAcademics2.Name = "radioAcademics2";
             this.radioAcademics2.Size = new System.Drawing.Size(14, 13);
             this.radioAcademics2.TabIndex = 212;
@@ -5236,7 +5519,7 @@
             // 
             this.chkStealth.AccessibleName = "";
             this.chkStealth.AutoSize = true;
-            this.chkStealth.Location = new System.Drawing.Point(439, 117);
+            this.chkStealth.Location = new System.Drawing.Point(439, 166);
             this.chkStealth.Name = "chkStealth";
             this.chkStealth.Size = new System.Drawing.Size(59, 17);
             this.chkStealth.TabIndex = 27;
@@ -5248,7 +5531,7 @@
             // 
             this.radioAcademics1.AutoCheck = false;
             this.radioAcademics1.AutoSize = true;
-            this.radioAcademics1.Location = new System.Drawing.Point(140, 21);
+            this.radioAcademics1.Location = new System.Drawing.Point(138, 21);
             this.radioAcademics1.Name = "radioAcademics1";
             this.radioAcademics1.Size = new System.Drawing.Size(14, 13);
             this.radioAcademics1.TabIndex = 211;
@@ -5261,7 +5544,7 @@
             // 
             this.chkScience3.AccessibleName = "";
             this.chkScience3.AutoSize = true;
-            this.chkScience3.Location = new System.Drawing.Point(439, 103);
+            this.chkScience3.Location = new System.Drawing.Point(439, 145);
             this.chkScience3.Name = "chkScience3";
             this.chkScience3.Size = new System.Drawing.Size(65, 17);
             this.chkScience3.TabIndex = 26;
@@ -5273,7 +5556,7 @@
             // 
             this.chkScience2.AccessibleName = "";
             this.chkScience2.AutoSize = true;
-            this.chkScience2.Location = new System.Drawing.Point(439, 89);
+            this.chkScience2.Location = new System.Drawing.Point(439, 124);
             this.chkScience2.Name = "chkScience2";
             this.chkScience2.Size = new System.Drawing.Size(65, 17);
             this.chkScience2.TabIndex = 25;
@@ -5284,7 +5567,7 @@
             // chkScience1
             // 
             this.chkScience1.AutoSize = true;
-            this.chkScience1.Location = new System.Drawing.Point(439, 75);
+            this.chkScience1.Location = new System.Drawing.Point(439, 103);
             this.chkScience1.Name = "chkScience1";
             this.chkScience1.Size = new System.Drawing.Size(65, 17);
             this.chkScience1.TabIndex = 24;
@@ -5295,7 +5578,7 @@
             // chkPresence
             // 
             this.chkPresence.AutoSize = true;
-            this.chkPresence.Location = new System.Drawing.Point(439, 61);
+            this.chkPresence.Location = new System.Drawing.Point(439, 82);
             this.chkPresence.Name = "chkPresence";
             this.chkPresence.Size = new System.Drawing.Size(71, 17);
             this.chkPresence.TabIndex = 23;
@@ -5306,7 +5589,7 @@
             // chkPolitics
             // 
             this.chkPolitics.AutoSize = true;
-            this.chkPolitics.Location = new System.Drawing.Point(439, 47);
+            this.chkPolitics.Location = new System.Drawing.Point(439, 61);
             this.chkPolitics.Name = "chkPolitics";
             this.chkPolitics.Size = new System.Drawing.Size(59, 17);
             this.chkPolitics.TabIndex = 22;
@@ -5317,7 +5600,7 @@
             // chkOccult
             // 
             this.chkOccult.AutoSize = true;
-            this.chkOccult.Location = new System.Drawing.Point(439, 33);
+            this.chkOccult.Location = new System.Drawing.Point(439, 40);
             this.chkOccult.Name = "chkOccult";
             this.chkOccult.Size = new System.Drawing.Size(57, 17);
             this.chkOccult.TabIndex = 21;
@@ -5340,7 +5623,7 @@
             // 
             this.chkMedicine.AccessibleName = "";
             this.chkMedicine.AutoSize = true;
-            this.chkMedicine.Location = new System.Drawing.Point(220, 145);
+            this.chkMedicine.Location = new System.Drawing.Point(220, 208);
             this.chkMedicine.Name = "chkMedicine";
             this.chkMedicine.Size = new System.Drawing.Size(69, 17);
             this.chkMedicine.TabIndex = 19;
@@ -5352,7 +5635,7 @@
             // 
             this.chkMarksmanship.AccessibleName = "";
             this.chkMarksmanship.AutoSize = true;
-            this.chkMarksmanship.Location = new System.Drawing.Point(220, 131);
+            this.chkMarksmanship.Location = new System.Drawing.Point(220, 187);
             this.chkMarksmanship.Name = "chkMarksmanship";
             this.chkMarksmanship.Size = new System.Drawing.Size(94, 17);
             this.chkMarksmanship.TabIndex = 18;
@@ -5364,7 +5647,7 @@
             // 
             this.chkLarceny.AccessibleName = "";
             this.chkLarceny.AutoSize = true;
-            this.chkLarceny.Location = new System.Drawing.Point(220, 117);
+            this.chkLarceny.Location = new System.Drawing.Point(220, 166);
             this.chkLarceny.Name = "chkLarceny";
             this.chkLarceny.Size = new System.Drawing.Size(64, 17);
             this.chkLarceny.TabIndex = 17;
@@ -5376,7 +5659,7 @@
             // 
             this.chkInvestigation.AccessibleName = "";
             this.chkInvestigation.AutoSize = true;
-            this.chkInvestigation.Location = new System.Drawing.Point(220, 103);
+            this.chkInvestigation.Location = new System.Drawing.Point(220, 145);
             this.chkInvestigation.Name = "chkInvestigation";
             this.chkInvestigation.Size = new System.Drawing.Size(86, 17);
             this.chkInvestigation.TabIndex = 16;
@@ -5388,7 +5671,7 @@
             // 
             this.chkIntegrity.AccessibleName = "s";
             this.chkIntegrity.AutoSize = true;
-            this.chkIntegrity.Location = new System.Drawing.Point(220, 89);
+            this.chkIntegrity.Location = new System.Drawing.Point(220, 124);
             this.chkIntegrity.Name = "chkIntegrity";
             this.chkIntegrity.Size = new System.Drawing.Size(63, 17);
             this.chkIntegrity.TabIndex = 15;
@@ -5399,7 +5682,7 @@
             // chkFortitude
             // 
             this.chkFortitude.AutoSize = true;
-            this.chkFortitude.Location = new System.Drawing.Point(220, 75);
+            this.chkFortitude.Location = new System.Drawing.Point(220, 103);
             this.chkFortitude.Name = "chkFortitude";
             this.chkFortitude.Size = new System.Drawing.Size(67, 17);
             this.chkFortitude.TabIndex = 14;
@@ -5410,7 +5693,7 @@
             // chkEmpathy
             // 
             this.chkEmpathy.AutoSize = true;
-            this.chkEmpathy.Location = new System.Drawing.Point(220, 61);
+            this.chkEmpathy.Location = new System.Drawing.Point(220, 82);
             this.chkEmpathy.Name = "chkEmpathy";
             this.chkEmpathy.Size = new System.Drawing.Size(67, 17);
             this.chkEmpathy.TabIndex = 13;
@@ -5421,7 +5704,7 @@
             // chkCraft3
             // 
             this.chkCraft3.AutoSize = true;
-            this.chkCraft3.Location = new System.Drawing.Point(220, 47);
+            this.chkCraft3.Location = new System.Drawing.Point(220, 61);
             this.chkCraft3.Name = "chkCraft3";
             this.chkCraft3.Size = new System.Drawing.Size(48, 17);
             this.chkCraft3.TabIndex = 12;
@@ -5432,7 +5715,7 @@
             // chkCraft2
             // 
             this.chkCraft2.AutoSize = true;
-            this.chkCraft2.Location = new System.Drawing.Point(220, 33);
+            this.chkCraft2.Location = new System.Drawing.Point(220, 40);
             this.chkCraft2.Name = "chkCraft2";
             this.chkCraft2.Size = new System.Drawing.Size(48, 17);
             this.chkCraft2.TabIndex = 11;
@@ -5455,7 +5738,7 @@
             // 
             this.chkControl2.AccessibleName = "";
             this.chkControl2.AutoSize = true;
-            this.chkControl2.Location = new System.Drawing.Point(7, 146);
+            this.chkControl2.Location = new System.Drawing.Point(7, 208);
             this.chkControl2.Name = "chkControl2";
             this.chkControl2.Size = new System.Drawing.Size(59, 17);
             this.chkControl2.TabIndex = 9;
@@ -5467,7 +5750,7 @@
             // 
             this.chkControl1.AccessibleName = "";
             this.chkControl1.AutoSize = true;
-            this.chkControl1.Location = new System.Drawing.Point(7, 132);
+            this.chkControl1.Location = new System.Drawing.Point(6, 187);
             this.chkControl1.Name = "chkControl1";
             this.chkControl1.Size = new System.Drawing.Size(59, 17);
             this.chkControl1.TabIndex = 8;
@@ -5479,7 +5762,7 @@
             // 
             this.chkCommand.AccessibleName = "";
             this.chkCommand.AutoSize = true;
-            this.chkCommand.Location = new System.Drawing.Point(7, 118);
+            this.chkCommand.Location = new System.Drawing.Point(6, 166);
             this.chkCommand.Name = "chkCommand";
             this.chkCommand.Size = new System.Drawing.Size(73, 17);
             this.chkCommand.TabIndex = 7;
@@ -5491,7 +5774,7 @@
             // 
             this.chkBrawl.AccessibleName = "";
             this.chkBrawl.AutoSize = true;
-            this.chkBrawl.Location = new System.Drawing.Point(7, 104);
+            this.chkBrawl.Location = new System.Drawing.Point(6, 145);
             this.chkBrawl.Name = "chkBrawl";
             this.chkBrawl.Size = new System.Drawing.Size(52, 17);
             this.chkBrawl.TabIndex = 6;
@@ -5503,7 +5786,7 @@
             // 
             this.chkAwareness.AccessibleName = "Awareness";
             this.chkAwareness.AutoSize = true;
-            this.chkAwareness.Location = new System.Drawing.Point(7, 90);
+            this.chkAwareness.Location = new System.Drawing.Point(6, 124);
             this.chkAwareness.Name = "chkAwareness";
             this.chkAwareness.Size = new System.Drawing.Size(78, 17);
             this.chkAwareness.TabIndex = 5;
@@ -5514,7 +5797,7 @@
             // chkAthletics
             // 
             this.chkAthletics.AutoSize = true;
-            this.chkAthletics.Location = new System.Drawing.Point(7, 76);
+            this.chkAthletics.Location = new System.Drawing.Point(6, 103);
             this.chkAthletics.Name = "chkAthletics";
             this.chkAthletics.Size = new System.Drawing.Size(66, 17);
             this.chkAthletics.TabIndex = 4;
@@ -5525,7 +5808,7 @@
             // chkArt2
             // 
             this.chkArt2.AutoSize = true;
-            this.chkArt2.Location = new System.Drawing.Point(7, 62);
+            this.chkArt2.Location = new System.Drawing.Point(6, 82);
             this.chkArt2.Name = "chkArt2";
             this.chkArt2.Size = new System.Drawing.Size(39, 17);
             this.chkArt2.TabIndex = 3;
@@ -5536,7 +5819,7 @@
             // chkArt1
             // 
             this.chkArt1.AutoSize = true;
-            this.chkArt1.Location = new System.Drawing.Point(7, 48);
+            this.chkArt1.Location = new System.Drawing.Point(6, 61);
             this.chkArt1.Name = "chkArt1";
             this.chkArt1.Size = new System.Drawing.Size(39, 17);
             this.chkArt1.TabIndex = 2;
@@ -5547,7 +5830,7 @@
             // chkAnimalKen
             // 
             this.chkAnimalKen.AutoSize = true;
-            this.chkAnimalKen.Location = new System.Drawing.Point(7, 34);
+            this.chkAnimalKen.Location = new System.Drawing.Point(7, 40);
             this.chkAnimalKen.Name = "chkAnimalKen";
             this.chkAnimalKen.Size = new System.Drawing.Size(79, 17);
             this.chkAnimalKen.TabIndex = 1;
@@ -5558,7 +5841,7 @@
             // chkAcademics
             // 
             this.chkAcademics.AutoSize = true;
-            this.chkAcademics.Location = new System.Drawing.Point(7, 20);
+            this.chkAcademics.Location = new System.Drawing.Point(7, 19);
             this.chkAcademics.Name = "chkAcademics";
             this.chkAcademics.Size = new System.Drawing.Size(78, 17);
             this.chkAcademics.TabIndex = 0;
@@ -5566,13 +5849,79 @@
             this.chkAcademics.UseVisualStyleBackColor = true;
             this.chkAcademics.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabAbilities);
+            this.tabControl1.Controls.Add(this.tabItems);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(12, 55);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(679, 431);
+            this.tabControl1.TabIndex = 374;
+            // 
+            // tabAbilities
+            // 
+            this.tabAbilities.Controls.Add(this.groupAttributes);
+            this.tabAbilities.Controls.Add(this.groupAbilities);
+            this.tabAbilities.Location = new System.Drawing.Point(4, 22);
+            this.tabAbilities.Name = "tabAbilities";
+            this.tabAbilities.Padding = new System.Windows.Forms.Padding(3);
+            this.tabAbilities.Size = new System.Drawing.Size(671, 405);
+            this.tabAbilities.TabIndex = 0;
+            this.tabAbilities.Text = "Attributes & Abilities";
+            this.tabAbilities.UseVisualStyleBackColor = true;
+            // 
+            // tabItems
+            // 
+            this.tabItems.Location = new System.Drawing.Point(4, 22);
+            this.tabItems.Name = "tabItems";
+            this.tabItems.Padding = new System.Windows.Forms.Padding(3);
+            this.tabItems.Size = new System.Drawing.Size(671, 405);
+            this.tabItems.TabIndex = 1;
+            this.tabItems.Text = "Items & Relics";
+            this.tabItems.UseVisualStyleBackColor = true;
+            // 
+            // label30
+            // 
+            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label30.Location = new System.Drawing.Point(313, 195);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(40, 2);
+            this.label30.TabIndex = 376;
+            // 
+            // label27
+            // 
+            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label27.Location = new System.Drawing.Point(304, 153);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(50, 2);
+            this.label27.TabIndex = 375;
+            // 
+            // label28
+            // 
+            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label28.Location = new System.Drawing.Point(284, 132);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(70, 2);
+            this.label28.TabIndex = 374;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(671, 405);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 734);
-            this.Controls.Add(this.groupAbilities);
-            this.Controls.Add(this.groupAttributes);
+            this.ClientSize = new System.Drawing.Size(713, 493);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxNature);
             this.Controls.Add(this.label5);
@@ -5592,6 +5941,8 @@
             this.groupAttributes.PerformLayout();
             this.groupAbilities.ResumeLayout(false);
             this.groupAbilities.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabAbilities.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5994,6 +6345,40 @@
         private System.Windows.Forms.RadioButton radioAcademics3;
         private System.Windows.Forms.RadioButton radioAcademics2;
         private System.Windows.Forms.RadioButton radioAcademics1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBoxArt2;
+        private System.Windows.Forms.TextBox textBoxArt1;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabAbilities;
+        private System.Windows.Forms.TabPage tabItems;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
 
