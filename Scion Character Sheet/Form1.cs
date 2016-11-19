@@ -59,42 +59,23 @@ namespace Scion_Character_Sheet
         List<CheckBox> listEpicWits = new List<CheckBox>();
 
 
-        Dictionary<string, int> dictAbilityRanks = new Dictionary<string, int>
+        public class abilityInfo
         {
-            {"accademics", 0},
-            {"animalken", 0 },
-            {"art1", 0 },
-            {"art2", 0 },
-            {"athletics", 0 },
-            {"awareness", 0 },
-            {"brawl", 0 },
-            {"command", 0 },
-            {"control1", 0 },
-            {"control2", 0 },
-            {"craft1", 0 },
-            {"craft2", 0 },
-            {"craft3", 0 },
-            {"empathy", 0 },
-            {"fortitude", 0 },
-            {"integrity", 0 },
-            {"investigation", 0 },
-            {"larceny", 0 },
-            {"marksmanship", 0 },
-            {"medicine", 0 },
-            {"melee", 0 },
-            {"occult", 0 },
-            {"politics", 0 },
-            {"presence", 0 },
-            {"science1", 0 },
-            {"science2", 0 },
-            {"science3", 0 },
-            {"stealth", 0 },
-            {"surival", 0 },
-            {"thrown", 0 },
-        };
+            public int rank { get; set; }
+            public bool favored { get; set; }
+            public List<RadioButton> radios { get; set; }
+            public CheckBox favoredCheckbox { get; set; }
 
-        Dictionary<string, List<RadioButton>> dictAbilityRadios = new Dictionary<string, List<RadioButton>>();
-        
+            public abilityInfo(int rank, bool favored, List<RadioButton> radios, ref CheckBox favoredCheckbox)
+            {
+                this.rank = rank;
+                this.favored = favored;
+                this.radios = radios;
+                this.favoredCheckbox = favoredCheckbox;
+            }
+
+        }
+        Dictionary<string, abilityInfo> abilityInformation = new Dictionary<string, abilityInfo>();        
       
 
         public Form1()
@@ -294,40 +275,63 @@ namespace Scion_Character_Sheet
             listEpicWits.Add(chkEwi09);
             listEpicWits.Add(chkEwi10);
 
-            dictAbilityRadios.Add("academics", new List<RadioButton>() { radioAcademics1, radioAcademics2, radioAcademics3, radioAcademics4, radioAcademics5 });
-            dictAbilityRadios.Add("animalken", new List<RadioButton>() { radioAnimalKen1, radioAnimalKen2, radioAnimalKen3, radioAnimalKen4, radioAnimalKen5 });
-            dictAbilityRadios.Add("art1", new List<RadioButton>() { radioArt11, radioArt12, radioArt13, radioArt14, radioArt15 });
-            dictAbilityRadios.Add("art2", new List<RadioButton>() { radioArt21, radioArt22, radioArt23, radioArt24, radioArt25 });
-            dictAbilityRadios.Add("athletics", new List<RadioButton>() { radioAthletics1, radioAthletics2, radioAthletics3, radioAthletics4, radioAthletics5 });
-            dictAbilityRadios.Add("awareness", new List<RadioButton>() { radioAwareness1, radioAwareness2, radioAwareness3, radioAwareness4, radioAwareness5 });
-            dictAbilityRadios.Add("brawl", new List<RadioButton>() { radioBrawl1, radioBrawl2, radioBrawl3, radioBrawl4, radioBrawl5 });
-            dictAbilityRadios.Add("command", new List<RadioButton>() { radioCommand1, radioCommand2, radioCommand3, radioCommand4, radioCommand5 });
-            dictAbilityRadios.Add("control1", new List<RadioButton>() { radioControl11, radioControl12, radioControl13, radioControl14, radioControl15 });
-            dictAbilityRadios.Add("control2", new List<RadioButton>() { radioControl21, radioControl22, radioControl23, radioControl24, radioControl25 });
-            dictAbilityRadios.Add("craft1", new List<RadioButton>() { radioCraft11, radioCraft12, radioCraft13, radioCraft14, radioCraft15 });
-            dictAbilityRadios.Add("craft2", new List<RadioButton>() { radioCraft21, radioCraft22, radioCraft23, radioCraft24, radioCraft25 });
-            dictAbilityRadios.Add("craft3", new List<RadioButton>() { radioCraft31, radioCraft32, radioCraft33, radioCraft34, radioCraft35 });
-            dictAbilityRadios.Add("empathy", new List<RadioButton>() { radioEmpathy1, radioEmpathy2, radioEmpathy3, radioEmpathy4, radioEmpathy5 });
-            dictAbilityRadios.Add("fortitude", new List<RadioButton>() { radioFortitude1, radioFortitude2, radioFortitude3, radioFortitude4, radioFortitude5 });
-            dictAbilityRadios.Add("integrity", new List<RadioButton>() { radioIntegrity1, radioIntegrity2, radioIntegrity3, radioIntegrity4, radioIntegrity5 });
-            dictAbilityRadios.Add("investigation", new List<RadioButton>() { radioInvestigation1, radioInvestigation2, radioInvestigation3, radioInvestigation4, radioInvestigation5 });
-            dictAbilityRadios.Add("larceny", new List<RadioButton>() { radioLarceny1, radioLarceny2, radioLarceny3, radioLarceny4, radioLarceny5 });
-            dictAbilityRadios.Add("marksmanship", new List<RadioButton>() { radioMarksmanship1, radioMarksmanship2, radioMarksmanship3, radioMarksmanship4, radioMarksmanship5 });
-            dictAbilityRadios.Add("medicine", new List<RadioButton>() { radioMedicine1, radioMedicine2, radioMedicine3, radioMedicine4, radioMedicine5 });
-            dictAbilityRadios.Add("melee", new List<RadioButton>() { radioMelee1, radioMelee2, radioMelee3, radioMelee4, radioMelee5 });
-            dictAbilityRadios.Add("occult", new List<RadioButton>() { radioOccult1, radioOccult2, radioOccult3, radioOccult4, radioOccult5 });
-            dictAbilityRadios.Add("politics", new List<RadioButton>() { radioPolitics1, radioPolitics2, radioPolitics3, radioPolitics4, radioPolitics5 });
-            dictAbilityRadios.Add("presence", new List<RadioButton>() { radioPresence1, radioPresence2, radioPresence3, radioPresence4, radioPresence5 });
-            dictAbilityRadios.Add("science1", new List<RadioButton>() { radioScience11, radioScience12, radioScience13, radioScience14, radioScience15 });
-            dictAbilityRadios.Add("science2", new List<RadioButton>() { radioScience21, radioScience22, radioScience23, radioScience24, radioScience25 });
-            dictAbilityRadios.Add("science3", new List<RadioButton>() { radioScience31, radioScience32, radioScience33, radioScience34, radioScience35 });
-            dictAbilityRadios.Add("stealth", new List<RadioButton>() { radioStealth1, radioStealth2, radioStealth3, radioStealth4, radioStealth5 });
-            dictAbilityRadios.Add("survival", new List<RadioButton>() { radioSurvival1, radioSurvival2, radioSurvival3, radioSurvival4, radioSurvival5 });
-            dictAbilityRadios.Add("thrown", new List<RadioButton>() { radioThrown1, radioThrown2, radioThrown3, radioThrown4, radioThrown5 });
+            abilityInformation.Add("academics", new abilityInfo(0, false, new List<RadioButton>() { radioAcademics1, radioAcademics2, radioAcademics3, radioAcademics4, radioAcademics5 }, ref chkAcademics));
+            abilityInformation.Add("animalken", new abilityInfo(0, false, new List<RadioButton>() { radioAnimalKen1, radioAnimalKen2, radioAnimalKen3, radioAnimalKen4, radioAnimalKen5 }, ref chkAnimalKen));
+            abilityInformation.Add("art1", new abilityInfo(0, false, new List<RadioButton>() { radioArt11, radioArt12, radioArt13, radioArt14, radioArt15 }, ref chkArt1));
+            abilityInformation.Add("art2", new abilityInfo(0, false, new List<RadioButton>() { radioArt21, radioArt22, radioArt23, radioArt24, radioArt25 }, ref chkArt2));
+            abilityInformation.Add("athletics", new abilityInfo(0, false, new List<RadioButton>() { radioAthletics1, radioAthletics2, radioAthletics3, radioAthletics4, radioAthletics5 }, ref chkAthletics));
+            abilityInformation.Add("awareness", new abilityInfo(0, false, new List<RadioButton>() { radioAwareness1, radioAwareness2, radioAwareness3, radioAwareness4, radioAwareness5 }, ref chkAwareness));
+            abilityInformation.Add("brawl", new abilityInfo(0, false, new List<RadioButton>() { radioBrawl1, radioBrawl2, radioBrawl3, radioBrawl4, radioBrawl5 }, ref chkBrawl));
+            abilityInformation.Add("command", new abilityInfo(0, false, new List<RadioButton>() { radioCommand1, radioCommand2, radioCommand3, radioCommand4, radioCommand5 }, ref chkCommand));
+            abilityInformation.Add("control1", new abilityInfo(0, false, new List<RadioButton>() { radioControl11, radioControl12, radioControl13, radioControl14, radioControl15 }, ref chkControl1));
+            abilityInformation.Add("control2", new abilityInfo(0, false, new List<RadioButton>() { radioControl21, radioControl22, radioControl23, radioControl24, radioControl25 }, ref chkControl2));
+            abilityInformation.Add("craft1", new abilityInfo(0, false, new List<RadioButton>() { radioCraft11, radioCraft12, radioCraft13, radioCraft14, radioCraft15 }, ref chkCraft1));
+            abilityInformation.Add("craft2", new abilityInfo(0, false, new List<RadioButton>() { radioCraft21, radioCraft22, radioCraft23, radioCraft24, radioCraft25 }, ref chkCraft2));
+            abilityInformation.Add("craft3", new abilityInfo(0, false, new List<RadioButton>() { radioCraft31, radioCraft32, radioCraft33, radioCraft34, radioCraft35 }, ref chkCraft3));
+            abilityInformation.Add("empathy", new abilityInfo(0, false, new List<RadioButton>() { radioEmpathy1, radioEmpathy2, radioEmpathy3, radioEmpathy4, radioEmpathy5 }, ref chkEmpathy));
+            abilityInformation.Add("fortitude", new abilityInfo(0, false, new List<RadioButton>() { radioFortitude1, radioFortitude2, radioFortitude3, radioFortitude4, radioFortitude5 }, ref chkFortitude));
+            abilityInformation.Add("integrity", new abilityInfo(0, false, new List<RadioButton>() { radioIntegrity1, radioIntegrity2, radioIntegrity3, radioIntegrity4, radioIntegrity5 }, ref chkIntegrity));
+            abilityInformation.Add("investigation", new abilityInfo(0, false, new List<RadioButton>() { radioInvestigation1, radioInvestigation2, radioInvestigation3, radioInvestigation4, radioInvestigation5 }, ref chkInvestigation));
+            abilityInformation.Add("larceny", new abilityInfo(0, false, new List<RadioButton>() { radioLarceny1, radioLarceny2, radioLarceny3, radioLarceny4, radioLarceny5 }, ref chkLarceny));
+            abilityInformation.Add("marksmanship", new abilityInfo(0, false, new List<RadioButton>() { radioMarksmanship1, radioMarksmanship2, radioMarksmanship3, radioMarksmanship4, radioMarksmanship5 }, ref chkMarksmanship));
+            abilityInformation.Add("medicine", new abilityInfo(0, false, new List<RadioButton>() { radioMedicine1, radioMedicine2, radioMedicine3, radioMedicine4, radioMedicine5 }, ref chkMedicine));
+            abilityInformation.Add("melee", new abilityInfo(0, false, new List<RadioButton>() { radioMelee1, radioMelee2, radioMelee3, radioMelee4, radioMelee5 }, ref chkMelee));
+            abilityInformation.Add("occult", new abilityInfo(0, false, new List<RadioButton>() { radioOccult1, radioOccult2, radioOccult3, radioOccult4, radioOccult5 }, ref chkOccult));
+            abilityInformation.Add("politics", new abilityInfo(0, false, new List<RadioButton>() { radioPolitics1, radioPolitics2, radioPolitics3, radioPolitics4, radioPolitics5 }, ref chkPolitics));
+            abilityInformation.Add("presence", new abilityInfo(0, false, new List<RadioButton>() { radioPresence1, radioPresence2, radioPresence3, radioPresence4, radioPresence5 }, ref chkPresence));
+            abilityInformation.Add("science1", new abilityInfo(0, false, new List<RadioButton>() { radioScience11, radioScience12, radioScience13, radioScience14, radioScience15 }, ref chkScience1));
+            abilityInformation.Add("science2", new abilityInfo(0, false, new List<RadioButton>() { radioScience21, radioScience22, radioScience23, radioScience24, radioScience25 }, ref chkScience2));
+            abilityInformation.Add("science3", new abilityInfo(0, false, new List<RadioButton>() { radioScience31, radioScience32, radioScience33, radioScience34, radioScience35 }, ref chkScience3));
+            abilityInformation.Add("stealth", new abilityInfo(0, false, new List<RadioButton>() { radioStealth1, radioStealth2, radioStealth3, radioStealth4, radioStealth5 }, ref chkStealth));
+            abilityInformation.Add("survival", new abilityInfo(0, false, new List<RadioButton>() { radioSurvival1, radioSurvival2, radioSurvival3, radioSurvival4, radioSurvival5 }, ref chkSurvival));
+            abilityInformation.Add("thrown", new abilityInfo(0, false, new List<RadioButton>() { radioThrown1, radioThrown2, radioThrown3, radioThrown4, radioThrown5 }, ref chkThrown));
+        }
+        private void setAbilityRank(object sender, EventArgs e)
+        {
+            int value = 0;
+            string identifier = "";
+            int oldValue = 0;
+            RadioButton val = (RadioButton)sender;
+            Int32.TryParse(val.Name.Substring(val.Name.Length - 1), out value);
+            identifier = val.Name.Substring(5, val.Name.Length - 6).ToLower();
+            oldValue = abilityInformation[identifier].rank;
+            if (oldValue == 1 & value == 1)
+            {
+                value = 0;
+            }
+            abilityInformation[identifier].rank = value;
+            for (int i = 0; i < abilityInformation[identifier].radios.Count; i++)
+            {
+                abilityInformation[identifier].radios[i].Checked = (i + 1 <= abilityInformation[identifier].rank);
+            }
         }
 
-
-
+        private void setAbilityFavored(object sender, EventArgs e)
+        {
+            CheckBox val = (CheckBox)sender;
+            string identifier = val.Name.Substring(3, val.Name.Length - 3).ToLower();
+            abilityInformation[identifier].favored = val.Checked;
+        }
 
         private void setAttribute(object sender, EventArgs e)
         {

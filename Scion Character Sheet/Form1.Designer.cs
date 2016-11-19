@@ -243,86 +243,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupAbilities = new System.Windows.Forms.GroupBox();
-            this.chkCommand = new System.Windows.Forms.CheckBox();
-            this.chkBrawl = new System.Windows.Forms.CheckBox();
-            this.chkAwareness = new System.Windows.Forms.CheckBox();
-            this.chkAthletics = new System.Windows.Forms.CheckBox();
-            this.chkArt2 = new System.Windows.Forms.CheckBox();
-            this.chkArt1 = new System.Windows.Forms.CheckBox();
-            this.chkAnimalKen = new System.Windows.Forms.CheckBox();
-            this.chkAcademics = new System.Windows.Forms.CheckBox();
-            this.chkControl1 = new System.Windows.Forms.CheckBox();
-            this.chkControl2 = new System.Windows.Forms.CheckBox();
-            this.chkMedicine = new System.Windows.Forms.CheckBox();
-            this.chkMarksmanship = new System.Windows.Forms.CheckBox();
-            this.chkLarceny = new System.Windows.Forms.CheckBox();
-            this.chkInvestigation = new System.Windows.Forms.CheckBox();
-            this.chkIntegrity = new System.Windows.Forms.CheckBox();
-            this.chkFortitude = new System.Windows.Forms.CheckBox();
-            this.chkEmpathy = new System.Windows.Forms.CheckBox();
-            this.chkCraft3 = new System.Windows.Forms.CheckBox();
-            this.chkCraft2 = new System.Windows.Forms.CheckBox();
-            this.chkCraft1 = new System.Windows.Forms.CheckBox();
-            this.chkThrown = new System.Windows.Forms.CheckBox();
-            this.chkSurvival = new System.Windows.Forms.CheckBox();
-            this.chkStealth = new System.Windows.Forms.CheckBox();
-            this.chkScience3 = new System.Windows.Forms.CheckBox();
-            this.chkScience2 = new System.Windows.Forms.CheckBox();
-            this.chkScience1 = new System.Windows.Forms.CheckBox();
-            this.chkPresence = new System.Windows.Forms.CheckBox();
-            this.chkPolitics = new System.Windows.Forms.CheckBox();
-            this.chkOccult = new System.Windows.Forms.CheckBox();
-            this.chkMelee = new System.Windows.Forms.CheckBox();
-            this.radioMedicine5 = new System.Windows.Forms.RadioButton();
-            this.radioMedicine4 = new System.Windows.Forms.RadioButton();
-            this.radioMedicine3 = new System.Windows.Forms.RadioButton();
-            this.radioMedicine2 = new System.Windows.Forms.RadioButton();
-            this.radioMedicine1 = new System.Windows.Forms.RadioButton();
-            this.radioMarksmanship5 = new System.Windows.Forms.RadioButton();
-            this.radioMarksmanship4 = new System.Windows.Forms.RadioButton();
-            this.radioMarksmanship3 = new System.Windows.Forms.RadioButton();
-            this.radioMarksmanship2 = new System.Windows.Forms.RadioButton();
-            this.radioMarksmanship1 = new System.Windows.Forms.RadioButton();
-            this.radioLarceny5 = new System.Windows.Forms.RadioButton();
-            this.radioLarceny4 = new System.Windows.Forms.RadioButton();
-            this.radioLarceny3 = new System.Windows.Forms.RadioButton();
-            this.radioLarceny2 = new System.Windows.Forms.RadioButton();
-            this.radioLarceny1 = new System.Windows.Forms.RadioButton();
-            this.radioInvestigation5 = new System.Windows.Forms.RadioButton();
-            this.radioInvestigation4 = new System.Windows.Forms.RadioButton();
-            this.radioInvestigation3 = new System.Windows.Forms.RadioButton();
-            this.radioInvestigation2 = new System.Windows.Forms.RadioButton();
-            this.radioInvestigation1 = new System.Windows.Forms.RadioButton();
-            this.radioIntegrity5 = new System.Windows.Forms.RadioButton();
-            this.radioIntegrity4 = new System.Windows.Forms.RadioButton();
-            this.radioIntegrity3 = new System.Windows.Forms.RadioButton();
-            this.radioIntegrity2 = new System.Windows.Forms.RadioButton();
-            this.radioIntegrity1 = new System.Windows.Forms.RadioButton();
-            this.radioFortitude5 = new System.Windows.Forms.RadioButton();
-            this.radioFortitude4 = new System.Windows.Forms.RadioButton();
-            this.radioFortitude3 = new System.Windows.Forms.RadioButton();
-            this.radioFortitude2 = new System.Windows.Forms.RadioButton();
-            this.radioFortitude1 = new System.Windows.Forms.RadioButton();
-            this.radioEmpathy5 = new System.Windows.Forms.RadioButton();
-            this.radioEmpathy4 = new System.Windows.Forms.RadioButton();
-            this.radioEmpathy3 = new System.Windows.Forms.RadioButton();
-            this.radioEmpathy2 = new System.Windows.Forms.RadioButton();
-            this.radioEmpathy1 = new System.Windows.Forms.RadioButton();
-            this.radioCraft35 = new System.Windows.Forms.RadioButton();
-            this.radioCraft34 = new System.Windows.Forms.RadioButton();
-            this.radioCraft33 = new System.Windows.Forms.RadioButton();
-            this.radioCraft32 = new System.Windows.Forms.RadioButton();
-            this.radioCraft31 = new System.Windows.Forms.RadioButton();
-            this.radioCraft25 = new System.Windows.Forms.RadioButton();
-            this.radioCraft24 = new System.Windows.Forms.RadioButton();
-            this.radioCraft23 = new System.Windows.Forms.RadioButton();
-            this.radioCraft22 = new System.Windows.Forms.RadioButton();
-            this.radioCraft21 = new System.Windows.Forms.RadioButton();
-            this.radioCraft15 = new System.Windows.Forms.RadioButton();
-            this.radioCraft14 = new System.Windows.Forms.RadioButton();
-            this.radioCraft13 = new System.Windows.Forms.RadioButton();
-            this.radioCraft12 = new System.Windows.Forms.RadioButton();
-            this.radioCraft11 = new System.Windows.Forms.RadioButton();
             this.radioThrown5 = new System.Windows.Forms.RadioButton();
             this.radioThrown4 = new System.Windows.Forms.RadioButton();
             this.radioThrown3 = new System.Windows.Forms.RadioButton();
@@ -373,56 +293,136 @@
             this.radioMelee3 = new System.Windows.Forms.RadioButton();
             this.radioMelee2 = new System.Windows.Forms.RadioButton();
             this.radioMelee1 = new System.Windows.Forms.RadioButton();
-            this.radioAcademics1 = new System.Windows.Forms.RadioButton();
-            this.radioAcademics2 = new System.Windows.Forms.RadioButton();
-            this.radioAcademics3 = new System.Windows.Forms.RadioButton();
-            this.radioAcademics4 = new System.Windows.Forms.RadioButton();
-            this.radioAcademics5 = new System.Windows.Forms.RadioButton();
-            this.radioAnimalKen1 = new System.Windows.Forms.RadioButton();
-            this.radioAnimalKen2 = new System.Windows.Forms.RadioButton();
-            this.radioAnimalKen3 = new System.Windows.Forms.RadioButton();
-            this.radioAnimalKen4 = new System.Windows.Forms.RadioButton();
-            this.radioAnimalKen5 = new System.Windows.Forms.RadioButton();
-            this.radioArt11 = new System.Windows.Forms.RadioButton();
-            this.radioArt12 = new System.Windows.Forms.RadioButton();
-            this.radioArt13 = new System.Windows.Forms.RadioButton();
-            this.radioArt14 = new System.Windows.Forms.RadioButton();
-            this.radioArt15 = new System.Windows.Forms.RadioButton();
-            this.radioArt21 = new System.Windows.Forms.RadioButton();
-            this.radioArt22 = new System.Windows.Forms.RadioButton();
-            this.radioArt23 = new System.Windows.Forms.RadioButton();
-            this.radioArt24 = new System.Windows.Forms.RadioButton();
-            this.radioArt25 = new System.Windows.Forms.RadioButton();
-            this.radioAthletics1 = new System.Windows.Forms.RadioButton();
-            this.radioAthletics2 = new System.Windows.Forms.RadioButton();
-            this.radioAthletics3 = new System.Windows.Forms.RadioButton();
-            this.radioAthletics4 = new System.Windows.Forms.RadioButton();
-            this.radioAthletics5 = new System.Windows.Forms.RadioButton();
-            this.radioAwareness1 = new System.Windows.Forms.RadioButton();
-            this.radioAwareness2 = new System.Windows.Forms.RadioButton();
-            this.radioAwareness3 = new System.Windows.Forms.RadioButton();
-            this.radioAwareness4 = new System.Windows.Forms.RadioButton();
-            this.radioAwareness5 = new System.Windows.Forms.RadioButton();
-            this.radioBrawl1 = new System.Windows.Forms.RadioButton();
-            this.radioBrawl2 = new System.Windows.Forms.RadioButton();
-            this.radioBrawl3 = new System.Windows.Forms.RadioButton();
-            this.radioBrawl4 = new System.Windows.Forms.RadioButton();
-            this.radioBrawl5 = new System.Windows.Forms.RadioButton();
-            this.radioCommand1 = new System.Windows.Forms.RadioButton();
-            this.radioCommand2 = new System.Windows.Forms.RadioButton();
-            this.radioCommand3 = new System.Windows.Forms.RadioButton();
-            this.radioCommand4 = new System.Windows.Forms.RadioButton();
-            this.radioCommand5 = new System.Windows.Forms.RadioButton();
-            this.radioControl11 = new System.Windows.Forms.RadioButton();
-            this.radioControl12 = new System.Windows.Forms.RadioButton();
-            this.radioControl13 = new System.Windows.Forms.RadioButton();
-            this.radioControl14 = new System.Windows.Forms.RadioButton();
-            this.radioControl15 = new System.Windows.Forms.RadioButton();
-            this.radioControl21 = new System.Windows.Forms.RadioButton();
-            this.radioControl22 = new System.Windows.Forms.RadioButton();
-            this.radioControl23 = new System.Windows.Forms.RadioButton();
-            this.radioControl24 = new System.Windows.Forms.RadioButton();
+            this.radioMedicine5 = new System.Windows.Forms.RadioButton();
+            this.radioMedicine4 = new System.Windows.Forms.RadioButton();
+            this.radioMedicine3 = new System.Windows.Forms.RadioButton();
+            this.radioMedicine2 = new System.Windows.Forms.RadioButton();
+            this.radioMedicine1 = new System.Windows.Forms.RadioButton();
+            this.radioMarksmanship5 = new System.Windows.Forms.RadioButton();
+            this.radioMarksmanship4 = new System.Windows.Forms.RadioButton();
+            this.radioMarksmanship3 = new System.Windows.Forms.RadioButton();
+            this.radioMarksmanship2 = new System.Windows.Forms.RadioButton();
+            this.radioMarksmanship1 = new System.Windows.Forms.RadioButton();
+            this.radioLarceny5 = new System.Windows.Forms.RadioButton();
+            this.radioLarceny4 = new System.Windows.Forms.RadioButton();
+            this.radioLarceny3 = new System.Windows.Forms.RadioButton();
+            this.radioLarceny2 = new System.Windows.Forms.RadioButton();
+            this.radioLarceny1 = new System.Windows.Forms.RadioButton();
+            this.radioInvestigation5 = new System.Windows.Forms.RadioButton();
+            this.radioInvestigation4 = new System.Windows.Forms.RadioButton();
+            this.radioInvestigation3 = new System.Windows.Forms.RadioButton();
+            this.radioInvestigation2 = new System.Windows.Forms.RadioButton();
+            this.radioInvestigation1 = new System.Windows.Forms.RadioButton();
+            this.radioIntegrity5 = new System.Windows.Forms.RadioButton();
+            this.radioIntegrity4 = new System.Windows.Forms.RadioButton();
+            this.radioIntegrity3 = new System.Windows.Forms.RadioButton();
+            this.radioIntegrity2 = new System.Windows.Forms.RadioButton();
+            this.radioIntegrity1 = new System.Windows.Forms.RadioButton();
+            this.radioFortitude5 = new System.Windows.Forms.RadioButton();
+            this.radioFortitude4 = new System.Windows.Forms.RadioButton();
+            this.radioFortitude3 = new System.Windows.Forms.RadioButton();
+            this.radioFortitude2 = new System.Windows.Forms.RadioButton();
+            this.radioFortitude1 = new System.Windows.Forms.RadioButton();
+            this.radioEmpathy5 = new System.Windows.Forms.RadioButton();
+            this.radioEmpathy4 = new System.Windows.Forms.RadioButton();
+            this.radioEmpathy3 = new System.Windows.Forms.RadioButton();
+            this.radioEmpathy2 = new System.Windows.Forms.RadioButton();
+            this.radioEmpathy1 = new System.Windows.Forms.RadioButton();
+            this.radioCraft35 = new System.Windows.Forms.RadioButton();
+            this.radioCraft34 = new System.Windows.Forms.RadioButton();
+            this.radioCraft33 = new System.Windows.Forms.RadioButton();
+            this.radioCraft32 = new System.Windows.Forms.RadioButton();
+            this.radioCraft31 = new System.Windows.Forms.RadioButton();
+            this.radioCraft25 = new System.Windows.Forms.RadioButton();
+            this.radioCraft24 = new System.Windows.Forms.RadioButton();
+            this.radioCraft23 = new System.Windows.Forms.RadioButton();
+            this.radioCraft22 = new System.Windows.Forms.RadioButton();
+            this.radioCraft21 = new System.Windows.Forms.RadioButton();
+            this.radioCraft15 = new System.Windows.Forms.RadioButton();
+            this.radioCraft14 = new System.Windows.Forms.RadioButton();
+            this.radioCraft13 = new System.Windows.Forms.RadioButton();
+            this.radioCraft12 = new System.Windows.Forms.RadioButton();
+            this.radioCraft11 = new System.Windows.Forms.RadioButton();
             this.radioControl25 = new System.Windows.Forms.RadioButton();
+            this.radioControl24 = new System.Windows.Forms.RadioButton();
+            this.radioControl23 = new System.Windows.Forms.RadioButton();
+            this.radioControl22 = new System.Windows.Forms.RadioButton();
+            this.radioControl21 = new System.Windows.Forms.RadioButton();
+            this.radioControl15 = new System.Windows.Forms.RadioButton();
+            this.radioControl14 = new System.Windows.Forms.RadioButton();
+            this.radioControl13 = new System.Windows.Forms.RadioButton();
+            this.radioControl12 = new System.Windows.Forms.RadioButton();
+            this.radioControl11 = new System.Windows.Forms.RadioButton();
+            this.radioCommand5 = new System.Windows.Forms.RadioButton();
+            this.radioCommand4 = new System.Windows.Forms.RadioButton();
+            this.radioCommand3 = new System.Windows.Forms.RadioButton();
+            this.radioCommand2 = new System.Windows.Forms.RadioButton();
+            this.radioCommand1 = new System.Windows.Forms.RadioButton();
+            this.radioBrawl5 = new System.Windows.Forms.RadioButton();
+            this.radioBrawl4 = new System.Windows.Forms.RadioButton();
+            this.radioBrawl3 = new System.Windows.Forms.RadioButton();
+            this.radioBrawl2 = new System.Windows.Forms.RadioButton();
+            this.radioBrawl1 = new System.Windows.Forms.RadioButton();
+            this.radioAwareness5 = new System.Windows.Forms.RadioButton();
+            this.radioAwareness4 = new System.Windows.Forms.RadioButton();
+            this.radioAwareness3 = new System.Windows.Forms.RadioButton();
+            this.radioAwareness2 = new System.Windows.Forms.RadioButton();
+            this.radioAwareness1 = new System.Windows.Forms.RadioButton();
+            this.radioAthletics5 = new System.Windows.Forms.RadioButton();
+            this.radioAthletics4 = new System.Windows.Forms.RadioButton();
+            this.radioAthletics3 = new System.Windows.Forms.RadioButton();
+            this.radioAthletics2 = new System.Windows.Forms.RadioButton();
+            this.radioAthletics1 = new System.Windows.Forms.RadioButton();
+            this.radioArt25 = new System.Windows.Forms.RadioButton();
+            this.radioArt24 = new System.Windows.Forms.RadioButton();
+            this.radioArt23 = new System.Windows.Forms.RadioButton();
+            this.radioArt22 = new System.Windows.Forms.RadioButton();
+            this.radioArt21 = new System.Windows.Forms.RadioButton();
+            this.radioArt15 = new System.Windows.Forms.RadioButton();
+            this.radioArt14 = new System.Windows.Forms.RadioButton();
+            this.radioArt13 = new System.Windows.Forms.RadioButton();
+            this.radioArt12 = new System.Windows.Forms.RadioButton();
+            this.radioArt11 = new System.Windows.Forms.RadioButton();
+            this.radioAnimalKen5 = new System.Windows.Forms.RadioButton();
+            this.radioAnimalKen4 = new System.Windows.Forms.RadioButton();
+            this.radioAnimalKen3 = new System.Windows.Forms.RadioButton();
+            this.radioAnimalKen2 = new System.Windows.Forms.RadioButton();
+            this.radioAnimalKen1 = new System.Windows.Forms.RadioButton();
+            this.radioAcademics5 = new System.Windows.Forms.RadioButton();
+            this.radioAcademics4 = new System.Windows.Forms.RadioButton();
+            this.chkThrown = new System.Windows.Forms.CheckBox();
+            this.radioAcademics3 = new System.Windows.Forms.RadioButton();
+            this.chkSurvival = new System.Windows.Forms.CheckBox();
+            this.radioAcademics2 = new System.Windows.Forms.RadioButton();
+            this.chkStealth = new System.Windows.Forms.CheckBox();
+            this.radioAcademics1 = new System.Windows.Forms.RadioButton();
+            this.chkScience3 = new System.Windows.Forms.CheckBox();
+            this.chkScience2 = new System.Windows.Forms.CheckBox();
+            this.chkScience1 = new System.Windows.Forms.CheckBox();
+            this.chkPresence = new System.Windows.Forms.CheckBox();
+            this.chkPolitics = new System.Windows.Forms.CheckBox();
+            this.chkOccult = new System.Windows.Forms.CheckBox();
+            this.chkMelee = new System.Windows.Forms.CheckBox();
+            this.chkMedicine = new System.Windows.Forms.CheckBox();
+            this.chkMarksmanship = new System.Windows.Forms.CheckBox();
+            this.chkLarceny = new System.Windows.Forms.CheckBox();
+            this.chkInvestigation = new System.Windows.Forms.CheckBox();
+            this.chkIntegrity = new System.Windows.Forms.CheckBox();
+            this.chkFortitude = new System.Windows.Forms.CheckBox();
+            this.chkEmpathy = new System.Windows.Forms.CheckBox();
+            this.chkCraft3 = new System.Windows.Forms.CheckBox();
+            this.chkCraft2 = new System.Windows.Forms.CheckBox();
+            this.chkCraft1 = new System.Windows.Forms.CheckBox();
+            this.chkControl2 = new System.Windows.Forms.CheckBox();
+            this.chkControl1 = new System.Windows.Forms.CheckBox();
+            this.chkCommand = new System.Windows.Forms.CheckBox();
+            this.chkBrawl = new System.Windows.Forms.CheckBox();
+            this.chkAwareness = new System.Windows.Forms.CheckBox();
+            this.chkAthletics = new System.Windows.Forms.CheckBox();
+            this.chkArt2 = new System.Windows.Forms.CheckBox();
+            this.chkArt1 = new System.Windows.Forms.CheckBox();
+            this.chkAnimalKen = new System.Windows.Forms.CheckBox();
+            this.chkAcademics = new System.Windows.Forms.CheckBox();
             this.groupAttributes.SuspendLayout();
             this.groupAbilities.SuspendLayout();
             this.SuspendLayout();
@@ -3271,921 +3271,6 @@
             this.groupAbilities.TabStop = false;
             this.groupAbilities.Text = "Abilities";
             // 
-            // chkCommand
-            // 
-            this.chkCommand.AccessibleName = "";
-            this.chkCommand.AutoSize = true;
-            this.chkCommand.Location = new System.Drawing.Point(7, 118);
-            this.chkCommand.Name = "chkCommand";
-            this.chkCommand.Size = new System.Drawing.Size(73, 17);
-            this.chkCommand.TabIndex = 7;
-            this.chkCommand.Text = "Command";
-            this.chkCommand.UseVisualStyleBackColor = true;
-            // 
-            // chkBrawl
-            // 
-            this.chkBrawl.AccessibleName = "";
-            this.chkBrawl.AutoSize = true;
-            this.chkBrawl.Location = new System.Drawing.Point(7, 104);
-            this.chkBrawl.Name = "chkBrawl";
-            this.chkBrawl.Size = new System.Drawing.Size(52, 17);
-            this.chkBrawl.TabIndex = 6;
-            this.chkBrawl.Text = "Brawl";
-            this.chkBrawl.UseVisualStyleBackColor = true;
-            // 
-            // chkAwareness
-            // 
-            this.chkAwareness.AccessibleName = "Awareness";
-            this.chkAwareness.AutoSize = true;
-            this.chkAwareness.Location = new System.Drawing.Point(7, 90);
-            this.chkAwareness.Name = "chkAwareness";
-            this.chkAwareness.Size = new System.Drawing.Size(78, 17);
-            this.chkAwareness.TabIndex = 5;
-            this.chkAwareness.Text = "Awareness";
-            this.chkAwareness.UseVisualStyleBackColor = true;
-            // 
-            // chkAthletics
-            // 
-            this.chkAthletics.AutoSize = true;
-            this.chkAthletics.Location = new System.Drawing.Point(7, 76);
-            this.chkAthletics.Name = "chkAthletics";
-            this.chkAthletics.Size = new System.Drawing.Size(66, 17);
-            this.chkAthletics.TabIndex = 4;
-            this.chkAthletics.Text = "Athletics";
-            this.chkAthletics.UseVisualStyleBackColor = true;
-            // 
-            // chkArt2
-            // 
-            this.chkArt2.AutoSize = true;
-            this.chkArt2.Location = new System.Drawing.Point(7, 62);
-            this.chkArt2.Name = "chkArt2";
-            this.chkArt2.Size = new System.Drawing.Size(39, 17);
-            this.chkArt2.TabIndex = 3;
-            this.chkArt2.Text = "Art";
-            this.chkArt2.UseVisualStyleBackColor = true;
-            // 
-            // chkArt1
-            // 
-            this.chkArt1.AutoSize = true;
-            this.chkArt1.Location = new System.Drawing.Point(7, 48);
-            this.chkArt1.Name = "chkArt1";
-            this.chkArt1.Size = new System.Drawing.Size(39, 17);
-            this.chkArt1.TabIndex = 2;
-            this.chkArt1.Text = "Art";
-            this.chkArt1.UseVisualStyleBackColor = true;
-            // 
-            // chkAnimalKen
-            // 
-            this.chkAnimalKen.AutoSize = true;
-            this.chkAnimalKen.Location = new System.Drawing.Point(7, 34);
-            this.chkAnimalKen.Name = "chkAnimalKen";
-            this.chkAnimalKen.Size = new System.Drawing.Size(79, 17);
-            this.chkAnimalKen.TabIndex = 1;
-            this.chkAnimalKen.Text = "Animal Ken";
-            this.chkAnimalKen.UseVisualStyleBackColor = true;
-            // 
-            // chkAcademics
-            // 
-            this.chkAcademics.AutoSize = true;
-            this.chkAcademics.Location = new System.Drawing.Point(7, 20);
-            this.chkAcademics.Name = "chkAcademics";
-            this.chkAcademics.Size = new System.Drawing.Size(78, 17);
-            this.chkAcademics.TabIndex = 0;
-            this.chkAcademics.Text = "Academics";
-            this.chkAcademics.UseVisualStyleBackColor = true;
-            // 
-            // chkControl1
-            // 
-            this.chkControl1.AccessibleName = "";
-            this.chkControl1.AutoSize = true;
-            this.chkControl1.Location = new System.Drawing.Point(7, 132);
-            this.chkControl1.Name = "chkControl1";
-            this.chkControl1.Size = new System.Drawing.Size(59, 17);
-            this.chkControl1.TabIndex = 8;
-            this.chkControl1.Text = "Control";
-            this.chkControl1.UseVisualStyleBackColor = true;
-            // 
-            // chkControl2
-            // 
-            this.chkControl2.AccessibleName = "";
-            this.chkControl2.AutoSize = true;
-            this.chkControl2.Location = new System.Drawing.Point(7, 146);
-            this.chkControl2.Name = "chkControl2";
-            this.chkControl2.Size = new System.Drawing.Size(59, 17);
-            this.chkControl2.TabIndex = 9;
-            this.chkControl2.Text = "Control";
-            this.chkControl2.UseVisualStyleBackColor = true;
-            // 
-            // chkMedicine
-            // 
-            this.chkMedicine.AccessibleName = "";
-            this.chkMedicine.AutoSize = true;
-            this.chkMedicine.Location = new System.Drawing.Point(220, 145);
-            this.chkMedicine.Name = "chkMedicine";
-            this.chkMedicine.Size = new System.Drawing.Size(69, 17);
-            this.chkMedicine.TabIndex = 19;
-            this.chkMedicine.Text = "Medicine";
-            this.chkMedicine.UseVisualStyleBackColor = true;
-            // 
-            // chkMarksmanship
-            // 
-            this.chkMarksmanship.AccessibleName = "";
-            this.chkMarksmanship.AutoSize = true;
-            this.chkMarksmanship.Location = new System.Drawing.Point(220, 131);
-            this.chkMarksmanship.Name = "chkMarksmanship";
-            this.chkMarksmanship.Size = new System.Drawing.Size(94, 17);
-            this.chkMarksmanship.TabIndex = 18;
-            this.chkMarksmanship.Text = "Marksmanship";
-            this.chkMarksmanship.UseVisualStyleBackColor = true;
-            // 
-            // chkLarceny
-            // 
-            this.chkLarceny.AccessibleName = "";
-            this.chkLarceny.AutoSize = true;
-            this.chkLarceny.Location = new System.Drawing.Point(220, 117);
-            this.chkLarceny.Name = "chkLarceny";
-            this.chkLarceny.Size = new System.Drawing.Size(64, 17);
-            this.chkLarceny.TabIndex = 17;
-            this.chkLarceny.Text = "Larceny";
-            this.chkLarceny.UseVisualStyleBackColor = true;
-            // 
-            // chkInvestigation
-            // 
-            this.chkInvestigation.AccessibleName = "";
-            this.chkInvestigation.AutoSize = true;
-            this.chkInvestigation.Location = new System.Drawing.Point(220, 103);
-            this.chkInvestigation.Name = "chkInvestigation";
-            this.chkInvestigation.Size = new System.Drawing.Size(86, 17);
-            this.chkInvestigation.TabIndex = 16;
-            this.chkInvestigation.Text = "Investigation";
-            this.chkInvestigation.UseVisualStyleBackColor = true;
-            // 
-            // chkIntegrity
-            // 
-            this.chkIntegrity.AccessibleName = "s";
-            this.chkIntegrity.AutoSize = true;
-            this.chkIntegrity.Location = new System.Drawing.Point(220, 89);
-            this.chkIntegrity.Name = "chkIntegrity";
-            this.chkIntegrity.Size = new System.Drawing.Size(63, 17);
-            this.chkIntegrity.TabIndex = 15;
-            this.chkIntegrity.Text = "Integrity";
-            this.chkIntegrity.UseVisualStyleBackColor = true;
-            // 
-            // chkFortitude
-            // 
-            this.chkFortitude.AutoSize = true;
-            this.chkFortitude.Location = new System.Drawing.Point(220, 75);
-            this.chkFortitude.Name = "chkFortitude";
-            this.chkFortitude.Size = new System.Drawing.Size(67, 17);
-            this.chkFortitude.TabIndex = 14;
-            this.chkFortitude.Text = "Fortitude";
-            this.chkFortitude.UseVisualStyleBackColor = true;
-            // 
-            // chkEmpathy
-            // 
-            this.chkEmpathy.AutoSize = true;
-            this.chkEmpathy.Location = new System.Drawing.Point(220, 61);
-            this.chkEmpathy.Name = "chkEmpathy";
-            this.chkEmpathy.Size = new System.Drawing.Size(67, 17);
-            this.chkEmpathy.TabIndex = 13;
-            this.chkEmpathy.Text = "Empathy";
-            this.chkEmpathy.UseVisualStyleBackColor = true;
-            // 
-            // chkCraft3
-            // 
-            this.chkCraft3.AutoSize = true;
-            this.chkCraft3.Location = new System.Drawing.Point(220, 47);
-            this.chkCraft3.Name = "chkCraft3";
-            this.chkCraft3.Size = new System.Drawing.Size(48, 17);
-            this.chkCraft3.TabIndex = 12;
-            this.chkCraft3.Text = "Craft";
-            this.chkCraft3.UseVisualStyleBackColor = true;
-            // 
-            // chkCraft2
-            // 
-            this.chkCraft2.AutoSize = true;
-            this.chkCraft2.Location = new System.Drawing.Point(220, 33);
-            this.chkCraft2.Name = "chkCraft2";
-            this.chkCraft2.Size = new System.Drawing.Size(48, 17);
-            this.chkCraft2.TabIndex = 11;
-            this.chkCraft2.Text = "Craft";
-            this.chkCraft2.UseVisualStyleBackColor = true;
-            // 
-            // chkCraft1
-            // 
-            this.chkCraft1.AutoSize = true;
-            this.chkCraft1.Location = new System.Drawing.Point(220, 19);
-            this.chkCraft1.Name = "chkCraft1";
-            this.chkCraft1.Size = new System.Drawing.Size(48, 17);
-            this.chkCraft1.TabIndex = 10;
-            this.chkCraft1.Text = "Craft";
-            this.chkCraft1.UseVisualStyleBackColor = true;
-            // 
-            // chkThrown
-            // 
-            this.chkThrown.AccessibleName = "";
-            this.chkThrown.AutoSize = true;
-            this.chkThrown.Location = new System.Drawing.Point(439, 145);
-            this.chkThrown.Name = "chkThrown";
-            this.chkThrown.Size = new System.Drawing.Size(62, 17);
-            this.chkThrown.TabIndex = 29;
-            this.chkThrown.Text = "Thrown";
-            this.chkThrown.UseVisualStyleBackColor = true;
-            // 
-            // chkSurvival
-            // 
-            this.chkSurvival.AccessibleName = "";
-            this.chkSurvival.AutoSize = true;
-            this.chkSurvival.Location = new System.Drawing.Point(439, 131);
-            this.chkSurvival.Name = "chkSurvival";
-            this.chkSurvival.Size = new System.Drawing.Size(64, 17);
-            this.chkSurvival.TabIndex = 28;
-            this.chkSurvival.Text = "Survival";
-            this.chkSurvival.UseVisualStyleBackColor = true;
-            // 
-            // chkStealth
-            // 
-            this.chkStealth.AccessibleName = "";
-            this.chkStealth.AutoSize = true;
-            this.chkStealth.Location = new System.Drawing.Point(439, 117);
-            this.chkStealth.Name = "chkStealth";
-            this.chkStealth.Size = new System.Drawing.Size(59, 17);
-            this.chkStealth.TabIndex = 27;
-            this.chkStealth.Text = "Stealth";
-            this.chkStealth.UseVisualStyleBackColor = true;
-            // 
-            // chkScience3
-            // 
-            this.chkScience3.AccessibleName = "";
-            this.chkScience3.AutoSize = true;
-            this.chkScience3.Location = new System.Drawing.Point(439, 103);
-            this.chkScience3.Name = "chkScience3";
-            this.chkScience3.Size = new System.Drawing.Size(65, 17);
-            this.chkScience3.TabIndex = 26;
-            this.chkScience3.Text = "Science";
-            this.chkScience3.UseVisualStyleBackColor = true;
-            // 
-            // chkScience2
-            // 
-            this.chkScience2.AccessibleName = "";
-            this.chkScience2.AutoSize = true;
-            this.chkScience2.Location = new System.Drawing.Point(439, 89);
-            this.chkScience2.Name = "chkScience2";
-            this.chkScience2.Size = new System.Drawing.Size(65, 17);
-            this.chkScience2.TabIndex = 25;
-            this.chkScience2.Text = "Science";
-            this.chkScience2.UseVisualStyleBackColor = true;
-            // 
-            // chkScience1
-            // 
-            this.chkScience1.AutoSize = true;
-            this.chkScience1.Location = new System.Drawing.Point(439, 75);
-            this.chkScience1.Name = "chkScience1";
-            this.chkScience1.Size = new System.Drawing.Size(65, 17);
-            this.chkScience1.TabIndex = 24;
-            this.chkScience1.Text = "Science";
-            this.chkScience1.UseVisualStyleBackColor = true;
-            // 
-            // chkPresence
-            // 
-            this.chkPresence.AutoSize = true;
-            this.chkPresence.Location = new System.Drawing.Point(439, 61);
-            this.chkPresence.Name = "chkPresence";
-            this.chkPresence.Size = new System.Drawing.Size(71, 17);
-            this.chkPresence.TabIndex = 23;
-            this.chkPresence.Text = "Presence";
-            this.chkPresence.UseVisualStyleBackColor = true;
-            // 
-            // chkPolitics
-            // 
-            this.chkPolitics.AutoSize = true;
-            this.chkPolitics.Location = new System.Drawing.Point(439, 47);
-            this.chkPolitics.Name = "chkPolitics";
-            this.chkPolitics.Size = new System.Drawing.Size(59, 17);
-            this.chkPolitics.TabIndex = 22;
-            this.chkPolitics.Text = "Politics";
-            this.chkPolitics.UseVisualStyleBackColor = true;
-            // 
-            // chkOccult
-            // 
-            this.chkOccult.AutoSize = true;
-            this.chkOccult.Location = new System.Drawing.Point(439, 33);
-            this.chkOccult.Name = "chkOccult";
-            this.chkOccult.Size = new System.Drawing.Size(57, 17);
-            this.chkOccult.TabIndex = 21;
-            this.chkOccult.Text = "Occult";
-            this.chkOccult.UseVisualStyleBackColor = true;
-            // 
-            // chkMelee
-            // 
-            this.chkMelee.AutoSize = true;
-            this.chkMelee.Location = new System.Drawing.Point(439, 19);
-            this.chkMelee.Name = "chkMelee";
-            this.chkMelee.Size = new System.Drawing.Size(55, 17);
-            this.chkMelee.TabIndex = 20;
-            this.chkMelee.Text = "Melee";
-            this.chkMelee.UseVisualStyleBackColor = true;
-            // 
-            // radioMedicine5
-            // 
-            this.radioMedicine5.AutoCheck = false;
-            this.radioMedicine5.AutoSize = true;
-            this.radioMedicine5.Location = new System.Drawing.Point(419, 146);
-            this.radioMedicine5.Name = "radioMedicine5";
-            this.radioMedicine5.Size = new System.Drawing.Size(14, 13);
-            this.radioMedicine5.TabIndex = 310;
-            this.radioMedicine5.TabStop = true;
-            this.radioMedicine5.Tag = "";
-            this.radioMedicine5.UseVisualStyleBackColor = true;
-            // 
-            // radioMedicine4
-            // 
-            this.radioMedicine4.AutoCheck = false;
-            this.radioMedicine4.AutoSize = true;
-            this.radioMedicine4.Location = new System.Drawing.Point(404, 146);
-            this.radioMedicine4.Name = "radioMedicine4";
-            this.radioMedicine4.Size = new System.Drawing.Size(14, 13);
-            this.radioMedicine4.TabIndex = 309;
-            this.radioMedicine4.TabStop = true;
-            this.radioMedicine4.Tag = "";
-            this.radioMedicine4.UseVisualStyleBackColor = true;
-            // 
-            // radioMedicine3
-            // 
-            this.radioMedicine3.AutoCheck = false;
-            this.radioMedicine3.AutoSize = true;
-            this.radioMedicine3.Location = new System.Drawing.Point(389, 146);
-            this.radioMedicine3.Name = "radioMedicine3";
-            this.radioMedicine3.Size = new System.Drawing.Size(14, 13);
-            this.radioMedicine3.TabIndex = 308;
-            this.radioMedicine3.TabStop = true;
-            this.radioMedicine3.Tag = "";
-            this.radioMedicine3.UseVisualStyleBackColor = true;
-            // 
-            // radioMedicine2
-            // 
-            this.radioMedicine2.AutoCheck = false;
-            this.radioMedicine2.AutoSize = true;
-            this.radioMedicine2.Location = new System.Drawing.Point(374, 146);
-            this.radioMedicine2.Name = "radioMedicine2";
-            this.radioMedicine2.Size = new System.Drawing.Size(14, 13);
-            this.radioMedicine2.TabIndex = 307;
-            this.radioMedicine2.TabStop = true;
-            this.radioMedicine2.Tag = "";
-            this.radioMedicine2.UseVisualStyleBackColor = true;
-            // 
-            // radioMedicine1
-            // 
-            this.radioMedicine1.AutoCheck = false;
-            this.radioMedicine1.AutoSize = true;
-            this.radioMedicine1.Location = new System.Drawing.Point(359, 146);
-            this.radioMedicine1.Name = "radioMedicine1";
-            this.radioMedicine1.Size = new System.Drawing.Size(14, 13);
-            this.radioMedicine1.TabIndex = 306;
-            this.radioMedicine1.TabStop = true;
-            this.radioMedicine1.Tag = "";
-            this.radioMedicine1.UseVisualStyleBackColor = true;
-            // 
-            // radioMarksmanship5
-            // 
-            this.radioMarksmanship5.AutoCheck = false;
-            this.radioMarksmanship5.AutoSize = true;
-            this.radioMarksmanship5.Location = new System.Drawing.Point(419, 132);
-            this.radioMarksmanship5.Name = "radioMarksmanship5";
-            this.radioMarksmanship5.Size = new System.Drawing.Size(14, 13);
-            this.radioMarksmanship5.TabIndex = 305;
-            this.radioMarksmanship5.TabStop = true;
-            this.radioMarksmanship5.Tag = "";
-            this.radioMarksmanship5.UseVisualStyleBackColor = true;
-            // 
-            // radioMarksmanship4
-            // 
-            this.radioMarksmanship4.AutoCheck = false;
-            this.radioMarksmanship4.AutoSize = true;
-            this.radioMarksmanship4.Location = new System.Drawing.Point(404, 132);
-            this.radioMarksmanship4.Name = "radioMarksmanship4";
-            this.radioMarksmanship4.Size = new System.Drawing.Size(14, 13);
-            this.radioMarksmanship4.TabIndex = 304;
-            this.radioMarksmanship4.TabStop = true;
-            this.radioMarksmanship4.Tag = "";
-            this.radioMarksmanship4.UseVisualStyleBackColor = true;
-            // 
-            // radioMarksmanship3
-            // 
-            this.radioMarksmanship3.AutoCheck = false;
-            this.radioMarksmanship3.AutoSize = true;
-            this.radioMarksmanship3.Location = new System.Drawing.Point(389, 132);
-            this.radioMarksmanship3.Name = "radioMarksmanship3";
-            this.radioMarksmanship3.Size = new System.Drawing.Size(14, 13);
-            this.radioMarksmanship3.TabIndex = 303;
-            this.radioMarksmanship3.TabStop = true;
-            this.radioMarksmanship3.Tag = "";
-            this.radioMarksmanship3.UseVisualStyleBackColor = true;
-            // 
-            // radioMarksmanship2
-            // 
-            this.radioMarksmanship2.AutoCheck = false;
-            this.radioMarksmanship2.AutoSize = true;
-            this.radioMarksmanship2.Location = new System.Drawing.Point(374, 132);
-            this.radioMarksmanship2.Name = "radioMarksmanship2";
-            this.radioMarksmanship2.Size = new System.Drawing.Size(14, 13);
-            this.radioMarksmanship2.TabIndex = 302;
-            this.radioMarksmanship2.TabStop = true;
-            this.radioMarksmanship2.Tag = "";
-            this.radioMarksmanship2.UseVisualStyleBackColor = true;
-            // 
-            // radioMarksmanship1
-            // 
-            this.radioMarksmanship1.AutoCheck = false;
-            this.radioMarksmanship1.AutoSize = true;
-            this.radioMarksmanship1.Location = new System.Drawing.Point(359, 132);
-            this.radioMarksmanship1.Name = "radioMarksmanship1";
-            this.radioMarksmanship1.Size = new System.Drawing.Size(14, 13);
-            this.radioMarksmanship1.TabIndex = 301;
-            this.radioMarksmanship1.TabStop = true;
-            this.radioMarksmanship1.Tag = "";
-            this.radioMarksmanship1.UseVisualStyleBackColor = true;
-            // 
-            // radioLarceny5
-            // 
-            this.radioLarceny5.AutoCheck = false;
-            this.radioLarceny5.AutoSize = true;
-            this.radioLarceny5.Location = new System.Drawing.Point(419, 118);
-            this.radioLarceny5.Name = "radioLarceny5";
-            this.radioLarceny5.Size = new System.Drawing.Size(14, 13);
-            this.radioLarceny5.TabIndex = 300;
-            this.radioLarceny5.TabStop = true;
-            this.radioLarceny5.Tag = "";
-            this.radioLarceny5.UseVisualStyleBackColor = true;
-            // 
-            // radioLarceny4
-            // 
-            this.radioLarceny4.AutoCheck = false;
-            this.radioLarceny4.AutoSize = true;
-            this.radioLarceny4.Location = new System.Drawing.Point(404, 118);
-            this.radioLarceny4.Name = "radioLarceny4";
-            this.radioLarceny4.Size = new System.Drawing.Size(14, 13);
-            this.radioLarceny4.TabIndex = 299;
-            this.radioLarceny4.TabStop = true;
-            this.radioLarceny4.Tag = "";
-            this.radioLarceny4.UseVisualStyleBackColor = true;
-            // 
-            // radioLarceny3
-            // 
-            this.radioLarceny3.AutoCheck = false;
-            this.radioLarceny3.AutoSize = true;
-            this.radioLarceny3.Location = new System.Drawing.Point(389, 118);
-            this.radioLarceny3.Name = "radioLarceny3";
-            this.radioLarceny3.Size = new System.Drawing.Size(14, 13);
-            this.radioLarceny3.TabIndex = 298;
-            this.radioLarceny3.TabStop = true;
-            this.radioLarceny3.Tag = "";
-            this.radioLarceny3.UseVisualStyleBackColor = true;
-            // 
-            // radioLarceny2
-            // 
-            this.radioLarceny2.AutoCheck = false;
-            this.radioLarceny2.AutoSize = true;
-            this.radioLarceny2.Location = new System.Drawing.Point(374, 118);
-            this.radioLarceny2.Name = "radioLarceny2";
-            this.radioLarceny2.Size = new System.Drawing.Size(14, 13);
-            this.radioLarceny2.TabIndex = 297;
-            this.radioLarceny2.TabStop = true;
-            this.radioLarceny2.Tag = "";
-            this.radioLarceny2.UseVisualStyleBackColor = true;
-            // 
-            // radioLarceny1
-            // 
-            this.radioLarceny1.AutoCheck = false;
-            this.radioLarceny1.AutoSize = true;
-            this.radioLarceny1.Location = new System.Drawing.Point(359, 118);
-            this.radioLarceny1.Name = "radioLarceny1";
-            this.radioLarceny1.Size = new System.Drawing.Size(14, 13);
-            this.radioLarceny1.TabIndex = 296;
-            this.radioLarceny1.TabStop = true;
-            this.radioLarceny1.Tag = "";
-            this.radioLarceny1.UseVisualStyleBackColor = true;
-            // 
-            // radioInvestigation5
-            // 
-            this.radioInvestigation5.AutoCheck = false;
-            this.radioInvestigation5.AutoSize = true;
-            this.radioInvestigation5.Location = new System.Drawing.Point(419, 104);
-            this.radioInvestigation5.Name = "radioInvestigation5";
-            this.radioInvestigation5.Size = new System.Drawing.Size(14, 13);
-            this.radioInvestigation5.TabIndex = 295;
-            this.radioInvestigation5.TabStop = true;
-            this.radioInvestigation5.Tag = "";
-            this.radioInvestigation5.UseVisualStyleBackColor = true;
-            // 
-            // radioInvestigation4
-            // 
-            this.radioInvestigation4.AutoCheck = false;
-            this.radioInvestigation4.AutoSize = true;
-            this.radioInvestigation4.Location = new System.Drawing.Point(404, 104);
-            this.radioInvestigation4.Name = "radioInvestigation4";
-            this.radioInvestigation4.Size = new System.Drawing.Size(14, 13);
-            this.radioInvestigation4.TabIndex = 294;
-            this.radioInvestigation4.TabStop = true;
-            this.radioInvestigation4.Tag = "";
-            this.radioInvestigation4.UseVisualStyleBackColor = true;
-            // 
-            // radioInvestigation3
-            // 
-            this.radioInvestigation3.AutoCheck = false;
-            this.radioInvestigation3.AutoSize = true;
-            this.radioInvestigation3.Location = new System.Drawing.Point(389, 104);
-            this.radioInvestigation3.Name = "radioInvestigation3";
-            this.radioInvestigation3.Size = new System.Drawing.Size(14, 13);
-            this.radioInvestigation3.TabIndex = 293;
-            this.radioInvestigation3.TabStop = true;
-            this.radioInvestigation3.Tag = "";
-            this.radioInvestigation3.UseVisualStyleBackColor = true;
-            // 
-            // radioInvestigation2
-            // 
-            this.radioInvestigation2.AutoCheck = false;
-            this.radioInvestigation2.AutoSize = true;
-            this.radioInvestigation2.Location = new System.Drawing.Point(374, 104);
-            this.radioInvestigation2.Name = "radioInvestigation2";
-            this.radioInvestigation2.Size = new System.Drawing.Size(14, 13);
-            this.radioInvestigation2.TabIndex = 292;
-            this.radioInvestigation2.TabStop = true;
-            this.radioInvestigation2.Tag = "";
-            this.radioInvestigation2.UseVisualStyleBackColor = true;
-            // 
-            // radioInvestigation1
-            // 
-            this.radioInvestigation1.AutoCheck = false;
-            this.radioInvestigation1.AutoSize = true;
-            this.radioInvestigation1.Location = new System.Drawing.Point(359, 104);
-            this.radioInvestigation1.Name = "radioInvestigation1";
-            this.radioInvestigation1.Size = new System.Drawing.Size(14, 13);
-            this.radioInvestigation1.TabIndex = 291;
-            this.radioInvestigation1.TabStop = true;
-            this.radioInvestigation1.Tag = "";
-            this.radioInvestigation1.UseVisualStyleBackColor = true;
-            // 
-            // radioIntegrity5
-            // 
-            this.radioIntegrity5.AutoCheck = false;
-            this.radioIntegrity5.AutoSize = true;
-            this.radioIntegrity5.Location = new System.Drawing.Point(419, 90);
-            this.radioIntegrity5.Name = "radioIntegrity5";
-            this.radioIntegrity5.Size = new System.Drawing.Size(14, 13);
-            this.radioIntegrity5.TabIndex = 290;
-            this.radioIntegrity5.TabStop = true;
-            this.radioIntegrity5.Tag = "";
-            this.radioIntegrity5.UseVisualStyleBackColor = true;
-            // 
-            // radioIntegrity4
-            // 
-            this.radioIntegrity4.AutoCheck = false;
-            this.radioIntegrity4.AutoSize = true;
-            this.radioIntegrity4.Location = new System.Drawing.Point(404, 90);
-            this.radioIntegrity4.Name = "radioIntegrity4";
-            this.radioIntegrity4.Size = new System.Drawing.Size(14, 13);
-            this.radioIntegrity4.TabIndex = 289;
-            this.radioIntegrity4.TabStop = true;
-            this.radioIntegrity4.Tag = "";
-            this.radioIntegrity4.UseVisualStyleBackColor = true;
-            // 
-            // radioIntegrity3
-            // 
-            this.radioIntegrity3.AutoCheck = false;
-            this.radioIntegrity3.AutoSize = true;
-            this.radioIntegrity3.Location = new System.Drawing.Point(389, 90);
-            this.radioIntegrity3.Name = "radioIntegrity3";
-            this.radioIntegrity3.Size = new System.Drawing.Size(14, 13);
-            this.radioIntegrity3.TabIndex = 288;
-            this.radioIntegrity3.TabStop = true;
-            this.radioIntegrity3.Tag = "";
-            this.radioIntegrity3.UseVisualStyleBackColor = true;
-            // 
-            // radioIntegrity2
-            // 
-            this.radioIntegrity2.AutoCheck = false;
-            this.radioIntegrity2.AutoSize = true;
-            this.radioIntegrity2.Location = new System.Drawing.Point(374, 90);
-            this.radioIntegrity2.Name = "radioIntegrity2";
-            this.radioIntegrity2.Size = new System.Drawing.Size(14, 13);
-            this.radioIntegrity2.TabIndex = 287;
-            this.radioIntegrity2.TabStop = true;
-            this.radioIntegrity2.Tag = "";
-            this.radioIntegrity2.UseVisualStyleBackColor = true;
-            // 
-            // radioIntegrity1
-            // 
-            this.radioIntegrity1.AutoCheck = false;
-            this.radioIntegrity1.AutoSize = true;
-            this.radioIntegrity1.Location = new System.Drawing.Point(359, 90);
-            this.radioIntegrity1.Name = "radioIntegrity1";
-            this.radioIntegrity1.Size = new System.Drawing.Size(14, 13);
-            this.radioIntegrity1.TabIndex = 286;
-            this.radioIntegrity1.TabStop = true;
-            this.radioIntegrity1.Tag = "";
-            this.radioIntegrity1.UseVisualStyleBackColor = true;
-            // 
-            // radioFortitude5
-            // 
-            this.radioFortitude5.AutoCheck = false;
-            this.radioFortitude5.AutoSize = true;
-            this.radioFortitude5.Location = new System.Drawing.Point(419, 76);
-            this.radioFortitude5.Name = "radioFortitude5";
-            this.radioFortitude5.Size = new System.Drawing.Size(14, 13);
-            this.radioFortitude5.TabIndex = 285;
-            this.radioFortitude5.TabStop = true;
-            this.radioFortitude5.Tag = "";
-            this.radioFortitude5.UseVisualStyleBackColor = true;
-            // 
-            // radioFortitude4
-            // 
-            this.radioFortitude4.AutoCheck = false;
-            this.radioFortitude4.AutoSize = true;
-            this.radioFortitude4.Location = new System.Drawing.Point(404, 76);
-            this.radioFortitude4.Name = "radioFortitude4";
-            this.radioFortitude4.Size = new System.Drawing.Size(14, 13);
-            this.radioFortitude4.TabIndex = 284;
-            this.radioFortitude4.TabStop = true;
-            this.radioFortitude4.Tag = "";
-            this.radioFortitude4.UseVisualStyleBackColor = true;
-            // 
-            // radioFortitude3
-            // 
-            this.radioFortitude3.AutoCheck = false;
-            this.radioFortitude3.AutoSize = true;
-            this.radioFortitude3.Location = new System.Drawing.Point(389, 76);
-            this.radioFortitude3.Name = "radioFortitude3";
-            this.radioFortitude3.Size = new System.Drawing.Size(14, 13);
-            this.radioFortitude3.TabIndex = 283;
-            this.radioFortitude3.TabStop = true;
-            this.radioFortitude3.Tag = "";
-            this.radioFortitude3.UseVisualStyleBackColor = true;
-            // 
-            // radioFortitude2
-            // 
-            this.radioFortitude2.AutoCheck = false;
-            this.radioFortitude2.AutoSize = true;
-            this.radioFortitude2.Location = new System.Drawing.Point(374, 76);
-            this.radioFortitude2.Name = "radioFortitude2";
-            this.radioFortitude2.Size = new System.Drawing.Size(14, 13);
-            this.radioFortitude2.TabIndex = 282;
-            this.radioFortitude2.TabStop = true;
-            this.radioFortitude2.Tag = "";
-            this.radioFortitude2.UseVisualStyleBackColor = true;
-            // 
-            // radioFortitude1
-            // 
-            this.radioFortitude1.AutoCheck = false;
-            this.radioFortitude1.AutoSize = true;
-            this.radioFortitude1.Location = new System.Drawing.Point(359, 76);
-            this.radioFortitude1.Name = "radioFortitude1";
-            this.radioFortitude1.Size = new System.Drawing.Size(14, 13);
-            this.radioFortitude1.TabIndex = 281;
-            this.radioFortitude1.TabStop = true;
-            this.radioFortitude1.Tag = "";
-            this.radioFortitude1.UseVisualStyleBackColor = true;
-            // 
-            // radioEmpathy5
-            // 
-            this.radioEmpathy5.AutoCheck = false;
-            this.radioEmpathy5.AutoSize = true;
-            this.radioEmpathy5.Location = new System.Drawing.Point(419, 62);
-            this.radioEmpathy5.Name = "radioEmpathy5";
-            this.radioEmpathy5.Size = new System.Drawing.Size(14, 13);
-            this.radioEmpathy5.TabIndex = 280;
-            this.radioEmpathy5.TabStop = true;
-            this.radioEmpathy5.Tag = "";
-            this.radioEmpathy5.UseVisualStyleBackColor = true;
-            // 
-            // radioEmpathy4
-            // 
-            this.radioEmpathy4.AutoCheck = false;
-            this.radioEmpathy4.AutoSize = true;
-            this.radioEmpathy4.Location = new System.Drawing.Point(404, 62);
-            this.radioEmpathy4.Name = "radioEmpathy4";
-            this.radioEmpathy4.Size = new System.Drawing.Size(14, 13);
-            this.radioEmpathy4.TabIndex = 279;
-            this.radioEmpathy4.TabStop = true;
-            this.radioEmpathy4.Tag = "";
-            this.radioEmpathy4.UseVisualStyleBackColor = true;
-            // 
-            // radioEmpathy3
-            // 
-            this.radioEmpathy3.AutoCheck = false;
-            this.radioEmpathy3.AutoSize = true;
-            this.radioEmpathy3.Location = new System.Drawing.Point(389, 62);
-            this.radioEmpathy3.Name = "radioEmpathy3";
-            this.radioEmpathy3.Size = new System.Drawing.Size(14, 13);
-            this.radioEmpathy3.TabIndex = 278;
-            this.radioEmpathy3.TabStop = true;
-            this.radioEmpathy3.Tag = "";
-            this.radioEmpathy3.UseVisualStyleBackColor = true;
-            // 
-            // radioEmpathy2
-            // 
-            this.radioEmpathy2.AutoCheck = false;
-            this.radioEmpathy2.AutoSize = true;
-            this.radioEmpathy2.Location = new System.Drawing.Point(374, 62);
-            this.radioEmpathy2.Name = "radioEmpathy2";
-            this.radioEmpathy2.Size = new System.Drawing.Size(14, 13);
-            this.radioEmpathy2.TabIndex = 277;
-            this.radioEmpathy2.TabStop = true;
-            this.radioEmpathy2.Tag = "";
-            this.radioEmpathy2.UseVisualStyleBackColor = true;
-            // 
-            // radioEmpathy1
-            // 
-            this.radioEmpathy1.AutoCheck = false;
-            this.radioEmpathy1.AutoSize = true;
-            this.radioEmpathy1.Location = new System.Drawing.Point(359, 62);
-            this.radioEmpathy1.Name = "radioEmpathy1";
-            this.radioEmpathy1.Size = new System.Drawing.Size(14, 13);
-            this.radioEmpathy1.TabIndex = 276;
-            this.radioEmpathy1.TabStop = true;
-            this.radioEmpathy1.Tag = "";
-            this.radioEmpathy1.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft35
-            // 
-            this.radioCraft35.AutoCheck = false;
-            this.radioCraft35.AutoSize = true;
-            this.radioCraft35.Location = new System.Drawing.Point(419, 48);
-            this.radioCraft35.Name = "radioCraft35";
-            this.radioCraft35.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft35.TabIndex = 275;
-            this.radioCraft35.TabStop = true;
-            this.radioCraft35.Tag = "";
-            this.radioCraft35.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft34
-            // 
-            this.radioCraft34.AutoCheck = false;
-            this.radioCraft34.AutoSize = true;
-            this.radioCraft34.Location = new System.Drawing.Point(404, 48);
-            this.radioCraft34.Name = "radioCraft34";
-            this.radioCraft34.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft34.TabIndex = 274;
-            this.radioCraft34.TabStop = true;
-            this.radioCraft34.Tag = "";
-            this.radioCraft34.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft33
-            // 
-            this.radioCraft33.AutoCheck = false;
-            this.radioCraft33.AutoSize = true;
-            this.radioCraft33.Location = new System.Drawing.Point(389, 48);
-            this.radioCraft33.Name = "radioCraft33";
-            this.radioCraft33.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft33.TabIndex = 273;
-            this.radioCraft33.TabStop = true;
-            this.radioCraft33.Tag = "";
-            this.radioCraft33.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft32
-            // 
-            this.radioCraft32.AutoCheck = false;
-            this.radioCraft32.AutoSize = true;
-            this.radioCraft32.Location = new System.Drawing.Point(374, 48);
-            this.radioCraft32.Name = "radioCraft32";
-            this.radioCraft32.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft32.TabIndex = 272;
-            this.radioCraft32.TabStop = true;
-            this.radioCraft32.Tag = "";
-            this.radioCraft32.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft31
-            // 
-            this.radioCraft31.AutoCheck = false;
-            this.radioCraft31.AutoSize = true;
-            this.radioCraft31.Location = new System.Drawing.Point(359, 48);
-            this.radioCraft31.Name = "radioCraft31";
-            this.radioCraft31.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft31.TabIndex = 271;
-            this.radioCraft31.TabStop = true;
-            this.radioCraft31.Tag = "";
-            this.radioCraft31.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft25
-            // 
-            this.radioCraft25.AutoCheck = false;
-            this.radioCraft25.AutoSize = true;
-            this.radioCraft25.Location = new System.Drawing.Point(419, 34);
-            this.radioCraft25.Name = "radioCraft25";
-            this.radioCraft25.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft25.TabIndex = 270;
-            this.radioCraft25.TabStop = true;
-            this.radioCraft25.Tag = "";
-            this.radioCraft25.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft24
-            // 
-            this.radioCraft24.AutoCheck = false;
-            this.radioCraft24.AutoSize = true;
-            this.radioCraft24.Location = new System.Drawing.Point(404, 34);
-            this.radioCraft24.Name = "radioCraft24";
-            this.radioCraft24.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft24.TabIndex = 269;
-            this.radioCraft24.TabStop = true;
-            this.radioCraft24.Tag = "";
-            this.radioCraft24.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft23
-            // 
-            this.radioCraft23.AutoCheck = false;
-            this.radioCraft23.AutoSize = true;
-            this.radioCraft23.Location = new System.Drawing.Point(389, 34);
-            this.radioCraft23.Name = "radioCraft23";
-            this.radioCraft23.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft23.TabIndex = 268;
-            this.radioCraft23.TabStop = true;
-            this.radioCraft23.Tag = "";
-            this.radioCraft23.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft22
-            // 
-            this.radioCraft22.AutoCheck = false;
-            this.radioCraft22.AutoSize = true;
-            this.radioCraft22.Location = new System.Drawing.Point(374, 34);
-            this.radioCraft22.Name = "radioCraft22";
-            this.radioCraft22.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft22.TabIndex = 267;
-            this.radioCraft22.TabStop = true;
-            this.radioCraft22.Tag = "";
-            this.radioCraft22.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft21
-            // 
-            this.radioCraft21.AutoCheck = false;
-            this.radioCraft21.AutoSize = true;
-            this.radioCraft21.Location = new System.Drawing.Point(359, 34);
-            this.radioCraft21.Name = "radioCraft21";
-            this.radioCraft21.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft21.TabIndex = 266;
-            this.radioCraft21.TabStop = true;
-            this.radioCraft21.Tag = "";
-            this.radioCraft21.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft15
-            // 
-            this.radioCraft15.AutoCheck = false;
-            this.radioCraft15.AutoSize = true;
-            this.radioCraft15.Location = new System.Drawing.Point(419, 20);
-            this.radioCraft15.Name = "radioCraft15";
-            this.radioCraft15.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft15.TabIndex = 265;
-            this.radioCraft15.TabStop = true;
-            this.radioCraft15.Tag = "";
-            this.radioCraft15.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft14
-            // 
-            this.radioCraft14.AutoCheck = false;
-            this.radioCraft14.AutoSize = true;
-            this.radioCraft14.Location = new System.Drawing.Point(404, 20);
-            this.radioCraft14.Name = "radioCraft14";
-            this.radioCraft14.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft14.TabIndex = 264;
-            this.radioCraft14.TabStop = true;
-            this.radioCraft14.Tag = "";
-            this.radioCraft14.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft13
-            // 
-            this.radioCraft13.AutoCheck = false;
-            this.radioCraft13.AutoSize = true;
-            this.radioCraft13.Location = new System.Drawing.Point(389, 20);
-            this.radioCraft13.Name = "radioCraft13";
-            this.radioCraft13.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft13.TabIndex = 263;
-            this.radioCraft13.TabStop = true;
-            this.radioCraft13.Tag = "";
-            this.radioCraft13.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft12
-            // 
-            this.radioCraft12.AutoCheck = false;
-            this.radioCraft12.AutoSize = true;
-            this.radioCraft12.Location = new System.Drawing.Point(374, 20);
-            this.radioCraft12.Name = "radioCraft12";
-            this.radioCraft12.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft12.TabIndex = 262;
-            this.radioCraft12.TabStop = true;
-            this.radioCraft12.Tag = "";
-            this.radioCraft12.UseVisualStyleBackColor = true;
-            // 
-            // radioCraft11
-            // 
-            this.radioCraft11.AutoCheck = false;
-            this.radioCraft11.AutoSize = true;
-            this.radioCraft11.Location = new System.Drawing.Point(359, 20);
-            this.radioCraft11.Name = "radioCraft11";
-            this.radioCraft11.Size = new System.Drawing.Size(14, 13);
-            this.radioCraft11.TabIndex = 261;
-            this.radioCraft11.TabStop = true;
-            this.radioCraft11.Tag = "";
-            this.radioCraft11.UseVisualStyleBackColor = true;
-            // 
             // radioThrown5
             // 
             this.radioThrown5.AutoCheck = false;
@@ -4197,6 +3282,7 @@
             this.radioThrown5.TabStop = true;
             this.radioThrown5.Tag = "";
             this.radioThrown5.UseVisualStyleBackColor = true;
+            this.radioThrown5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioThrown4
             // 
@@ -4209,6 +3295,7 @@
             this.radioThrown4.TabStop = true;
             this.radioThrown4.Tag = "";
             this.radioThrown4.UseVisualStyleBackColor = true;
+            this.radioThrown4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioThrown3
             // 
@@ -4221,6 +3308,7 @@
             this.radioThrown3.TabStop = true;
             this.radioThrown3.Tag = "";
             this.radioThrown3.UseVisualStyleBackColor = true;
+            this.radioThrown3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioThrown2
             // 
@@ -4233,6 +3321,7 @@
             this.radioThrown2.TabStop = true;
             this.radioThrown2.Tag = "";
             this.radioThrown2.UseVisualStyleBackColor = true;
+            this.radioThrown2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioThrown1
             // 
@@ -4245,6 +3334,7 @@
             this.radioThrown1.TabStop = true;
             this.radioThrown1.Tag = "";
             this.radioThrown1.UseVisualStyleBackColor = true;
+            this.radioThrown1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioSurvival5
             // 
@@ -4257,6 +3347,7 @@
             this.radioSurvival5.TabStop = true;
             this.radioSurvival5.Tag = "";
             this.radioSurvival5.UseVisualStyleBackColor = true;
+            this.radioSurvival5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioSurvival4
             // 
@@ -4269,6 +3360,7 @@
             this.radioSurvival4.TabStop = true;
             this.radioSurvival4.Tag = "";
             this.radioSurvival4.UseVisualStyleBackColor = true;
+            this.radioSurvival4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioSurvival3
             // 
@@ -4281,6 +3373,7 @@
             this.radioSurvival3.TabStop = true;
             this.radioSurvival3.Tag = "";
             this.radioSurvival3.UseVisualStyleBackColor = true;
+            this.radioSurvival3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioSurvival2
             // 
@@ -4293,6 +3386,7 @@
             this.radioSurvival2.TabStop = true;
             this.radioSurvival2.Tag = "";
             this.radioSurvival2.UseVisualStyleBackColor = true;
+            this.radioSurvival2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioSurvival1
             // 
@@ -4305,6 +3399,7 @@
             this.radioSurvival1.TabStop = true;
             this.radioSurvival1.Tag = "";
             this.radioSurvival1.UseVisualStyleBackColor = true;
+            this.radioSurvival1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioStealth5
             // 
@@ -4317,6 +3412,7 @@
             this.radioStealth5.TabStop = true;
             this.radioStealth5.Tag = "";
             this.radioStealth5.UseVisualStyleBackColor = true;
+            this.radioStealth5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioStealth4
             // 
@@ -4329,6 +3425,7 @@
             this.radioStealth4.TabStop = true;
             this.radioStealth4.Tag = "";
             this.radioStealth4.UseVisualStyleBackColor = true;
+            this.radioStealth4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioStealth3
             // 
@@ -4341,6 +3438,7 @@
             this.radioStealth3.TabStop = true;
             this.radioStealth3.Tag = "";
             this.radioStealth3.UseVisualStyleBackColor = true;
+            this.radioStealth3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioStealth2
             // 
@@ -4353,6 +3451,7 @@
             this.radioStealth2.TabStop = true;
             this.radioStealth2.Tag = "";
             this.radioStealth2.UseVisualStyleBackColor = true;
+            this.radioStealth2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioStealth1
             // 
@@ -4365,6 +3464,7 @@
             this.radioStealth1.TabStop = true;
             this.radioStealth1.Tag = "";
             this.radioStealth1.UseVisualStyleBackColor = true;
+            this.radioStealth1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience35
             // 
@@ -4377,6 +3477,7 @@
             this.radioScience35.TabStop = true;
             this.radioScience35.Tag = "";
             this.radioScience35.UseVisualStyleBackColor = true;
+            this.radioScience35.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience34
             // 
@@ -4389,6 +3490,7 @@
             this.radioScience34.TabStop = true;
             this.radioScience34.Tag = "";
             this.radioScience34.UseVisualStyleBackColor = true;
+            this.radioScience34.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience33
             // 
@@ -4401,6 +3503,7 @@
             this.radioScience33.TabStop = true;
             this.radioScience33.Tag = "";
             this.radioScience33.UseVisualStyleBackColor = true;
+            this.radioScience33.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience32
             // 
@@ -4413,6 +3516,7 @@
             this.radioScience32.TabStop = true;
             this.radioScience32.Tag = "";
             this.radioScience32.UseVisualStyleBackColor = true;
+            this.radioScience32.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience31
             // 
@@ -4425,6 +3529,7 @@
             this.radioScience31.TabStop = true;
             this.radioScience31.Tag = "";
             this.radioScience31.UseVisualStyleBackColor = true;
+            this.radioScience31.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience25
             // 
@@ -4437,6 +3542,7 @@
             this.radioScience25.TabStop = true;
             this.radioScience25.Tag = "";
             this.radioScience25.UseVisualStyleBackColor = true;
+            this.radioScience25.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience24
             // 
@@ -4449,6 +3555,7 @@
             this.radioScience24.TabStop = true;
             this.radioScience24.Tag = "";
             this.radioScience24.UseVisualStyleBackColor = true;
+            this.radioScience24.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience23
             // 
@@ -4461,6 +3568,7 @@
             this.radioScience23.TabStop = true;
             this.radioScience23.Tag = "";
             this.radioScience23.UseVisualStyleBackColor = true;
+            this.radioScience23.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience22
             // 
@@ -4473,6 +3581,7 @@
             this.radioScience22.TabStop = true;
             this.radioScience22.Tag = "";
             this.radioScience22.UseVisualStyleBackColor = true;
+            this.radioScience22.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience21
             // 
@@ -4485,6 +3594,7 @@
             this.radioScience21.TabStop = true;
             this.radioScience21.Tag = "";
             this.radioScience21.UseVisualStyleBackColor = true;
+            this.radioScience21.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience15
             // 
@@ -4497,6 +3607,7 @@
             this.radioScience15.TabStop = true;
             this.radioScience15.Tag = "";
             this.radioScience15.UseVisualStyleBackColor = true;
+            this.radioScience15.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience14
             // 
@@ -4509,6 +3620,7 @@
             this.radioScience14.TabStop = true;
             this.radioScience14.Tag = "";
             this.radioScience14.UseVisualStyleBackColor = true;
+            this.radioScience14.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience13
             // 
@@ -4521,6 +3633,7 @@
             this.radioScience13.TabStop = true;
             this.radioScience13.Tag = "";
             this.radioScience13.UseVisualStyleBackColor = true;
+            this.radioScience13.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience12
             // 
@@ -4533,6 +3646,7 @@
             this.radioScience12.TabStop = true;
             this.radioScience12.Tag = "";
             this.radioScience12.UseVisualStyleBackColor = true;
+            this.radioScience12.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioScience11
             // 
@@ -4545,6 +3659,7 @@
             this.radioScience11.TabStop = true;
             this.radioScience11.Tag = "";
             this.radioScience11.UseVisualStyleBackColor = true;
+            this.radioScience11.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPresence5
             // 
@@ -4557,6 +3672,7 @@
             this.radioPresence5.TabStop = true;
             this.radioPresence5.Tag = "";
             this.radioPresence5.UseVisualStyleBackColor = true;
+            this.radioPresence5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPresence4
             // 
@@ -4569,6 +3685,7 @@
             this.radioPresence4.TabStop = true;
             this.radioPresence4.Tag = "";
             this.radioPresence4.UseVisualStyleBackColor = true;
+            this.radioPresence4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPresence3
             // 
@@ -4581,6 +3698,7 @@
             this.radioPresence3.TabStop = true;
             this.radioPresence3.Tag = "";
             this.radioPresence3.UseVisualStyleBackColor = true;
+            this.radioPresence3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPresence2
             // 
@@ -4593,6 +3711,7 @@
             this.radioPresence2.TabStop = true;
             this.radioPresence2.Tag = "";
             this.radioPresence2.UseVisualStyleBackColor = true;
+            this.radioPresence2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPresence1
             // 
@@ -4605,6 +3724,7 @@
             this.radioPresence1.TabStop = true;
             this.radioPresence1.Tag = "";
             this.radioPresence1.UseVisualStyleBackColor = true;
+            this.radioPresence1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPolitics5
             // 
@@ -4617,6 +3737,7 @@
             this.radioPolitics5.TabStop = true;
             this.radioPolitics5.Tag = "";
             this.radioPolitics5.UseVisualStyleBackColor = true;
+            this.radioPolitics5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPolitics4
             // 
@@ -4629,6 +3750,7 @@
             this.radioPolitics4.TabStop = true;
             this.radioPolitics4.Tag = "";
             this.radioPolitics4.UseVisualStyleBackColor = true;
+            this.radioPolitics4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPolitics3
             // 
@@ -4641,6 +3763,7 @@
             this.radioPolitics3.TabStop = true;
             this.radioPolitics3.Tag = "";
             this.radioPolitics3.UseVisualStyleBackColor = true;
+            this.radioPolitics3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPolitics2
             // 
@@ -4653,6 +3776,7 @@
             this.radioPolitics2.TabStop = true;
             this.radioPolitics2.Tag = "";
             this.radioPolitics2.UseVisualStyleBackColor = true;
+            this.radioPolitics2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioPolitics1
             // 
@@ -4665,6 +3789,7 @@
             this.radioPolitics1.TabStop = true;
             this.radioPolitics1.Tag = "";
             this.radioPolitics1.UseVisualStyleBackColor = true;
+            this.radioPolitics1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioOccult5
             // 
@@ -4677,6 +3802,7 @@
             this.radioOccult5.TabStop = true;
             this.radioOccult5.Tag = "";
             this.radioOccult5.UseVisualStyleBackColor = true;
+            this.radioOccult5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioOccult4
             // 
@@ -4689,6 +3815,7 @@
             this.radioOccult4.TabStop = true;
             this.radioOccult4.Tag = "";
             this.radioOccult4.UseVisualStyleBackColor = true;
+            this.radioOccult4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioOccult3
             // 
@@ -4701,6 +3828,7 @@
             this.radioOccult3.TabStop = true;
             this.radioOccult3.Tag = "";
             this.radioOccult3.UseVisualStyleBackColor = true;
+            this.radioOccult3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioOccult2
             // 
@@ -4713,6 +3841,7 @@
             this.radioOccult2.TabStop = true;
             this.radioOccult2.Tag = "";
             this.radioOccult2.UseVisualStyleBackColor = true;
+            this.radioOccult2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioOccult1
             // 
@@ -4725,6 +3854,7 @@
             this.radioOccult1.TabStop = true;
             this.radioOccult1.Tag = "";
             this.radioOccult1.UseVisualStyleBackColor = true;
+            this.radioOccult1.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioMelee5
             // 
@@ -4737,6 +3867,7 @@
             this.radioMelee5.TabStop = true;
             this.radioMelee5.Tag = "";
             this.radioMelee5.UseVisualStyleBackColor = true;
+            this.radioMelee5.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioMelee4
             // 
@@ -4749,6 +3880,7 @@
             this.radioMelee4.TabStop = true;
             this.radioMelee4.Tag = "";
             this.radioMelee4.UseVisualStyleBackColor = true;
+            this.radioMelee4.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioMelee3
             // 
@@ -4761,6 +3893,7 @@
             this.radioMelee3.TabStop = true;
             this.radioMelee3.Tag = "";
             this.radioMelee3.UseVisualStyleBackColor = true;
+            this.radioMelee3.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioMelee2
             // 
@@ -4773,6 +3906,7 @@
             this.radioMelee2.TabStop = true;
             this.radioMelee2.Tag = "";
             this.radioMelee2.UseVisualStyleBackColor = true;
+            this.radioMelee2.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioMelee1
             // 
@@ -4785,594 +3919,657 @@
             this.radioMelee1.TabStop = true;
             this.radioMelee1.Tag = "";
             this.radioMelee1.UseVisualStyleBackColor = true;
-            // 
-            // radioAcademics1
-            // 
-            this.radioAcademics1.AutoCheck = false;
-            this.radioAcademics1.AutoSize = true;
-            this.radioAcademics1.Location = new System.Drawing.Point(140, 21);
-            this.radioAcademics1.Name = "radioAcademics1";
-            this.radioAcademics1.Size = new System.Drawing.Size(14, 13);
-            this.radioAcademics1.TabIndex = 211;
-            this.radioAcademics1.TabStop = true;
-            this.radioAcademics1.Tag = "";
-            this.radioAcademics1.UseVisualStyleBackColor = true;
-            // 
-            // radioAcademics2
-            // 
-            this.radioAcademics2.AutoCheck = false;
-            this.radioAcademics2.AutoSize = true;
-            this.radioAcademics2.Location = new System.Drawing.Point(155, 21);
-            this.radioAcademics2.Name = "radioAcademics2";
-            this.radioAcademics2.Size = new System.Drawing.Size(14, 13);
-            this.radioAcademics2.TabIndex = 212;
-            this.radioAcademics2.TabStop = true;
-            this.radioAcademics2.Tag = "";
-            this.radioAcademics2.UseVisualStyleBackColor = true;
-            // 
-            // radioAcademics3
-            // 
-            this.radioAcademics3.AutoCheck = false;
-            this.radioAcademics3.AutoSize = true;
-            this.radioAcademics3.Location = new System.Drawing.Point(170, 21);
-            this.radioAcademics3.Name = "radioAcademics3";
-            this.radioAcademics3.Size = new System.Drawing.Size(14, 13);
-            this.radioAcademics3.TabIndex = 213;
-            this.radioAcademics3.TabStop = true;
-            this.radioAcademics3.Tag = "";
-            this.radioAcademics3.UseVisualStyleBackColor = true;
-            // 
-            // radioAcademics4
-            // 
-            this.radioAcademics4.AutoCheck = false;
-            this.radioAcademics4.AutoSize = true;
-            this.radioAcademics4.Location = new System.Drawing.Point(185, 21);
-            this.radioAcademics4.Name = "radioAcademics4";
-            this.radioAcademics4.Size = new System.Drawing.Size(14, 13);
-            this.radioAcademics4.TabIndex = 214;
-            this.radioAcademics4.TabStop = true;
-            this.radioAcademics4.Tag = "";
-            this.radioAcademics4.UseVisualStyleBackColor = true;
-            // 
-            // radioAcademics5
-            // 
-            this.radioAcademics5.AutoCheck = false;
-            this.radioAcademics5.AutoSize = true;
-            this.radioAcademics5.Location = new System.Drawing.Point(200, 21);
-            this.radioAcademics5.Name = "radioAcademics5";
-            this.radioAcademics5.Size = new System.Drawing.Size(14, 13);
-            this.radioAcademics5.TabIndex = 215;
-            this.radioAcademics5.TabStop = true;
-            this.radioAcademics5.Tag = "";
-            this.radioAcademics5.UseVisualStyleBackColor = true;
-            // 
-            // radioAnimalKen1
-            // 
-            this.radioAnimalKen1.AutoCheck = false;
-            this.radioAnimalKen1.AutoSize = true;
-            this.radioAnimalKen1.Location = new System.Drawing.Point(140, 35);
-            this.radioAnimalKen1.Name = "radioAnimalKen1";
-            this.radioAnimalKen1.Size = new System.Drawing.Size(14, 13);
-            this.radioAnimalKen1.TabIndex = 216;
-            this.radioAnimalKen1.TabStop = true;
-            this.radioAnimalKen1.Tag = "";
-            this.radioAnimalKen1.UseVisualStyleBackColor = true;
-            // 
-            // radioAnimalKen2
-            // 
-            this.radioAnimalKen2.AutoCheck = false;
-            this.radioAnimalKen2.AutoSize = true;
-            this.radioAnimalKen2.Location = new System.Drawing.Point(155, 35);
-            this.radioAnimalKen2.Name = "radioAnimalKen2";
-            this.radioAnimalKen2.Size = new System.Drawing.Size(14, 13);
-            this.radioAnimalKen2.TabIndex = 217;
-            this.radioAnimalKen2.TabStop = true;
-            this.radioAnimalKen2.Tag = "";
-            this.radioAnimalKen2.UseVisualStyleBackColor = true;
-            // 
-            // radioAnimalKen3
-            // 
-            this.radioAnimalKen3.AutoCheck = false;
-            this.radioAnimalKen3.AutoSize = true;
-            this.radioAnimalKen3.Location = new System.Drawing.Point(170, 35);
-            this.radioAnimalKen3.Name = "radioAnimalKen3";
-            this.radioAnimalKen3.Size = new System.Drawing.Size(14, 13);
-            this.radioAnimalKen3.TabIndex = 218;
-            this.radioAnimalKen3.TabStop = true;
-            this.radioAnimalKen3.Tag = "";
-            this.radioAnimalKen3.UseVisualStyleBackColor = true;
-            // 
-            // radioAnimalKen4
-            // 
-            this.radioAnimalKen4.AutoCheck = false;
-            this.radioAnimalKen4.AutoSize = true;
-            this.radioAnimalKen4.Location = new System.Drawing.Point(185, 35);
-            this.radioAnimalKen4.Name = "radioAnimalKen4";
-            this.radioAnimalKen4.Size = new System.Drawing.Size(14, 13);
-            this.radioAnimalKen4.TabIndex = 219;
-            this.radioAnimalKen4.TabStop = true;
-            this.radioAnimalKen4.Tag = "";
-            this.radioAnimalKen4.UseVisualStyleBackColor = true;
-            // 
-            // radioAnimalKen5
-            // 
-            this.radioAnimalKen5.AutoCheck = false;
-            this.radioAnimalKen5.AutoSize = true;
-            this.radioAnimalKen5.Location = new System.Drawing.Point(200, 35);
-            this.radioAnimalKen5.Name = "radioAnimalKen5";
-            this.radioAnimalKen5.Size = new System.Drawing.Size(14, 13);
-            this.radioAnimalKen5.TabIndex = 220;
-            this.radioAnimalKen5.TabStop = true;
-            this.radioAnimalKen5.Tag = "";
-            this.radioAnimalKen5.UseVisualStyleBackColor = true;
-            // 
-            // radioArt11
-            // 
-            this.radioArt11.AutoCheck = false;
-            this.radioArt11.AutoSize = true;
-            this.radioArt11.Location = new System.Drawing.Point(140, 49);
-            this.radioArt11.Name = "radioArt11";
-            this.radioArt11.Size = new System.Drawing.Size(14, 13);
-            this.radioArt11.TabIndex = 221;
-            this.radioArt11.TabStop = true;
-            this.radioArt11.Tag = "";
-            this.radioArt11.UseVisualStyleBackColor = true;
-            // 
-            // radioArt12
-            // 
-            this.radioArt12.AutoCheck = false;
-            this.radioArt12.AutoSize = true;
-            this.radioArt12.Location = new System.Drawing.Point(155, 49);
-            this.radioArt12.Name = "radioArt12";
-            this.radioArt12.Size = new System.Drawing.Size(14, 13);
-            this.radioArt12.TabIndex = 222;
-            this.radioArt12.TabStop = true;
-            this.radioArt12.Tag = "";
-            this.radioArt12.UseVisualStyleBackColor = true;
-            // 
-            // radioArt13
-            // 
-            this.radioArt13.AutoCheck = false;
-            this.radioArt13.AutoSize = true;
-            this.radioArt13.Location = new System.Drawing.Point(170, 49);
-            this.radioArt13.Name = "radioArt13";
-            this.radioArt13.Size = new System.Drawing.Size(14, 13);
-            this.radioArt13.TabIndex = 223;
-            this.radioArt13.TabStop = true;
-            this.radioArt13.Tag = "";
-            this.radioArt13.UseVisualStyleBackColor = true;
-            // 
-            // radioArt14
-            // 
-            this.radioArt14.AutoCheck = false;
-            this.radioArt14.AutoSize = true;
-            this.radioArt14.Location = new System.Drawing.Point(185, 49);
-            this.radioArt14.Name = "radioArt14";
-            this.radioArt14.Size = new System.Drawing.Size(14, 13);
-            this.radioArt14.TabIndex = 224;
-            this.radioArt14.TabStop = true;
-            this.radioArt14.Tag = "";
-            this.radioArt14.UseVisualStyleBackColor = true;
-            // 
-            // radioArt15
-            // 
-            this.radioArt15.AutoCheck = false;
-            this.radioArt15.AutoSize = true;
-            this.radioArt15.Location = new System.Drawing.Point(200, 49);
-            this.radioArt15.Name = "radioArt15";
-            this.radioArt15.Size = new System.Drawing.Size(14, 13);
-            this.radioArt15.TabIndex = 225;
-            this.radioArt15.TabStop = true;
-            this.radioArt15.Tag = "";
-            this.radioArt15.UseVisualStyleBackColor = true;
-            // 
-            // radioArt21
-            // 
-            this.radioArt21.AutoCheck = false;
-            this.radioArt21.AutoSize = true;
-            this.radioArt21.Location = new System.Drawing.Point(140, 63);
-            this.radioArt21.Name = "radioArt21";
-            this.radioArt21.Size = new System.Drawing.Size(14, 13);
-            this.radioArt21.TabIndex = 226;
-            this.radioArt21.TabStop = true;
-            this.radioArt21.Tag = "";
-            this.radioArt21.UseVisualStyleBackColor = true;
-            // 
-            // radioArt22
-            // 
-            this.radioArt22.AutoCheck = false;
-            this.radioArt22.AutoSize = true;
-            this.radioArt22.Location = new System.Drawing.Point(155, 63);
-            this.radioArt22.Name = "radioArt22";
-            this.radioArt22.Size = new System.Drawing.Size(14, 13);
-            this.radioArt22.TabIndex = 227;
-            this.radioArt22.TabStop = true;
-            this.radioArt22.Tag = "";
-            this.radioArt22.UseVisualStyleBackColor = true;
-            // 
-            // radioArt23
-            // 
-            this.radioArt23.AutoCheck = false;
-            this.radioArt23.AutoSize = true;
-            this.radioArt23.Location = new System.Drawing.Point(170, 63);
-            this.radioArt23.Name = "radioArt23";
-            this.radioArt23.Size = new System.Drawing.Size(14, 13);
-            this.radioArt23.TabIndex = 228;
-            this.radioArt23.TabStop = true;
-            this.radioArt23.Tag = "";
-            this.radioArt23.UseVisualStyleBackColor = true;
-            // 
-            // radioArt24
-            // 
-            this.radioArt24.AutoCheck = false;
-            this.radioArt24.AutoSize = true;
-            this.radioArt24.Location = new System.Drawing.Point(185, 63);
-            this.radioArt24.Name = "radioArt24";
-            this.radioArt24.Size = new System.Drawing.Size(14, 13);
-            this.radioArt24.TabIndex = 229;
-            this.radioArt24.TabStop = true;
-            this.radioArt24.Tag = "";
-            this.radioArt24.UseVisualStyleBackColor = true;
-            // 
-            // radioArt25
-            // 
-            this.radioArt25.AutoCheck = false;
-            this.radioArt25.AutoSize = true;
-            this.radioArt25.Location = new System.Drawing.Point(200, 63);
-            this.radioArt25.Name = "radioArt25";
-            this.radioArt25.Size = new System.Drawing.Size(14, 13);
-            this.radioArt25.TabIndex = 230;
-            this.radioArt25.TabStop = true;
-            this.radioArt25.Tag = "";
-            this.radioArt25.UseVisualStyleBackColor = true;
-            // 
-            // radioAthletics1
-            // 
-            this.radioAthletics1.AutoCheck = false;
-            this.radioAthletics1.AutoSize = true;
-            this.radioAthletics1.Location = new System.Drawing.Point(140, 77);
-            this.radioAthletics1.Name = "radioAthletics1";
-            this.radioAthletics1.Size = new System.Drawing.Size(14, 13);
-            this.radioAthletics1.TabIndex = 231;
-            this.radioAthletics1.TabStop = true;
-            this.radioAthletics1.Tag = "";
-            this.radioAthletics1.UseVisualStyleBackColor = true;
-            // 
-            // radioAthletics2
-            // 
-            this.radioAthletics2.AutoCheck = false;
-            this.radioAthletics2.AutoSize = true;
-            this.radioAthletics2.Location = new System.Drawing.Point(155, 77);
-            this.radioAthletics2.Name = "radioAthletics2";
-            this.radioAthletics2.Size = new System.Drawing.Size(14, 13);
-            this.radioAthletics2.TabIndex = 232;
-            this.radioAthletics2.TabStop = true;
-            this.radioAthletics2.Tag = "";
-            this.radioAthletics2.UseVisualStyleBackColor = true;
-            // 
-            // radioAthletics3
-            // 
-            this.radioAthletics3.AutoCheck = false;
-            this.radioAthletics3.AutoSize = true;
-            this.radioAthletics3.Location = new System.Drawing.Point(170, 77);
-            this.radioAthletics3.Name = "radioAthletics3";
-            this.radioAthletics3.Size = new System.Drawing.Size(14, 13);
-            this.radioAthletics3.TabIndex = 233;
-            this.radioAthletics3.TabStop = true;
-            this.radioAthletics3.Tag = "";
-            this.radioAthletics3.UseVisualStyleBackColor = true;
-            // 
-            // radioAthletics4
-            // 
-            this.radioAthletics4.AutoCheck = false;
-            this.radioAthletics4.AutoSize = true;
-            this.radioAthletics4.Location = new System.Drawing.Point(185, 77);
-            this.radioAthletics4.Name = "radioAthletics4";
-            this.radioAthletics4.Size = new System.Drawing.Size(14, 13);
-            this.radioAthletics4.TabIndex = 234;
-            this.radioAthletics4.TabStop = true;
-            this.radioAthletics4.Tag = "";
-            this.radioAthletics4.UseVisualStyleBackColor = true;
-            // 
-            // radioAthletics5
-            // 
-            this.radioAthletics5.AutoCheck = false;
-            this.radioAthletics5.AutoSize = true;
-            this.radioAthletics5.Location = new System.Drawing.Point(200, 77);
-            this.radioAthletics5.Name = "radioAthletics5";
-            this.radioAthletics5.Size = new System.Drawing.Size(14, 13);
-            this.radioAthletics5.TabIndex = 235;
-            this.radioAthletics5.TabStop = true;
-            this.radioAthletics5.Tag = "";
-            this.radioAthletics5.UseVisualStyleBackColor = true;
-            // 
-            // radioAwareness1
-            // 
-            this.radioAwareness1.AutoCheck = false;
-            this.radioAwareness1.AutoSize = true;
-            this.radioAwareness1.Location = new System.Drawing.Point(140, 91);
-            this.radioAwareness1.Name = "radioAwareness1";
-            this.radioAwareness1.Size = new System.Drawing.Size(14, 13);
-            this.radioAwareness1.TabIndex = 236;
-            this.radioAwareness1.TabStop = true;
-            this.radioAwareness1.Tag = "";
-            this.radioAwareness1.UseVisualStyleBackColor = true;
-            // 
-            // radioAwareness2
-            // 
-            this.radioAwareness2.AutoCheck = false;
-            this.radioAwareness2.AutoSize = true;
-            this.radioAwareness2.Location = new System.Drawing.Point(155, 91);
-            this.radioAwareness2.Name = "radioAwareness2";
-            this.radioAwareness2.Size = new System.Drawing.Size(14, 13);
-            this.radioAwareness2.TabIndex = 237;
-            this.radioAwareness2.TabStop = true;
-            this.radioAwareness2.Tag = "";
-            this.radioAwareness2.UseVisualStyleBackColor = true;
-            // 
-            // radioAwareness3
-            // 
-            this.radioAwareness3.AutoCheck = false;
-            this.radioAwareness3.AutoSize = true;
-            this.radioAwareness3.Location = new System.Drawing.Point(170, 91);
-            this.radioAwareness3.Name = "radioAwareness3";
-            this.radioAwareness3.Size = new System.Drawing.Size(14, 13);
-            this.radioAwareness3.TabIndex = 238;
-            this.radioAwareness3.TabStop = true;
-            this.radioAwareness3.Tag = "";
-            this.radioAwareness3.UseVisualStyleBackColor = true;
-            // 
-            // radioAwareness4
-            // 
-            this.radioAwareness4.AutoCheck = false;
-            this.radioAwareness4.AutoSize = true;
-            this.radioAwareness4.Location = new System.Drawing.Point(185, 91);
-            this.radioAwareness4.Name = "radioAwareness4";
-            this.radioAwareness4.Size = new System.Drawing.Size(14, 13);
-            this.radioAwareness4.TabIndex = 239;
-            this.radioAwareness4.TabStop = true;
-            this.radioAwareness4.Tag = "";
-            this.radioAwareness4.UseVisualStyleBackColor = true;
-            // 
-            // radioAwareness5
-            // 
-            this.radioAwareness5.AutoCheck = false;
-            this.radioAwareness5.AutoSize = true;
-            this.radioAwareness5.Location = new System.Drawing.Point(200, 91);
-            this.radioAwareness5.Name = "radioAwareness5";
-            this.radioAwareness5.Size = new System.Drawing.Size(14, 13);
-            this.radioAwareness5.TabIndex = 240;
-            this.radioAwareness5.TabStop = true;
-            this.radioAwareness5.Tag = "";
-            this.radioAwareness5.UseVisualStyleBackColor = true;
-            // 
-            // radioBrawl1
-            // 
-            this.radioBrawl1.AutoCheck = false;
-            this.radioBrawl1.AutoSize = true;
-            this.radioBrawl1.Location = new System.Drawing.Point(140, 105);
-            this.radioBrawl1.Name = "radioBrawl1";
-            this.radioBrawl1.Size = new System.Drawing.Size(14, 13);
-            this.radioBrawl1.TabIndex = 241;
-            this.radioBrawl1.TabStop = true;
-            this.radioBrawl1.Tag = "";
-            this.radioBrawl1.UseVisualStyleBackColor = true;
-            // 
-            // radioBrawl2
-            // 
-            this.radioBrawl2.AutoCheck = false;
-            this.radioBrawl2.AutoSize = true;
-            this.radioBrawl2.Location = new System.Drawing.Point(155, 105);
-            this.radioBrawl2.Name = "radioBrawl2";
-            this.radioBrawl2.Size = new System.Drawing.Size(14, 13);
-            this.radioBrawl2.TabIndex = 242;
-            this.radioBrawl2.TabStop = true;
-            this.radioBrawl2.Tag = "";
-            this.radioBrawl2.UseVisualStyleBackColor = true;
-            // 
-            // radioBrawl3
-            // 
-            this.radioBrawl3.AutoCheck = false;
-            this.radioBrawl3.AutoSize = true;
-            this.radioBrawl3.Location = new System.Drawing.Point(170, 105);
-            this.radioBrawl3.Name = "radioBrawl3";
-            this.radioBrawl3.Size = new System.Drawing.Size(14, 13);
-            this.radioBrawl3.TabIndex = 243;
-            this.radioBrawl3.TabStop = true;
-            this.radioBrawl3.Tag = "";
-            this.radioBrawl3.UseVisualStyleBackColor = true;
-            // 
-            // radioBrawl4
-            // 
-            this.radioBrawl4.AutoCheck = false;
-            this.radioBrawl4.AutoSize = true;
-            this.radioBrawl4.Location = new System.Drawing.Point(185, 105);
-            this.radioBrawl4.Name = "radioBrawl4";
-            this.radioBrawl4.Size = new System.Drawing.Size(14, 13);
-            this.radioBrawl4.TabIndex = 244;
-            this.radioBrawl4.TabStop = true;
-            this.radioBrawl4.Tag = "";
-            this.radioBrawl4.UseVisualStyleBackColor = true;
-            // 
-            // radioBrawl5
-            // 
-            this.radioBrawl5.AutoCheck = false;
-            this.radioBrawl5.AutoSize = true;
-            this.radioBrawl5.Location = new System.Drawing.Point(200, 105);
-            this.radioBrawl5.Name = "radioBrawl5";
-            this.radioBrawl5.Size = new System.Drawing.Size(14, 13);
-            this.radioBrawl5.TabIndex = 245;
-            this.radioBrawl5.TabStop = true;
-            this.radioBrawl5.Tag = "";
-            this.radioBrawl5.UseVisualStyleBackColor = true;
-            // 
-            // radioCommand1
-            // 
-            this.radioCommand1.AutoCheck = false;
-            this.radioCommand1.AutoSize = true;
-            this.radioCommand1.Location = new System.Drawing.Point(140, 119);
-            this.radioCommand1.Name = "radioCommand1";
-            this.radioCommand1.Size = new System.Drawing.Size(14, 13);
-            this.radioCommand1.TabIndex = 246;
-            this.radioCommand1.TabStop = true;
-            this.radioCommand1.Tag = "";
-            this.radioCommand1.UseVisualStyleBackColor = true;
-            // 
-            // radioCommand2
-            // 
-            this.radioCommand2.AutoCheck = false;
-            this.radioCommand2.AutoSize = true;
-            this.radioCommand2.Location = new System.Drawing.Point(155, 119);
-            this.radioCommand2.Name = "radioCommand2";
-            this.radioCommand2.Size = new System.Drawing.Size(14, 13);
-            this.radioCommand2.TabIndex = 247;
-            this.radioCommand2.TabStop = true;
-            this.radioCommand2.Tag = "";
-            this.radioCommand2.UseVisualStyleBackColor = true;
-            // 
-            // radioCommand3
-            // 
-            this.radioCommand3.AutoCheck = false;
-            this.radioCommand3.AutoSize = true;
-            this.radioCommand3.Location = new System.Drawing.Point(170, 119);
-            this.radioCommand3.Name = "radioCommand3";
-            this.radioCommand3.Size = new System.Drawing.Size(14, 13);
-            this.radioCommand3.TabIndex = 248;
-            this.radioCommand3.TabStop = true;
-            this.radioCommand3.Tag = "";
-            this.radioCommand3.UseVisualStyleBackColor = true;
-            // 
-            // radioCommand4
-            // 
-            this.radioCommand4.AutoCheck = false;
-            this.radioCommand4.AutoSize = true;
-            this.radioCommand4.Location = new System.Drawing.Point(185, 119);
-            this.radioCommand4.Name = "radioCommand4";
-            this.radioCommand4.Size = new System.Drawing.Size(14, 13);
-            this.radioCommand4.TabIndex = 249;
-            this.radioCommand4.TabStop = true;
-            this.radioCommand4.Tag = "";
-            this.radioCommand4.UseVisualStyleBackColor = true;
-            // 
-            // radioCommand5
-            // 
-            this.radioCommand5.AutoCheck = false;
-            this.radioCommand5.AutoSize = true;
-            this.radioCommand5.Location = new System.Drawing.Point(200, 119);
-            this.radioCommand5.Name = "radioCommand5";
-            this.radioCommand5.Size = new System.Drawing.Size(14, 13);
-            this.radioCommand5.TabIndex = 250;
-            this.radioCommand5.TabStop = true;
-            this.radioCommand5.Tag = "";
-            this.radioCommand5.UseVisualStyleBackColor = true;
-            // 
-            // radioControl11
-            // 
-            this.radioControl11.AutoCheck = false;
-            this.radioControl11.AutoSize = true;
-            this.radioControl11.Location = new System.Drawing.Point(140, 133);
-            this.radioControl11.Name = "radioControl11";
-            this.radioControl11.Size = new System.Drawing.Size(14, 13);
-            this.radioControl11.TabIndex = 251;
-            this.radioControl11.TabStop = true;
-            this.radioControl11.Tag = "";
-            this.radioControl11.UseVisualStyleBackColor = true;
-            // 
-            // radioControl12
-            // 
-            this.radioControl12.AutoCheck = false;
-            this.radioControl12.AutoSize = true;
-            this.radioControl12.Location = new System.Drawing.Point(155, 133);
-            this.radioControl12.Name = "radioControl12";
-            this.radioControl12.Size = new System.Drawing.Size(14, 13);
-            this.radioControl12.TabIndex = 252;
-            this.radioControl12.TabStop = true;
-            this.radioControl12.Tag = "";
-            this.radioControl12.UseVisualStyleBackColor = true;
-            // 
-            // radioControl13
-            // 
-            this.radioControl13.AutoCheck = false;
-            this.radioControl13.AutoSize = true;
-            this.radioControl13.Location = new System.Drawing.Point(170, 133);
-            this.radioControl13.Name = "radioControl13";
-            this.radioControl13.Size = new System.Drawing.Size(14, 13);
-            this.radioControl13.TabIndex = 253;
-            this.radioControl13.TabStop = true;
-            this.radioControl13.Tag = "";
-            this.radioControl13.UseVisualStyleBackColor = true;
-            // 
-            // radioControl14
-            // 
-            this.radioControl14.AutoCheck = false;
-            this.radioControl14.AutoSize = true;
-            this.radioControl14.Location = new System.Drawing.Point(185, 133);
-            this.radioControl14.Name = "radioControl14";
-            this.radioControl14.Size = new System.Drawing.Size(14, 13);
-            this.radioControl14.TabIndex = 254;
-            this.radioControl14.TabStop = true;
-            this.radioControl14.Tag = "";
-            this.radioControl14.UseVisualStyleBackColor = true;
-            // 
-            // radioControl15
-            // 
-            this.radioControl15.AutoCheck = false;
-            this.radioControl15.AutoSize = true;
-            this.radioControl15.Location = new System.Drawing.Point(200, 133);
-            this.radioControl15.Name = "radioControl15";
-            this.radioControl15.Size = new System.Drawing.Size(14, 13);
-            this.radioControl15.TabIndex = 255;
-            this.radioControl15.TabStop = true;
-            this.radioControl15.Tag = "";
-            this.radioControl15.UseVisualStyleBackColor = true;
-            // 
-            // radioControl21
-            // 
-            this.radioControl21.AutoCheck = false;
-            this.radioControl21.AutoSize = true;
-            this.radioControl21.Location = new System.Drawing.Point(140, 147);
-            this.radioControl21.Name = "radioControl21";
-            this.radioControl21.Size = new System.Drawing.Size(14, 13);
-            this.radioControl21.TabIndex = 256;
-            this.radioControl21.TabStop = true;
-            this.radioControl21.Tag = "";
-            this.radioControl21.UseVisualStyleBackColor = true;
-            // 
-            // radioControl22
-            // 
-            this.radioControl22.AutoCheck = false;
-            this.radioControl22.AutoSize = true;
-            this.radioControl22.Location = new System.Drawing.Point(155, 147);
-            this.radioControl22.Name = "radioControl22";
-            this.radioControl22.Size = new System.Drawing.Size(14, 13);
-            this.radioControl22.TabIndex = 257;
-            this.radioControl22.TabStop = true;
-            this.radioControl22.Tag = "";
-            this.radioControl22.UseVisualStyleBackColor = true;
-            // 
-            // radioControl23
-            // 
-            this.radioControl23.AutoCheck = false;
-            this.radioControl23.AutoSize = true;
-            this.radioControl23.Location = new System.Drawing.Point(170, 147);
-            this.radioControl23.Name = "radioControl23";
-            this.radioControl23.Size = new System.Drawing.Size(14, 13);
-            this.radioControl23.TabIndex = 258;
-            this.radioControl23.TabStop = true;
-            this.radioControl23.Tag = "";
-            this.radioControl23.UseVisualStyleBackColor = true;
-            // 
-            // radioControl24
-            // 
-            this.radioControl24.AutoCheck = false;
-            this.radioControl24.AutoSize = true;
-            this.radioControl24.Location = new System.Drawing.Point(185, 147);
-            this.radioControl24.Name = "radioControl24";
-            this.radioControl24.Size = new System.Drawing.Size(14, 13);
-            this.radioControl24.TabIndex = 259;
-            this.radioControl24.TabStop = true;
-            this.radioControl24.Tag = "";
-            this.radioControl24.UseVisualStyleBackColor = true;
+            this.radioMelee1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMedicine5
+            // 
+            this.radioMedicine5.AutoCheck = false;
+            this.radioMedicine5.AutoSize = true;
+            this.radioMedicine5.Location = new System.Drawing.Point(419, 146);
+            this.radioMedicine5.Name = "radioMedicine5";
+            this.radioMedicine5.Size = new System.Drawing.Size(14, 13);
+            this.radioMedicine5.TabIndex = 310;
+            this.radioMedicine5.TabStop = true;
+            this.radioMedicine5.Tag = "";
+            this.radioMedicine5.UseVisualStyleBackColor = true;
+            this.radioMedicine5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMedicine4
+            // 
+            this.radioMedicine4.AutoCheck = false;
+            this.radioMedicine4.AutoSize = true;
+            this.radioMedicine4.Location = new System.Drawing.Point(404, 146);
+            this.radioMedicine4.Name = "radioMedicine4";
+            this.radioMedicine4.Size = new System.Drawing.Size(14, 13);
+            this.radioMedicine4.TabIndex = 309;
+            this.radioMedicine4.TabStop = true;
+            this.radioMedicine4.Tag = "";
+            this.radioMedicine4.UseVisualStyleBackColor = true;
+            this.radioMedicine4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMedicine3
+            // 
+            this.radioMedicine3.AutoCheck = false;
+            this.radioMedicine3.AutoSize = true;
+            this.radioMedicine3.Location = new System.Drawing.Point(389, 146);
+            this.radioMedicine3.Name = "radioMedicine3";
+            this.radioMedicine3.Size = new System.Drawing.Size(14, 13);
+            this.radioMedicine3.TabIndex = 308;
+            this.radioMedicine3.TabStop = true;
+            this.radioMedicine3.Tag = "";
+            this.radioMedicine3.UseVisualStyleBackColor = true;
+            this.radioMedicine3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMedicine2
+            // 
+            this.radioMedicine2.AutoCheck = false;
+            this.radioMedicine2.AutoSize = true;
+            this.radioMedicine2.Location = new System.Drawing.Point(374, 146);
+            this.radioMedicine2.Name = "radioMedicine2";
+            this.radioMedicine2.Size = new System.Drawing.Size(14, 13);
+            this.radioMedicine2.TabIndex = 307;
+            this.radioMedicine2.TabStop = true;
+            this.radioMedicine2.Tag = "";
+            this.radioMedicine2.UseVisualStyleBackColor = true;
+            this.radioMedicine2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMedicine1
+            // 
+            this.radioMedicine1.AutoCheck = false;
+            this.radioMedicine1.AutoSize = true;
+            this.radioMedicine1.Location = new System.Drawing.Point(359, 146);
+            this.radioMedicine1.Name = "radioMedicine1";
+            this.radioMedicine1.Size = new System.Drawing.Size(14, 13);
+            this.radioMedicine1.TabIndex = 306;
+            this.radioMedicine1.TabStop = true;
+            this.radioMedicine1.Tag = "";
+            this.radioMedicine1.UseVisualStyleBackColor = true;
+            this.radioMedicine1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMarksmanship5
+            // 
+            this.radioMarksmanship5.AutoCheck = false;
+            this.radioMarksmanship5.AutoSize = true;
+            this.radioMarksmanship5.Location = new System.Drawing.Point(419, 132);
+            this.radioMarksmanship5.Name = "radioMarksmanship5";
+            this.radioMarksmanship5.Size = new System.Drawing.Size(14, 13);
+            this.radioMarksmanship5.TabIndex = 305;
+            this.radioMarksmanship5.TabStop = true;
+            this.radioMarksmanship5.Tag = "";
+            this.radioMarksmanship5.UseVisualStyleBackColor = true;
+            this.radioMarksmanship5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMarksmanship4
+            // 
+            this.radioMarksmanship4.AutoCheck = false;
+            this.radioMarksmanship4.AutoSize = true;
+            this.radioMarksmanship4.Location = new System.Drawing.Point(404, 132);
+            this.radioMarksmanship4.Name = "radioMarksmanship4";
+            this.radioMarksmanship4.Size = new System.Drawing.Size(14, 13);
+            this.radioMarksmanship4.TabIndex = 304;
+            this.radioMarksmanship4.TabStop = true;
+            this.radioMarksmanship4.Tag = "";
+            this.radioMarksmanship4.UseVisualStyleBackColor = true;
+            this.radioMarksmanship4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMarksmanship3
+            // 
+            this.radioMarksmanship3.AutoCheck = false;
+            this.radioMarksmanship3.AutoSize = true;
+            this.radioMarksmanship3.Location = new System.Drawing.Point(389, 132);
+            this.radioMarksmanship3.Name = "radioMarksmanship3";
+            this.radioMarksmanship3.Size = new System.Drawing.Size(14, 13);
+            this.radioMarksmanship3.TabIndex = 303;
+            this.radioMarksmanship3.TabStop = true;
+            this.radioMarksmanship3.Tag = "";
+            this.radioMarksmanship3.UseVisualStyleBackColor = true;
+            this.radioMarksmanship3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMarksmanship2
+            // 
+            this.radioMarksmanship2.AutoCheck = false;
+            this.radioMarksmanship2.AutoSize = true;
+            this.radioMarksmanship2.Location = new System.Drawing.Point(374, 132);
+            this.radioMarksmanship2.Name = "radioMarksmanship2";
+            this.radioMarksmanship2.Size = new System.Drawing.Size(14, 13);
+            this.radioMarksmanship2.TabIndex = 302;
+            this.radioMarksmanship2.TabStop = true;
+            this.radioMarksmanship2.Tag = "";
+            this.radioMarksmanship2.UseVisualStyleBackColor = true;
+            this.radioMarksmanship2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioMarksmanship1
+            // 
+            this.radioMarksmanship1.AutoCheck = false;
+            this.radioMarksmanship1.AutoSize = true;
+            this.radioMarksmanship1.Location = new System.Drawing.Point(359, 132);
+            this.radioMarksmanship1.Name = "radioMarksmanship1";
+            this.radioMarksmanship1.Size = new System.Drawing.Size(14, 13);
+            this.radioMarksmanship1.TabIndex = 301;
+            this.radioMarksmanship1.TabStop = true;
+            this.radioMarksmanship1.Tag = "";
+            this.radioMarksmanship1.UseVisualStyleBackColor = true;
+            this.radioMarksmanship1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioLarceny5
+            // 
+            this.radioLarceny5.AutoCheck = false;
+            this.radioLarceny5.AutoSize = true;
+            this.radioLarceny5.Location = new System.Drawing.Point(419, 118);
+            this.radioLarceny5.Name = "radioLarceny5";
+            this.radioLarceny5.Size = new System.Drawing.Size(14, 13);
+            this.radioLarceny5.TabIndex = 300;
+            this.radioLarceny5.TabStop = true;
+            this.radioLarceny5.Tag = "";
+            this.radioLarceny5.UseVisualStyleBackColor = true;
+            this.radioLarceny5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioLarceny4
+            // 
+            this.radioLarceny4.AutoCheck = false;
+            this.radioLarceny4.AutoSize = true;
+            this.radioLarceny4.Location = new System.Drawing.Point(404, 118);
+            this.radioLarceny4.Name = "radioLarceny4";
+            this.radioLarceny4.Size = new System.Drawing.Size(14, 13);
+            this.radioLarceny4.TabIndex = 299;
+            this.radioLarceny4.TabStop = true;
+            this.radioLarceny4.Tag = "";
+            this.radioLarceny4.UseVisualStyleBackColor = true;
+            this.radioLarceny4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioLarceny3
+            // 
+            this.radioLarceny3.AutoCheck = false;
+            this.radioLarceny3.AutoSize = true;
+            this.radioLarceny3.Location = new System.Drawing.Point(389, 118);
+            this.radioLarceny3.Name = "radioLarceny3";
+            this.radioLarceny3.Size = new System.Drawing.Size(14, 13);
+            this.radioLarceny3.TabIndex = 298;
+            this.radioLarceny3.TabStop = true;
+            this.radioLarceny3.Tag = "";
+            this.radioLarceny3.UseVisualStyleBackColor = true;
+            this.radioLarceny3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioLarceny2
+            // 
+            this.radioLarceny2.AutoCheck = false;
+            this.radioLarceny2.AutoSize = true;
+            this.radioLarceny2.Location = new System.Drawing.Point(374, 118);
+            this.radioLarceny2.Name = "radioLarceny2";
+            this.radioLarceny2.Size = new System.Drawing.Size(14, 13);
+            this.radioLarceny2.TabIndex = 297;
+            this.radioLarceny2.TabStop = true;
+            this.radioLarceny2.Tag = "";
+            this.radioLarceny2.UseVisualStyleBackColor = true;
+            this.radioLarceny2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioLarceny1
+            // 
+            this.radioLarceny1.AutoCheck = false;
+            this.radioLarceny1.AutoSize = true;
+            this.radioLarceny1.Location = new System.Drawing.Point(359, 118);
+            this.radioLarceny1.Name = "radioLarceny1";
+            this.radioLarceny1.Size = new System.Drawing.Size(14, 13);
+            this.radioLarceny1.TabIndex = 296;
+            this.radioLarceny1.TabStop = true;
+            this.radioLarceny1.Tag = "";
+            this.radioLarceny1.UseVisualStyleBackColor = true;
+            this.radioLarceny1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioInvestigation5
+            // 
+            this.radioInvestigation5.AutoCheck = false;
+            this.radioInvestigation5.AutoSize = true;
+            this.radioInvestigation5.Location = new System.Drawing.Point(419, 104);
+            this.radioInvestigation5.Name = "radioInvestigation5";
+            this.radioInvestigation5.Size = new System.Drawing.Size(14, 13);
+            this.radioInvestigation5.TabIndex = 295;
+            this.radioInvestigation5.TabStop = true;
+            this.radioInvestigation5.Tag = "";
+            this.radioInvestigation5.UseVisualStyleBackColor = true;
+            this.radioInvestigation5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioInvestigation4
+            // 
+            this.radioInvestigation4.AutoCheck = false;
+            this.radioInvestigation4.AutoSize = true;
+            this.radioInvestigation4.Location = new System.Drawing.Point(404, 104);
+            this.radioInvestigation4.Name = "radioInvestigation4";
+            this.radioInvestigation4.Size = new System.Drawing.Size(14, 13);
+            this.radioInvestigation4.TabIndex = 294;
+            this.radioInvestigation4.TabStop = true;
+            this.radioInvestigation4.Tag = "";
+            this.radioInvestigation4.UseVisualStyleBackColor = true;
+            this.radioInvestigation4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioInvestigation3
+            // 
+            this.radioInvestigation3.AutoCheck = false;
+            this.radioInvestigation3.AutoSize = true;
+            this.radioInvestigation3.Location = new System.Drawing.Point(389, 104);
+            this.radioInvestigation3.Name = "radioInvestigation3";
+            this.radioInvestigation3.Size = new System.Drawing.Size(14, 13);
+            this.radioInvestigation3.TabIndex = 293;
+            this.radioInvestigation3.TabStop = true;
+            this.radioInvestigation3.Tag = "";
+            this.radioInvestigation3.UseVisualStyleBackColor = true;
+            this.radioInvestigation3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioInvestigation2
+            // 
+            this.radioInvestigation2.AutoCheck = false;
+            this.radioInvestigation2.AutoSize = true;
+            this.radioInvestigation2.Location = new System.Drawing.Point(374, 104);
+            this.radioInvestigation2.Name = "radioInvestigation2";
+            this.radioInvestigation2.Size = new System.Drawing.Size(14, 13);
+            this.radioInvestigation2.TabIndex = 292;
+            this.radioInvestigation2.TabStop = true;
+            this.radioInvestigation2.Tag = "";
+            this.radioInvestigation2.UseVisualStyleBackColor = true;
+            this.radioInvestigation2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioInvestigation1
+            // 
+            this.radioInvestigation1.AutoCheck = false;
+            this.radioInvestigation1.AutoSize = true;
+            this.radioInvestigation1.Location = new System.Drawing.Point(359, 104);
+            this.radioInvestigation1.Name = "radioInvestigation1";
+            this.radioInvestigation1.Size = new System.Drawing.Size(14, 13);
+            this.radioInvestigation1.TabIndex = 291;
+            this.radioInvestigation1.TabStop = true;
+            this.radioInvestigation1.Tag = "";
+            this.radioInvestigation1.UseVisualStyleBackColor = true;
+            this.radioInvestigation1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioIntegrity5
+            // 
+            this.radioIntegrity5.AutoCheck = false;
+            this.radioIntegrity5.AutoSize = true;
+            this.radioIntegrity5.Location = new System.Drawing.Point(419, 90);
+            this.radioIntegrity5.Name = "radioIntegrity5";
+            this.radioIntegrity5.Size = new System.Drawing.Size(14, 13);
+            this.radioIntegrity5.TabIndex = 290;
+            this.radioIntegrity5.TabStop = true;
+            this.radioIntegrity5.Tag = "";
+            this.radioIntegrity5.UseVisualStyleBackColor = true;
+            this.radioIntegrity5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioIntegrity4
+            // 
+            this.radioIntegrity4.AutoCheck = false;
+            this.radioIntegrity4.AutoSize = true;
+            this.radioIntegrity4.Location = new System.Drawing.Point(404, 90);
+            this.radioIntegrity4.Name = "radioIntegrity4";
+            this.radioIntegrity4.Size = new System.Drawing.Size(14, 13);
+            this.radioIntegrity4.TabIndex = 289;
+            this.radioIntegrity4.TabStop = true;
+            this.radioIntegrity4.Tag = "";
+            this.radioIntegrity4.UseVisualStyleBackColor = true;
+            this.radioIntegrity4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioIntegrity3
+            // 
+            this.radioIntegrity3.AutoCheck = false;
+            this.radioIntegrity3.AutoSize = true;
+            this.radioIntegrity3.Location = new System.Drawing.Point(389, 90);
+            this.radioIntegrity3.Name = "radioIntegrity3";
+            this.radioIntegrity3.Size = new System.Drawing.Size(14, 13);
+            this.radioIntegrity3.TabIndex = 288;
+            this.radioIntegrity3.TabStop = true;
+            this.radioIntegrity3.Tag = "";
+            this.radioIntegrity3.UseVisualStyleBackColor = true;
+            this.radioIntegrity3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioIntegrity2
+            // 
+            this.radioIntegrity2.AutoCheck = false;
+            this.radioIntegrity2.AutoSize = true;
+            this.radioIntegrity2.Location = new System.Drawing.Point(374, 90);
+            this.radioIntegrity2.Name = "radioIntegrity2";
+            this.radioIntegrity2.Size = new System.Drawing.Size(14, 13);
+            this.radioIntegrity2.TabIndex = 287;
+            this.radioIntegrity2.TabStop = true;
+            this.radioIntegrity2.Tag = "";
+            this.radioIntegrity2.UseVisualStyleBackColor = true;
+            this.radioIntegrity2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioIntegrity1
+            // 
+            this.radioIntegrity1.AutoCheck = false;
+            this.radioIntegrity1.AutoSize = true;
+            this.radioIntegrity1.Location = new System.Drawing.Point(359, 90);
+            this.radioIntegrity1.Name = "radioIntegrity1";
+            this.radioIntegrity1.Size = new System.Drawing.Size(14, 13);
+            this.radioIntegrity1.TabIndex = 286;
+            this.radioIntegrity1.TabStop = true;
+            this.radioIntegrity1.Tag = "";
+            this.radioIntegrity1.UseVisualStyleBackColor = true;
+            this.radioIntegrity1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioFortitude5
+            // 
+            this.radioFortitude5.AutoCheck = false;
+            this.radioFortitude5.AutoSize = true;
+            this.radioFortitude5.Location = new System.Drawing.Point(419, 76);
+            this.radioFortitude5.Name = "radioFortitude5";
+            this.radioFortitude5.Size = new System.Drawing.Size(14, 13);
+            this.radioFortitude5.TabIndex = 285;
+            this.radioFortitude5.TabStop = true;
+            this.radioFortitude5.Tag = "";
+            this.radioFortitude5.UseVisualStyleBackColor = true;
+            this.radioFortitude5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioFortitude4
+            // 
+            this.radioFortitude4.AutoCheck = false;
+            this.radioFortitude4.AutoSize = true;
+            this.radioFortitude4.Location = new System.Drawing.Point(404, 76);
+            this.radioFortitude4.Name = "radioFortitude4";
+            this.radioFortitude4.Size = new System.Drawing.Size(14, 13);
+            this.radioFortitude4.TabIndex = 284;
+            this.radioFortitude4.TabStop = true;
+            this.radioFortitude4.Tag = "";
+            this.radioFortitude4.UseVisualStyleBackColor = true;
+            this.radioFortitude4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioFortitude3
+            // 
+            this.radioFortitude3.AutoCheck = false;
+            this.radioFortitude3.AutoSize = true;
+            this.radioFortitude3.Location = new System.Drawing.Point(389, 76);
+            this.radioFortitude3.Name = "radioFortitude3";
+            this.radioFortitude3.Size = new System.Drawing.Size(14, 13);
+            this.radioFortitude3.TabIndex = 283;
+            this.radioFortitude3.TabStop = true;
+            this.radioFortitude3.Tag = "";
+            this.radioFortitude3.UseVisualStyleBackColor = true;
+            this.radioFortitude3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioFortitude2
+            // 
+            this.radioFortitude2.AutoCheck = false;
+            this.radioFortitude2.AutoSize = true;
+            this.radioFortitude2.Location = new System.Drawing.Point(374, 76);
+            this.radioFortitude2.Name = "radioFortitude2";
+            this.radioFortitude2.Size = new System.Drawing.Size(14, 13);
+            this.radioFortitude2.TabIndex = 282;
+            this.radioFortitude2.TabStop = true;
+            this.radioFortitude2.Tag = "";
+            this.radioFortitude2.UseVisualStyleBackColor = true;
+            this.radioFortitude2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioFortitude1
+            // 
+            this.radioFortitude1.AutoCheck = false;
+            this.radioFortitude1.AutoSize = true;
+            this.radioFortitude1.Location = new System.Drawing.Point(359, 76);
+            this.radioFortitude1.Name = "radioFortitude1";
+            this.radioFortitude1.Size = new System.Drawing.Size(14, 13);
+            this.radioFortitude1.TabIndex = 281;
+            this.radioFortitude1.TabStop = true;
+            this.radioFortitude1.Tag = "";
+            this.radioFortitude1.UseVisualStyleBackColor = true;
+            this.radioFortitude1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioEmpathy5
+            // 
+            this.radioEmpathy5.AutoCheck = false;
+            this.radioEmpathy5.AutoSize = true;
+            this.radioEmpathy5.Location = new System.Drawing.Point(419, 62);
+            this.radioEmpathy5.Name = "radioEmpathy5";
+            this.radioEmpathy5.Size = new System.Drawing.Size(14, 13);
+            this.radioEmpathy5.TabIndex = 280;
+            this.radioEmpathy5.TabStop = true;
+            this.radioEmpathy5.Tag = "";
+            this.radioEmpathy5.UseVisualStyleBackColor = true;
+            this.radioEmpathy5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioEmpathy4
+            // 
+            this.radioEmpathy4.AutoCheck = false;
+            this.radioEmpathy4.AutoSize = true;
+            this.radioEmpathy4.Location = new System.Drawing.Point(404, 62);
+            this.radioEmpathy4.Name = "radioEmpathy4";
+            this.radioEmpathy4.Size = new System.Drawing.Size(14, 13);
+            this.radioEmpathy4.TabIndex = 279;
+            this.radioEmpathy4.TabStop = true;
+            this.radioEmpathy4.Tag = "";
+            this.radioEmpathy4.UseVisualStyleBackColor = true;
+            this.radioEmpathy4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioEmpathy3
+            // 
+            this.radioEmpathy3.AutoCheck = false;
+            this.radioEmpathy3.AutoSize = true;
+            this.radioEmpathy3.Location = new System.Drawing.Point(389, 62);
+            this.radioEmpathy3.Name = "radioEmpathy3";
+            this.radioEmpathy3.Size = new System.Drawing.Size(14, 13);
+            this.radioEmpathy3.TabIndex = 278;
+            this.radioEmpathy3.TabStop = true;
+            this.radioEmpathy3.Tag = "";
+            this.radioEmpathy3.UseVisualStyleBackColor = true;
+            this.radioEmpathy3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioEmpathy2
+            // 
+            this.radioEmpathy2.AutoCheck = false;
+            this.radioEmpathy2.AutoSize = true;
+            this.radioEmpathy2.Location = new System.Drawing.Point(374, 62);
+            this.radioEmpathy2.Name = "radioEmpathy2";
+            this.radioEmpathy2.Size = new System.Drawing.Size(14, 13);
+            this.radioEmpathy2.TabIndex = 277;
+            this.radioEmpathy2.TabStop = true;
+            this.radioEmpathy2.Tag = "";
+            this.radioEmpathy2.UseVisualStyleBackColor = true;
+            this.radioEmpathy2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioEmpathy1
+            // 
+            this.radioEmpathy1.AutoCheck = false;
+            this.radioEmpathy1.AutoSize = true;
+            this.radioEmpathy1.Location = new System.Drawing.Point(359, 62);
+            this.radioEmpathy1.Name = "radioEmpathy1";
+            this.radioEmpathy1.Size = new System.Drawing.Size(14, 13);
+            this.radioEmpathy1.TabIndex = 276;
+            this.radioEmpathy1.TabStop = true;
+            this.radioEmpathy1.Tag = "";
+            this.radioEmpathy1.UseVisualStyleBackColor = true;
+            this.radioEmpathy1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft35
+            // 
+            this.radioCraft35.AutoCheck = false;
+            this.radioCraft35.AutoSize = true;
+            this.radioCraft35.Location = new System.Drawing.Point(419, 48);
+            this.radioCraft35.Name = "radioCraft35";
+            this.radioCraft35.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft35.TabIndex = 275;
+            this.radioCraft35.TabStop = true;
+            this.radioCraft35.Tag = "";
+            this.radioCraft35.UseVisualStyleBackColor = true;
+            this.radioCraft35.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft34
+            // 
+            this.radioCraft34.AutoCheck = false;
+            this.radioCraft34.AutoSize = true;
+            this.radioCraft34.Location = new System.Drawing.Point(404, 48);
+            this.radioCraft34.Name = "radioCraft34";
+            this.radioCraft34.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft34.TabIndex = 274;
+            this.radioCraft34.TabStop = true;
+            this.radioCraft34.Tag = "";
+            this.radioCraft34.UseVisualStyleBackColor = true;
+            this.radioCraft34.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft33
+            // 
+            this.radioCraft33.AutoCheck = false;
+            this.radioCraft33.AutoSize = true;
+            this.radioCraft33.Location = new System.Drawing.Point(389, 48);
+            this.radioCraft33.Name = "radioCraft33";
+            this.radioCraft33.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft33.TabIndex = 273;
+            this.radioCraft33.TabStop = true;
+            this.radioCraft33.Tag = "";
+            this.radioCraft33.UseVisualStyleBackColor = true;
+            this.radioCraft33.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft32
+            // 
+            this.radioCraft32.AutoCheck = false;
+            this.radioCraft32.AutoSize = true;
+            this.radioCraft32.Location = new System.Drawing.Point(374, 48);
+            this.radioCraft32.Name = "radioCraft32";
+            this.radioCraft32.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft32.TabIndex = 272;
+            this.radioCraft32.TabStop = true;
+            this.radioCraft32.Tag = "";
+            this.radioCraft32.UseVisualStyleBackColor = true;
+            this.radioCraft32.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft31
+            // 
+            this.radioCraft31.AutoCheck = false;
+            this.radioCraft31.AutoSize = true;
+            this.radioCraft31.Location = new System.Drawing.Point(359, 48);
+            this.radioCraft31.Name = "radioCraft31";
+            this.radioCraft31.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft31.TabIndex = 271;
+            this.radioCraft31.TabStop = true;
+            this.radioCraft31.Tag = "";
+            this.radioCraft31.UseVisualStyleBackColor = true;
+            this.radioCraft31.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft25
+            // 
+            this.radioCraft25.AutoCheck = false;
+            this.radioCraft25.AutoSize = true;
+            this.radioCraft25.Location = new System.Drawing.Point(419, 34);
+            this.radioCraft25.Name = "radioCraft25";
+            this.radioCraft25.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft25.TabIndex = 270;
+            this.radioCraft25.TabStop = true;
+            this.radioCraft25.Tag = "";
+            this.radioCraft25.UseVisualStyleBackColor = true;
+            this.radioCraft25.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft24
+            // 
+            this.radioCraft24.AutoCheck = false;
+            this.radioCraft24.AutoSize = true;
+            this.radioCraft24.Location = new System.Drawing.Point(404, 34);
+            this.radioCraft24.Name = "radioCraft24";
+            this.radioCraft24.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft24.TabIndex = 269;
+            this.radioCraft24.TabStop = true;
+            this.radioCraft24.Tag = "";
+            this.radioCraft24.UseVisualStyleBackColor = true;
+            this.radioCraft24.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft23
+            // 
+            this.radioCraft23.AutoCheck = false;
+            this.radioCraft23.AutoSize = true;
+            this.radioCraft23.Location = new System.Drawing.Point(389, 34);
+            this.radioCraft23.Name = "radioCraft23";
+            this.radioCraft23.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft23.TabIndex = 268;
+            this.radioCraft23.TabStop = true;
+            this.radioCraft23.Tag = "";
+            this.radioCraft23.UseVisualStyleBackColor = true;
+            this.radioCraft23.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft22
+            // 
+            this.radioCraft22.AutoCheck = false;
+            this.radioCraft22.AutoSize = true;
+            this.radioCraft22.Location = new System.Drawing.Point(374, 34);
+            this.radioCraft22.Name = "radioCraft22";
+            this.radioCraft22.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft22.TabIndex = 267;
+            this.radioCraft22.TabStop = true;
+            this.radioCraft22.Tag = "";
+            this.radioCraft22.UseVisualStyleBackColor = true;
+            this.radioCraft22.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft21
+            // 
+            this.radioCraft21.AutoCheck = false;
+            this.radioCraft21.AutoSize = true;
+            this.radioCraft21.Location = new System.Drawing.Point(359, 34);
+            this.radioCraft21.Name = "radioCraft21";
+            this.radioCraft21.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft21.TabIndex = 266;
+            this.radioCraft21.TabStop = true;
+            this.radioCraft21.Tag = "";
+            this.radioCraft21.UseVisualStyleBackColor = true;
+            this.radioCraft21.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft15
+            // 
+            this.radioCraft15.AutoCheck = false;
+            this.radioCraft15.AutoSize = true;
+            this.radioCraft15.Location = new System.Drawing.Point(419, 20);
+            this.radioCraft15.Name = "radioCraft15";
+            this.radioCraft15.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft15.TabIndex = 265;
+            this.radioCraft15.TabStop = true;
+            this.radioCraft15.Tag = "";
+            this.radioCraft15.UseVisualStyleBackColor = true;
+            this.radioCraft15.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft14
+            // 
+            this.radioCraft14.AutoCheck = false;
+            this.radioCraft14.AutoSize = true;
+            this.radioCraft14.Location = new System.Drawing.Point(404, 20);
+            this.radioCraft14.Name = "radioCraft14";
+            this.radioCraft14.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft14.TabIndex = 264;
+            this.radioCraft14.TabStop = true;
+            this.radioCraft14.Tag = "";
+            this.radioCraft14.UseVisualStyleBackColor = true;
+            this.radioCraft14.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft13
+            // 
+            this.radioCraft13.AutoCheck = false;
+            this.radioCraft13.AutoSize = true;
+            this.radioCraft13.Location = new System.Drawing.Point(389, 20);
+            this.radioCraft13.Name = "radioCraft13";
+            this.radioCraft13.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft13.TabIndex = 263;
+            this.radioCraft13.TabStop = true;
+            this.radioCraft13.Tag = "";
+            this.radioCraft13.UseVisualStyleBackColor = true;
+            this.radioCraft13.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft12
+            // 
+            this.radioCraft12.AutoCheck = false;
+            this.radioCraft12.AutoSize = true;
+            this.radioCraft12.Location = new System.Drawing.Point(374, 20);
+            this.radioCraft12.Name = "radioCraft12";
+            this.radioCraft12.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft12.TabIndex = 262;
+            this.radioCraft12.TabStop = true;
+            this.radioCraft12.Tag = "";
+            this.radioCraft12.UseVisualStyleBackColor = true;
+            this.radioCraft12.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCraft11
+            // 
+            this.radioCraft11.AutoCheck = false;
+            this.radioCraft11.AutoSize = true;
+            this.radioCraft11.Location = new System.Drawing.Point(359, 20);
+            this.radioCraft11.Name = "radioCraft11";
+            this.radioCraft11.Size = new System.Drawing.Size(14, 13);
+            this.radioCraft11.TabIndex = 261;
+            this.radioCraft11.TabStop = true;
+            this.radioCraft11.Tag = "";
+            this.radioCraft11.UseVisualStyleBackColor = true;
+            this.radioCraft11.Click += new System.EventHandler(this.setAbilityRank);
             // 
             // radioControl25
             // 
@@ -5385,6 +4582,989 @@
             this.radioControl25.TabStop = true;
             this.radioControl25.Tag = "";
             this.radioControl25.UseVisualStyleBackColor = true;
+            this.radioControl25.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl24
+            // 
+            this.radioControl24.AutoCheck = false;
+            this.radioControl24.AutoSize = true;
+            this.radioControl24.Location = new System.Drawing.Point(185, 147);
+            this.radioControl24.Name = "radioControl24";
+            this.radioControl24.Size = new System.Drawing.Size(14, 13);
+            this.radioControl24.TabIndex = 259;
+            this.radioControl24.TabStop = true;
+            this.radioControl24.Tag = "";
+            this.radioControl24.UseVisualStyleBackColor = true;
+            this.radioControl24.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl23
+            // 
+            this.radioControl23.AutoCheck = false;
+            this.radioControl23.AutoSize = true;
+            this.radioControl23.Location = new System.Drawing.Point(170, 147);
+            this.radioControl23.Name = "radioControl23";
+            this.radioControl23.Size = new System.Drawing.Size(14, 13);
+            this.radioControl23.TabIndex = 258;
+            this.radioControl23.TabStop = true;
+            this.radioControl23.Tag = "";
+            this.radioControl23.UseVisualStyleBackColor = true;
+            this.radioControl23.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl22
+            // 
+            this.radioControl22.AutoCheck = false;
+            this.radioControl22.AutoSize = true;
+            this.radioControl22.Location = new System.Drawing.Point(155, 147);
+            this.radioControl22.Name = "radioControl22";
+            this.radioControl22.Size = new System.Drawing.Size(14, 13);
+            this.radioControl22.TabIndex = 257;
+            this.radioControl22.TabStop = true;
+            this.radioControl22.Tag = "";
+            this.radioControl22.UseVisualStyleBackColor = true;
+            this.radioControl22.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl21
+            // 
+            this.radioControl21.AutoCheck = false;
+            this.radioControl21.AutoSize = true;
+            this.radioControl21.Location = new System.Drawing.Point(140, 147);
+            this.radioControl21.Name = "radioControl21";
+            this.radioControl21.Size = new System.Drawing.Size(14, 13);
+            this.radioControl21.TabIndex = 256;
+            this.radioControl21.TabStop = true;
+            this.radioControl21.Tag = "";
+            this.radioControl21.UseVisualStyleBackColor = true;
+            this.radioControl21.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl15
+            // 
+            this.radioControl15.AutoCheck = false;
+            this.radioControl15.AutoSize = true;
+            this.radioControl15.Location = new System.Drawing.Point(200, 133);
+            this.radioControl15.Name = "radioControl15";
+            this.radioControl15.Size = new System.Drawing.Size(14, 13);
+            this.radioControl15.TabIndex = 255;
+            this.radioControl15.TabStop = true;
+            this.radioControl15.Tag = "";
+            this.radioControl15.UseVisualStyleBackColor = true;
+            this.radioControl15.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl14
+            // 
+            this.radioControl14.AutoCheck = false;
+            this.radioControl14.AutoSize = true;
+            this.radioControl14.Location = new System.Drawing.Point(185, 133);
+            this.radioControl14.Name = "radioControl14";
+            this.radioControl14.Size = new System.Drawing.Size(14, 13);
+            this.radioControl14.TabIndex = 254;
+            this.radioControl14.TabStop = true;
+            this.radioControl14.Tag = "";
+            this.radioControl14.UseVisualStyleBackColor = true;
+            this.radioControl14.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl13
+            // 
+            this.radioControl13.AutoCheck = false;
+            this.radioControl13.AutoSize = true;
+            this.radioControl13.Location = new System.Drawing.Point(170, 133);
+            this.radioControl13.Name = "radioControl13";
+            this.radioControl13.Size = new System.Drawing.Size(14, 13);
+            this.radioControl13.TabIndex = 253;
+            this.radioControl13.TabStop = true;
+            this.radioControl13.Tag = "";
+            this.radioControl13.UseVisualStyleBackColor = true;
+            this.radioControl13.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl12
+            // 
+            this.radioControl12.AutoCheck = false;
+            this.radioControl12.AutoSize = true;
+            this.radioControl12.Location = new System.Drawing.Point(155, 133);
+            this.radioControl12.Name = "radioControl12";
+            this.radioControl12.Size = new System.Drawing.Size(14, 13);
+            this.radioControl12.TabIndex = 252;
+            this.radioControl12.TabStop = true;
+            this.radioControl12.Tag = "";
+            this.radioControl12.UseVisualStyleBackColor = true;
+            this.radioControl12.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioControl11
+            // 
+            this.radioControl11.AutoCheck = false;
+            this.radioControl11.AutoSize = true;
+            this.radioControl11.Location = new System.Drawing.Point(140, 133);
+            this.radioControl11.Name = "radioControl11";
+            this.radioControl11.Size = new System.Drawing.Size(14, 13);
+            this.radioControl11.TabIndex = 251;
+            this.radioControl11.TabStop = true;
+            this.radioControl11.Tag = "";
+            this.radioControl11.UseVisualStyleBackColor = true;
+            this.radioControl11.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCommand5
+            // 
+            this.radioCommand5.AutoCheck = false;
+            this.radioCommand5.AutoSize = true;
+            this.radioCommand5.Location = new System.Drawing.Point(200, 119);
+            this.radioCommand5.Name = "radioCommand5";
+            this.radioCommand5.Size = new System.Drawing.Size(14, 13);
+            this.radioCommand5.TabIndex = 250;
+            this.radioCommand5.TabStop = true;
+            this.radioCommand5.Tag = "";
+            this.radioCommand5.UseVisualStyleBackColor = true;
+            this.radioCommand5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCommand4
+            // 
+            this.radioCommand4.AutoCheck = false;
+            this.radioCommand4.AutoSize = true;
+            this.radioCommand4.Location = new System.Drawing.Point(185, 119);
+            this.radioCommand4.Name = "radioCommand4";
+            this.radioCommand4.Size = new System.Drawing.Size(14, 13);
+            this.radioCommand4.TabIndex = 249;
+            this.radioCommand4.TabStop = true;
+            this.radioCommand4.Tag = "";
+            this.radioCommand4.UseVisualStyleBackColor = true;
+            this.radioCommand4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCommand3
+            // 
+            this.radioCommand3.AutoCheck = false;
+            this.radioCommand3.AutoSize = true;
+            this.radioCommand3.Location = new System.Drawing.Point(170, 119);
+            this.radioCommand3.Name = "radioCommand3";
+            this.radioCommand3.Size = new System.Drawing.Size(14, 13);
+            this.radioCommand3.TabIndex = 248;
+            this.radioCommand3.TabStop = true;
+            this.radioCommand3.Tag = "";
+            this.radioCommand3.UseVisualStyleBackColor = true;
+            this.radioCommand3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCommand2
+            // 
+            this.radioCommand2.AutoCheck = false;
+            this.radioCommand2.AutoSize = true;
+            this.radioCommand2.Location = new System.Drawing.Point(155, 119);
+            this.radioCommand2.Name = "radioCommand2";
+            this.radioCommand2.Size = new System.Drawing.Size(14, 13);
+            this.radioCommand2.TabIndex = 247;
+            this.radioCommand2.TabStop = true;
+            this.radioCommand2.Tag = "";
+            this.radioCommand2.UseVisualStyleBackColor = true;
+            this.radioCommand2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioCommand1
+            // 
+            this.radioCommand1.AutoCheck = false;
+            this.radioCommand1.AutoSize = true;
+            this.radioCommand1.Location = new System.Drawing.Point(140, 119);
+            this.radioCommand1.Name = "radioCommand1";
+            this.radioCommand1.Size = new System.Drawing.Size(14, 13);
+            this.radioCommand1.TabIndex = 246;
+            this.radioCommand1.TabStop = true;
+            this.radioCommand1.Tag = "";
+            this.radioCommand1.UseVisualStyleBackColor = true;
+            this.radioCommand1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioBrawl5
+            // 
+            this.radioBrawl5.AutoCheck = false;
+            this.radioBrawl5.AutoSize = true;
+            this.radioBrawl5.Location = new System.Drawing.Point(200, 105);
+            this.radioBrawl5.Name = "radioBrawl5";
+            this.radioBrawl5.Size = new System.Drawing.Size(14, 13);
+            this.radioBrawl5.TabIndex = 245;
+            this.radioBrawl5.TabStop = true;
+            this.radioBrawl5.Tag = "";
+            this.radioBrawl5.UseVisualStyleBackColor = true;
+            this.radioBrawl5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioBrawl4
+            // 
+            this.radioBrawl4.AutoCheck = false;
+            this.radioBrawl4.AutoSize = true;
+            this.radioBrawl4.Location = new System.Drawing.Point(185, 105);
+            this.radioBrawl4.Name = "radioBrawl4";
+            this.radioBrawl4.Size = new System.Drawing.Size(14, 13);
+            this.radioBrawl4.TabIndex = 244;
+            this.radioBrawl4.TabStop = true;
+            this.radioBrawl4.Tag = "";
+            this.radioBrawl4.UseVisualStyleBackColor = true;
+            this.radioBrawl4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioBrawl3
+            // 
+            this.radioBrawl3.AutoCheck = false;
+            this.radioBrawl3.AutoSize = true;
+            this.radioBrawl3.Location = new System.Drawing.Point(170, 105);
+            this.radioBrawl3.Name = "radioBrawl3";
+            this.radioBrawl3.Size = new System.Drawing.Size(14, 13);
+            this.radioBrawl3.TabIndex = 243;
+            this.radioBrawl3.TabStop = true;
+            this.radioBrawl3.Tag = "";
+            this.radioBrawl3.UseVisualStyleBackColor = true;
+            this.radioBrawl3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioBrawl2
+            // 
+            this.radioBrawl2.AutoCheck = false;
+            this.radioBrawl2.AutoSize = true;
+            this.radioBrawl2.Location = new System.Drawing.Point(155, 105);
+            this.radioBrawl2.Name = "radioBrawl2";
+            this.radioBrawl2.Size = new System.Drawing.Size(14, 13);
+            this.radioBrawl2.TabIndex = 242;
+            this.radioBrawl2.TabStop = true;
+            this.radioBrawl2.Tag = "";
+            this.radioBrawl2.UseVisualStyleBackColor = true;
+            this.radioBrawl2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioBrawl1
+            // 
+            this.radioBrawl1.AutoCheck = false;
+            this.radioBrawl1.AutoSize = true;
+            this.radioBrawl1.Location = new System.Drawing.Point(140, 105);
+            this.radioBrawl1.Name = "radioBrawl1";
+            this.radioBrawl1.Size = new System.Drawing.Size(14, 13);
+            this.radioBrawl1.TabIndex = 241;
+            this.radioBrawl1.TabStop = true;
+            this.radioBrawl1.Tag = "";
+            this.radioBrawl1.UseVisualStyleBackColor = true;
+            this.radioBrawl1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAwareness5
+            // 
+            this.radioAwareness5.AutoCheck = false;
+            this.radioAwareness5.AutoSize = true;
+            this.radioAwareness5.Location = new System.Drawing.Point(200, 91);
+            this.radioAwareness5.Name = "radioAwareness5";
+            this.radioAwareness5.Size = new System.Drawing.Size(14, 13);
+            this.radioAwareness5.TabIndex = 240;
+            this.radioAwareness5.TabStop = true;
+            this.radioAwareness5.Tag = "";
+            this.radioAwareness5.UseVisualStyleBackColor = true;
+            this.radioAwareness5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAwareness4
+            // 
+            this.radioAwareness4.AutoCheck = false;
+            this.radioAwareness4.AutoSize = true;
+            this.radioAwareness4.Location = new System.Drawing.Point(185, 91);
+            this.radioAwareness4.Name = "radioAwareness4";
+            this.radioAwareness4.Size = new System.Drawing.Size(14, 13);
+            this.radioAwareness4.TabIndex = 239;
+            this.radioAwareness4.TabStop = true;
+            this.radioAwareness4.Tag = "";
+            this.radioAwareness4.UseVisualStyleBackColor = true;
+            this.radioAwareness4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAwareness3
+            // 
+            this.radioAwareness3.AutoCheck = false;
+            this.radioAwareness3.AutoSize = true;
+            this.radioAwareness3.Location = new System.Drawing.Point(170, 91);
+            this.radioAwareness3.Name = "radioAwareness3";
+            this.radioAwareness3.Size = new System.Drawing.Size(14, 13);
+            this.radioAwareness3.TabIndex = 238;
+            this.radioAwareness3.TabStop = true;
+            this.radioAwareness3.Tag = "";
+            this.radioAwareness3.UseVisualStyleBackColor = true;
+            this.radioAwareness3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAwareness2
+            // 
+            this.radioAwareness2.AutoCheck = false;
+            this.radioAwareness2.AutoSize = true;
+            this.radioAwareness2.Location = new System.Drawing.Point(155, 91);
+            this.radioAwareness2.Name = "radioAwareness2";
+            this.radioAwareness2.Size = new System.Drawing.Size(14, 13);
+            this.radioAwareness2.TabIndex = 237;
+            this.radioAwareness2.TabStop = true;
+            this.radioAwareness2.Tag = "";
+            this.radioAwareness2.UseVisualStyleBackColor = true;
+            this.radioAwareness2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAwareness1
+            // 
+            this.radioAwareness1.AutoCheck = false;
+            this.radioAwareness1.AutoSize = true;
+            this.radioAwareness1.Location = new System.Drawing.Point(140, 91);
+            this.radioAwareness1.Name = "radioAwareness1";
+            this.radioAwareness1.Size = new System.Drawing.Size(14, 13);
+            this.radioAwareness1.TabIndex = 236;
+            this.radioAwareness1.TabStop = true;
+            this.radioAwareness1.Tag = "";
+            this.radioAwareness1.UseVisualStyleBackColor = true;
+            this.radioAwareness1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAthletics5
+            // 
+            this.radioAthletics5.AutoCheck = false;
+            this.radioAthletics5.AutoSize = true;
+            this.radioAthletics5.Location = new System.Drawing.Point(200, 77);
+            this.radioAthletics5.Name = "radioAthletics5";
+            this.radioAthletics5.Size = new System.Drawing.Size(14, 13);
+            this.radioAthletics5.TabIndex = 235;
+            this.radioAthletics5.TabStop = true;
+            this.radioAthletics5.Tag = "";
+            this.radioAthletics5.UseVisualStyleBackColor = true;
+            this.radioAthletics5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAthletics4
+            // 
+            this.radioAthletics4.AutoCheck = false;
+            this.radioAthletics4.AutoSize = true;
+            this.radioAthletics4.Location = new System.Drawing.Point(185, 77);
+            this.radioAthletics4.Name = "radioAthletics4";
+            this.radioAthletics4.Size = new System.Drawing.Size(14, 13);
+            this.radioAthletics4.TabIndex = 234;
+            this.radioAthletics4.TabStop = true;
+            this.radioAthletics4.Tag = "";
+            this.radioAthletics4.UseVisualStyleBackColor = true;
+            this.radioAthletics4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAthletics3
+            // 
+            this.radioAthletics3.AutoCheck = false;
+            this.radioAthletics3.AutoSize = true;
+            this.radioAthletics3.Location = new System.Drawing.Point(170, 77);
+            this.radioAthletics3.Name = "radioAthletics3";
+            this.radioAthletics3.Size = new System.Drawing.Size(14, 13);
+            this.radioAthletics3.TabIndex = 233;
+            this.radioAthletics3.TabStop = true;
+            this.radioAthletics3.Tag = "";
+            this.radioAthletics3.UseVisualStyleBackColor = true;
+            this.radioAthletics3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAthletics2
+            // 
+            this.radioAthletics2.AutoCheck = false;
+            this.radioAthletics2.AutoSize = true;
+            this.radioAthletics2.Location = new System.Drawing.Point(155, 77);
+            this.radioAthletics2.Name = "radioAthletics2";
+            this.radioAthletics2.Size = new System.Drawing.Size(14, 13);
+            this.radioAthletics2.TabIndex = 232;
+            this.radioAthletics2.TabStop = true;
+            this.radioAthletics2.Tag = "";
+            this.radioAthletics2.UseVisualStyleBackColor = true;
+            this.radioAthletics2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAthletics1
+            // 
+            this.radioAthletics1.AutoCheck = false;
+            this.radioAthletics1.AutoSize = true;
+            this.radioAthletics1.Location = new System.Drawing.Point(140, 77);
+            this.radioAthletics1.Name = "radioAthletics1";
+            this.radioAthletics1.Size = new System.Drawing.Size(14, 13);
+            this.radioAthletics1.TabIndex = 231;
+            this.radioAthletics1.TabStop = true;
+            this.radioAthletics1.Tag = "";
+            this.radioAthletics1.UseVisualStyleBackColor = true;
+            this.radioAthletics1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt25
+            // 
+            this.radioArt25.AutoCheck = false;
+            this.radioArt25.AutoSize = true;
+            this.radioArt25.Location = new System.Drawing.Point(200, 63);
+            this.radioArt25.Name = "radioArt25";
+            this.radioArt25.Size = new System.Drawing.Size(14, 13);
+            this.radioArt25.TabIndex = 230;
+            this.radioArt25.TabStop = true;
+            this.radioArt25.Tag = "";
+            this.radioArt25.UseVisualStyleBackColor = true;
+            this.radioArt25.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt24
+            // 
+            this.radioArt24.AutoCheck = false;
+            this.radioArt24.AutoSize = true;
+            this.radioArt24.Location = new System.Drawing.Point(185, 63);
+            this.radioArt24.Name = "radioArt24";
+            this.radioArt24.Size = new System.Drawing.Size(14, 13);
+            this.radioArt24.TabIndex = 229;
+            this.radioArt24.TabStop = true;
+            this.radioArt24.Tag = "";
+            this.radioArt24.UseVisualStyleBackColor = true;
+            this.radioArt24.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt23
+            // 
+            this.radioArt23.AutoCheck = false;
+            this.radioArt23.AutoSize = true;
+            this.radioArt23.Location = new System.Drawing.Point(170, 63);
+            this.radioArt23.Name = "radioArt23";
+            this.radioArt23.Size = new System.Drawing.Size(14, 13);
+            this.radioArt23.TabIndex = 228;
+            this.radioArt23.TabStop = true;
+            this.radioArt23.Tag = "";
+            this.radioArt23.UseVisualStyleBackColor = true;
+            this.radioArt23.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt22
+            // 
+            this.radioArt22.AutoCheck = false;
+            this.radioArt22.AutoSize = true;
+            this.radioArt22.Location = new System.Drawing.Point(155, 63);
+            this.radioArt22.Name = "radioArt22";
+            this.radioArt22.Size = new System.Drawing.Size(14, 13);
+            this.radioArt22.TabIndex = 227;
+            this.radioArt22.TabStop = true;
+            this.radioArt22.Tag = "";
+            this.radioArt22.UseVisualStyleBackColor = true;
+            this.radioArt22.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt21
+            // 
+            this.radioArt21.AutoCheck = false;
+            this.radioArt21.AutoSize = true;
+            this.radioArt21.Location = new System.Drawing.Point(140, 63);
+            this.radioArt21.Name = "radioArt21";
+            this.radioArt21.Size = new System.Drawing.Size(14, 13);
+            this.radioArt21.TabIndex = 226;
+            this.radioArt21.TabStop = true;
+            this.radioArt21.Tag = "";
+            this.radioArt21.UseVisualStyleBackColor = true;
+            this.radioArt21.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt15
+            // 
+            this.radioArt15.AutoCheck = false;
+            this.radioArt15.AutoSize = true;
+            this.radioArt15.Location = new System.Drawing.Point(200, 49);
+            this.radioArt15.Name = "radioArt15";
+            this.radioArt15.Size = new System.Drawing.Size(14, 13);
+            this.radioArt15.TabIndex = 225;
+            this.radioArt15.TabStop = true;
+            this.radioArt15.Tag = "";
+            this.radioArt15.UseVisualStyleBackColor = true;
+            this.radioArt15.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt14
+            // 
+            this.radioArt14.AutoCheck = false;
+            this.radioArt14.AutoSize = true;
+            this.radioArt14.Location = new System.Drawing.Point(185, 49);
+            this.radioArt14.Name = "radioArt14";
+            this.radioArt14.Size = new System.Drawing.Size(14, 13);
+            this.radioArt14.TabIndex = 224;
+            this.radioArt14.TabStop = true;
+            this.radioArt14.Tag = "";
+            this.radioArt14.UseVisualStyleBackColor = true;
+            this.radioArt14.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt13
+            // 
+            this.radioArt13.AutoCheck = false;
+            this.radioArt13.AutoSize = true;
+            this.radioArt13.Location = new System.Drawing.Point(170, 49);
+            this.radioArt13.Name = "radioArt13";
+            this.radioArt13.Size = new System.Drawing.Size(14, 13);
+            this.radioArt13.TabIndex = 223;
+            this.radioArt13.TabStop = true;
+            this.radioArt13.Tag = "";
+            this.radioArt13.UseVisualStyleBackColor = true;
+            this.radioArt13.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt12
+            // 
+            this.radioArt12.AutoCheck = false;
+            this.radioArt12.AutoSize = true;
+            this.radioArt12.Location = new System.Drawing.Point(155, 49);
+            this.radioArt12.Name = "radioArt12";
+            this.radioArt12.Size = new System.Drawing.Size(14, 13);
+            this.radioArt12.TabIndex = 222;
+            this.radioArt12.TabStop = true;
+            this.radioArt12.Tag = "";
+            this.radioArt12.UseVisualStyleBackColor = true;
+            this.radioArt12.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioArt11
+            // 
+            this.radioArt11.AutoCheck = false;
+            this.radioArt11.AutoSize = true;
+            this.radioArt11.Location = new System.Drawing.Point(140, 49);
+            this.radioArt11.Name = "radioArt11";
+            this.radioArt11.Size = new System.Drawing.Size(14, 13);
+            this.radioArt11.TabIndex = 221;
+            this.radioArt11.TabStop = true;
+            this.radioArt11.Tag = "";
+            this.radioArt11.UseVisualStyleBackColor = true;
+            this.radioArt11.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAnimalKen5
+            // 
+            this.radioAnimalKen5.AutoCheck = false;
+            this.radioAnimalKen5.AutoSize = true;
+            this.radioAnimalKen5.Location = new System.Drawing.Point(200, 35);
+            this.radioAnimalKen5.Name = "radioAnimalKen5";
+            this.radioAnimalKen5.Size = new System.Drawing.Size(14, 13);
+            this.radioAnimalKen5.TabIndex = 220;
+            this.radioAnimalKen5.TabStop = true;
+            this.radioAnimalKen5.Tag = "";
+            this.radioAnimalKen5.UseVisualStyleBackColor = true;
+            this.radioAnimalKen5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAnimalKen4
+            // 
+            this.radioAnimalKen4.AutoCheck = false;
+            this.radioAnimalKen4.AutoSize = true;
+            this.radioAnimalKen4.Location = new System.Drawing.Point(185, 35);
+            this.radioAnimalKen4.Name = "radioAnimalKen4";
+            this.radioAnimalKen4.Size = new System.Drawing.Size(14, 13);
+            this.radioAnimalKen4.TabIndex = 219;
+            this.radioAnimalKen4.TabStop = true;
+            this.radioAnimalKen4.Tag = "";
+            this.radioAnimalKen4.UseVisualStyleBackColor = true;
+            this.radioAnimalKen4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAnimalKen3
+            // 
+            this.radioAnimalKen3.AutoCheck = false;
+            this.radioAnimalKen3.AutoSize = true;
+            this.radioAnimalKen3.Location = new System.Drawing.Point(170, 35);
+            this.radioAnimalKen3.Name = "radioAnimalKen3";
+            this.radioAnimalKen3.Size = new System.Drawing.Size(14, 13);
+            this.radioAnimalKen3.TabIndex = 218;
+            this.radioAnimalKen3.TabStop = true;
+            this.radioAnimalKen3.Tag = "";
+            this.radioAnimalKen3.UseVisualStyleBackColor = true;
+            this.radioAnimalKen3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAnimalKen2
+            // 
+            this.radioAnimalKen2.AutoCheck = false;
+            this.radioAnimalKen2.AutoSize = true;
+            this.radioAnimalKen2.Location = new System.Drawing.Point(155, 35);
+            this.radioAnimalKen2.Name = "radioAnimalKen2";
+            this.radioAnimalKen2.Size = new System.Drawing.Size(14, 13);
+            this.radioAnimalKen2.TabIndex = 217;
+            this.radioAnimalKen2.TabStop = true;
+            this.radioAnimalKen2.Tag = "";
+            this.radioAnimalKen2.UseVisualStyleBackColor = true;
+            this.radioAnimalKen2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAnimalKen1
+            // 
+            this.radioAnimalKen1.AutoCheck = false;
+            this.radioAnimalKen1.AutoSize = true;
+            this.radioAnimalKen1.Location = new System.Drawing.Point(140, 35);
+            this.radioAnimalKen1.Name = "radioAnimalKen1";
+            this.radioAnimalKen1.Size = new System.Drawing.Size(14, 13);
+            this.radioAnimalKen1.TabIndex = 216;
+            this.radioAnimalKen1.TabStop = true;
+            this.radioAnimalKen1.Tag = "";
+            this.radioAnimalKen1.UseVisualStyleBackColor = true;
+            this.radioAnimalKen1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAcademics5
+            // 
+            this.radioAcademics5.AutoCheck = false;
+            this.radioAcademics5.AutoSize = true;
+            this.radioAcademics5.Location = new System.Drawing.Point(200, 21);
+            this.radioAcademics5.Name = "radioAcademics5";
+            this.radioAcademics5.Size = new System.Drawing.Size(14, 13);
+            this.radioAcademics5.TabIndex = 215;
+            this.radioAcademics5.TabStop = true;
+            this.radioAcademics5.Tag = "";
+            this.radioAcademics5.UseVisualStyleBackColor = true;
+            this.radioAcademics5.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // radioAcademics4
+            // 
+            this.radioAcademics4.AutoCheck = false;
+            this.radioAcademics4.AutoSize = true;
+            this.radioAcademics4.Location = new System.Drawing.Point(185, 21);
+            this.radioAcademics4.Name = "radioAcademics4";
+            this.radioAcademics4.Size = new System.Drawing.Size(14, 13);
+            this.radioAcademics4.TabIndex = 214;
+            this.radioAcademics4.TabStop = true;
+            this.radioAcademics4.Tag = "";
+            this.radioAcademics4.UseVisualStyleBackColor = true;
+            this.radioAcademics4.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // chkThrown
+            // 
+            this.chkThrown.AccessibleName = "";
+            this.chkThrown.AutoSize = true;
+            this.chkThrown.Location = new System.Drawing.Point(439, 145);
+            this.chkThrown.Name = "chkThrown";
+            this.chkThrown.Size = new System.Drawing.Size(62, 17);
+            this.chkThrown.TabIndex = 29;
+            this.chkThrown.Text = "Thrown";
+            this.chkThrown.UseVisualStyleBackColor = true;
+            this.chkThrown.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // radioAcademics3
+            // 
+            this.radioAcademics3.AutoCheck = false;
+            this.radioAcademics3.AutoSize = true;
+            this.radioAcademics3.Location = new System.Drawing.Point(170, 21);
+            this.radioAcademics3.Name = "radioAcademics3";
+            this.radioAcademics3.Size = new System.Drawing.Size(14, 13);
+            this.radioAcademics3.TabIndex = 213;
+            this.radioAcademics3.TabStop = true;
+            this.radioAcademics3.Tag = "";
+            this.radioAcademics3.UseVisualStyleBackColor = true;
+            this.radioAcademics3.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // chkSurvival
+            // 
+            this.chkSurvival.AccessibleName = "";
+            this.chkSurvival.AutoSize = true;
+            this.chkSurvival.Location = new System.Drawing.Point(439, 131);
+            this.chkSurvival.Name = "chkSurvival";
+            this.chkSurvival.Size = new System.Drawing.Size(64, 17);
+            this.chkSurvival.TabIndex = 28;
+            this.chkSurvival.Text = "Survival";
+            this.chkSurvival.UseVisualStyleBackColor = true;
+            this.chkSurvival.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // radioAcademics2
+            // 
+            this.radioAcademics2.AutoCheck = false;
+            this.radioAcademics2.AutoSize = true;
+            this.radioAcademics2.Location = new System.Drawing.Point(155, 21);
+            this.radioAcademics2.Name = "radioAcademics2";
+            this.radioAcademics2.Size = new System.Drawing.Size(14, 13);
+            this.radioAcademics2.TabIndex = 212;
+            this.radioAcademics2.TabStop = true;
+            this.radioAcademics2.Tag = "";
+            this.radioAcademics2.UseVisualStyleBackColor = true;
+            this.radioAcademics2.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // chkStealth
+            // 
+            this.chkStealth.AccessibleName = "";
+            this.chkStealth.AutoSize = true;
+            this.chkStealth.Location = new System.Drawing.Point(439, 117);
+            this.chkStealth.Name = "chkStealth";
+            this.chkStealth.Size = new System.Drawing.Size(59, 17);
+            this.chkStealth.TabIndex = 27;
+            this.chkStealth.Text = "Stealth";
+            this.chkStealth.UseVisualStyleBackColor = true;
+            this.chkStealth.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // radioAcademics1
+            // 
+            this.radioAcademics1.AutoCheck = false;
+            this.radioAcademics1.AutoSize = true;
+            this.radioAcademics1.Location = new System.Drawing.Point(140, 21);
+            this.radioAcademics1.Name = "radioAcademics1";
+            this.radioAcademics1.Size = new System.Drawing.Size(14, 13);
+            this.radioAcademics1.TabIndex = 211;
+            this.radioAcademics1.TabStop = true;
+            this.radioAcademics1.Tag = "";
+            this.radioAcademics1.UseVisualStyleBackColor = true;
+            this.radioAcademics1.Click += new System.EventHandler(this.setAbilityRank);
+            // 
+            // chkScience3
+            // 
+            this.chkScience3.AccessibleName = "";
+            this.chkScience3.AutoSize = true;
+            this.chkScience3.Location = new System.Drawing.Point(439, 103);
+            this.chkScience3.Name = "chkScience3";
+            this.chkScience3.Size = new System.Drawing.Size(65, 17);
+            this.chkScience3.TabIndex = 26;
+            this.chkScience3.Text = "Science";
+            this.chkScience3.UseVisualStyleBackColor = true;
+            this.chkScience3.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkScience2
+            // 
+            this.chkScience2.AccessibleName = "";
+            this.chkScience2.AutoSize = true;
+            this.chkScience2.Location = new System.Drawing.Point(439, 89);
+            this.chkScience2.Name = "chkScience2";
+            this.chkScience2.Size = new System.Drawing.Size(65, 17);
+            this.chkScience2.TabIndex = 25;
+            this.chkScience2.Text = "Science";
+            this.chkScience2.UseVisualStyleBackColor = true;
+            this.chkScience2.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkScience1
+            // 
+            this.chkScience1.AutoSize = true;
+            this.chkScience1.Location = new System.Drawing.Point(439, 75);
+            this.chkScience1.Name = "chkScience1";
+            this.chkScience1.Size = new System.Drawing.Size(65, 17);
+            this.chkScience1.TabIndex = 24;
+            this.chkScience1.Text = "Science";
+            this.chkScience1.UseVisualStyleBackColor = true;
+            this.chkScience1.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkPresence
+            // 
+            this.chkPresence.AutoSize = true;
+            this.chkPresence.Location = new System.Drawing.Point(439, 61);
+            this.chkPresence.Name = "chkPresence";
+            this.chkPresence.Size = new System.Drawing.Size(71, 17);
+            this.chkPresence.TabIndex = 23;
+            this.chkPresence.Text = "Presence";
+            this.chkPresence.UseVisualStyleBackColor = true;
+            this.chkPresence.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkPolitics
+            // 
+            this.chkPolitics.AutoSize = true;
+            this.chkPolitics.Location = new System.Drawing.Point(439, 47);
+            this.chkPolitics.Name = "chkPolitics";
+            this.chkPolitics.Size = new System.Drawing.Size(59, 17);
+            this.chkPolitics.TabIndex = 22;
+            this.chkPolitics.Text = "Politics";
+            this.chkPolitics.UseVisualStyleBackColor = true;
+            this.chkPolitics.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkOccult
+            // 
+            this.chkOccult.AutoSize = true;
+            this.chkOccult.Location = new System.Drawing.Point(439, 33);
+            this.chkOccult.Name = "chkOccult";
+            this.chkOccult.Size = new System.Drawing.Size(57, 17);
+            this.chkOccult.TabIndex = 21;
+            this.chkOccult.Text = "Occult";
+            this.chkOccult.UseVisualStyleBackColor = true;
+            this.chkOccult.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkMelee
+            // 
+            this.chkMelee.AutoSize = true;
+            this.chkMelee.Location = new System.Drawing.Point(439, 19);
+            this.chkMelee.Name = "chkMelee";
+            this.chkMelee.Size = new System.Drawing.Size(55, 17);
+            this.chkMelee.TabIndex = 20;
+            this.chkMelee.Text = "Melee";
+            this.chkMelee.UseVisualStyleBackColor = true;
+            this.chkMelee.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkMedicine
+            // 
+            this.chkMedicine.AccessibleName = "";
+            this.chkMedicine.AutoSize = true;
+            this.chkMedicine.Location = new System.Drawing.Point(220, 145);
+            this.chkMedicine.Name = "chkMedicine";
+            this.chkMedicine.Size = new System.Drawing.Size(69, 17);
+            this.chkMedicine.TabIndex = 19;
+            this.chkMedicine.Text = "Medicine";
+            this.chkMedicine.UseVisualStyleBackColor = true;
+            this.chkMedicine.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkMarksmanship
+            // 
+            this.chkMarksmanship.AccessibleName = "";
+            this.chkMarksmanship.AutoSize = true;
+            this.chkMarksmanship.Location = new System.Drawing.Point(220, 131);
+            this.chkMarksmanship.Name = "chkMarksmanship";
+            this.chkMarksmanship.Size = new System.Drawing.Size(94, 17);
+            this.chkMarksmanship.TabIndex = 18;
+            this.chkMarksmanship.Text = "Marksmanship";
+            this.chkMarksmanship.UseVisualStyleBackColor = true;
+            this.chkMarksmanship.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkLarceny
+            // 
+            this.chkLarceny.AccessibleName = "";
+            this.chkLarceny.AutoSize = true;
+            this.chkLarceny.Location = new System.Drawing.Point(220, 117);
+            this.chkLarceny.Name = "chkLarceny";
+            this.chkLarceny.Size = new System.Drawing.Size(64, 17);
+            this.chkLarceny.TabIndex = 17;
+            this.chkLarceny.Text = "Larceny";
+            this.chkLarceny.UseVisualStyleBackColor = true;
+            this.chkLarceny.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkInvestigation
+            // 
+            this.chkInvestigation.AccessibleName = "";
+            this.chkInvestigation.AutoSize = true;
+            this.chkInvestigation.Location = new System.Drawing.Point(220, 103);
+            this.chkInvestigation.Name = "chkInvestigation";
+            this.chkInvestigation.Size = new System.Drawing.Size(86, 17);
+            this.chkInvestigation.TabIndex = 16;
+            this.chkInvestigation.Text = "Investigation";
+            this.chkInvestigation.UseVisualStyleBackColor = true;
+            this.chkInvestigation.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkIntegrity
+            // 
+            this.chkIntegrity.AccessibleName = "s";
+            this.chkIntegrity.AutoSize = true;
+            this.chkIntegrity.Location = new System.Drawing.Point(220, 89);
+            this.chkIntegrity.Name = "chkIntegrity";
+            this.chkIntegrity.Size = new System.Drawing.Size(63, 17);
+            this.chkIntegrity.TabIndex = 15;
+            this.chkIntegrity.Text = "Integrity";
+            this.chkIntegrity.UseVisualStyleBackColor = true;
+            this.chkIntegrity.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkFortitude
+            // 
+            this.chkFortitude.AutoSize = true;
+            this.chkFortitude.Location = new System.Drawing.Point(220, 75);
+            this.chkFortitude.Name = "chkFortitude";
+            this.chkFortitude.Size = new System.Drawing.Size(67, 17);
+            this.chkFortitude.TabIndex = 14;
+            this.chkFortitude.Text = "Fortitude";
+            this.chkFortitude.UseVisualStyleBackColor = true;
+            this.chkFortitude.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkEmpathy
+            // 
+            this.chkEmpathy.AutoSize = true;
+            this.chkEmpathy.Location = new System.Drawing.Point(220, 61);
+            this.chkEmpathy.Name = "chkEmpathy";
+            this.chkEmpathy.Size = new System.Drawing.Size(67, 17);
+            this.chkEmpathy.TabIndex = 13;
+            this.chkEmpathy.Text = "Empathy";
+            this.chkEmpathy.UseVisualStyleBackColor = true;
+            this.chkEmpathy.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkCraft3
+            // 
+            this.chkCraft3.AutoSize = true;
+            this.chkCraft3.Location = new System.Drawing.Point(220, 47);
+            this.chkCraft3.Name = "chkCraft3";
+            this.chkCraft3.Size = new System.Drawing.Size(48, 17);
+            this.chkCraft3.TabIndex = 12;
+            this.chkCraft3.Text = "Craft";
+            this.chkCraft3.UseVisualStyleBackColor = true;
+            this.chkCraft3.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkCraft2
+            // 
+            this.chkCraft2.AutoSize = true;
+            this.chkCraft2.Location = new System.Drawing.Point(220, 33);
+            this.chkCraft2.Name = "chkCraft2";
+            this.chkCraft2.Size = new System.Drawing.Size(48, 17);
+            this.chkCraft2.TabIndex = 11;
+            this.chkCraft2.Text = "Craft";
+            this.chkCraft2.UseVisualStyleBackColor = true;
+            this.chkCraft2.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkCraft1
+            // 
+            this.chkCraft1.AutoSize = true;
+            this.chkCraft1.Location = new System.Drawing.Point(220, 19);
+            this.chkCraft1.Name = "chkCraft1";
+            this.chkCraft1.Size = new System.Drawing.Size(48, 17);
+            this.chkCraft1.TabIndex = 10;
+            this.chkCraft1.Text = "Craft";
+            this.chkCraft1.UseVisualStyleBackColor = true;
+            this.chkCraft1.Enter += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkControl2
+            // 
+            this.chkControl2.AccessibleName = "";
+            this.chkControl2.AutoSize = true;
+            this.chkControl2.Location = new System.Drawing.Point(7, 146);
+            this.chkControl2.Name = "chkControl2";
+            this.chkControl2.Size = new System.Drawing.Size(59, 17);
+            this.chkControl2.TabIndex = 9;
+            this.chkControl2.Text = "Control";
+            this.chkControl2.UseVisualStyleBackColor = true;
+            this.chkControl2.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkControl1
+            // 
+            this.chkControl1.AccessibleName = "";
+            this.chkControl1.AutoSize = true;
+            this.chkControl1.Location = new System.Drawing.Point(7, 132);
+            this.chkControl1.Name = "chkControl1";
+            this.chkControl1.Size = new System.Drawing.Size(59, 17);
+            this.chkControl1.TabIndex = 8;
+            this.chkControl1.Text = "Control";
+            this.chkControl1.UseVisualStyleBackColor = true;
+            this.chkControl1.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkCommand
+            // 
+            this.chkCommand.AccessibleName = "";
+            this.chkCommand.AutoSize = true;
+            this.chkCommand.Location = new System.Drawing.Point(7, 118);
+            this.chkCommand.Name = "chkCommand";
+            this.chkCommand.Size = new System.Drawing.Size(73, 17);
+            this.chkCommand.TabIndex = 7;
+            this.chkCommand.Text = "Command";
+            this.chkCommand.UseVisualStyleBackColor = true;
+            this.chkCommand.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkBrawl
+            // 
+            this.chkBrawl.AccessibleName = "";
+            this.chkBrawl.AutoSize = true;
+            this.chkBrawl.Location = new System.Drawing.Point(7, 104);
+            this.chkBrawl.Name = "chkBrawl";
+            this.chkBrawl.Size = new System.Drawing.Size(52, 17);
+            this.chkBrawl.TabIndex = 6;
+            this.chkBrawl.Text = "Brawl";
+            this.chkBrawl.UseVisualStyleBackColor = true;
+            this.chkBrawl.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkAwareness
+            // 
+            this.chkAwareness.AccessibleName = "Awareness";
+            this.chkAwareness.AutoSize = true;
+            this.chkAwareness.Location = new System.Drawing.Point(7, 90);
+            this.chkAwareness.Name = "chkAwareness";
+            this.chkAwareness.Size = new System.Drawing.Size(78, 17);
+            this.chkAwareness.TabIndex = 5;
+            this.chkAwareness.Text = "Awareness";
+            this.chkAwareness.UseVisualStyleBackColor = true;
+            this.chkAwareness.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkAthletics
+            // 
+            this.chkAthletics.AutoSize = true;
+            this.chkAthletics.Location = new System.Drawing.Point(7, 76);
+            this.chkAthletics.Name = "chkAthletics";
+            this.chkAthletics.Size = new System.Drawing.Size(66, 17);
+            this.chkAthletics.TabIndex = 4;
+            this.chkAthletics.Text = "Athletics";
+            this.chkAthletics.UseVisualStyleBackColor = true;
+            this.chkAthletics.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkArt2
+            // 
+            this.chkArt2.AutoSize = true;
+            this.chkArt2.Location = new System.Drawing.Point(7, 62);
+            this.chkArt2.Name = "chkArt2";
+            this.chkArt2.Size = new System.Drawing.Size(39, 17);
+            this.chkArt2.TabIndex = 3;
+            this.chkArt2.Text = "Art";
+            this.chkArt2.UseVisualStyleBackColor = true;
+            this.chkArt2.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkArt1
+            // 
+            this.chkArt1.AutoSize = true;
+            this.chkArt1.Location = new System.Drawing.Point(7, 48);
+            this.chkArt1.Name = "chkArt1";
+            this.chkArt1.Size = new System.Drawing.Size(39, 17);
+            this.chkArt1.TabIndex = 2;
+            this.chkArt1.Text = "Art";
+            this.chkArt1.UseVisualStyleBackColor = true;
+            this.chkArt1.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkAnimalKen
+            // 
+            this.chkAnimalKen.AutoSize = true;
+            this.chkAnimalKen.Location = new System.Drawing.Point(7, 34);
+            this.chkAnimalKen.Name = "chkAnimalKen";
+            this.chkAnimalKen.Size = new System.Drawing.Size(79, 17);
+            this.chkAnimalKen.TabIndex = 1;
+            this.chkAnimalKen.Text = "Animal Ken";
+            this.chkAnimalKen.UseVisualStyleBackColor = true;
+            this.chkAnimalKen.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
+            // 
+            // chkAcademics
+            // 
+            this.chkAcademics.AutoSize = true;
+            this.chkAcademics.Location = new System.Drawing.Point(7, 20);
+            this.chkAcademics.Name = "chkAcademics";
+            this.chkAcademics.Size = new System.Drawing.Size(78, 17);
+            this.chkAcademics.TabIndex = 0;
+            this.chkAcademics.Text = "Academics";
+            this.chkAcademics.UseVisualStyleBackColor = true;
+            this.chkAcademics.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
             // 
             // Form1
             // 
