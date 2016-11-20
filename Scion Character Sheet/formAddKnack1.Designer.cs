@@ -1,6 +1,6 @@
 ﻿namespace Scion_Character_Sheet
 {
-    partial class formAddKnack
+    partial class formAddKnack1
     {
         /// <summary>
         /// Required designer variable.
@@ -99,6 +99,11 @@
         }
 
         #endregion
+
+        public formAddKnack1(ref string returnKnack, ref string returnAttribute, ref string returnDescription)
+        {
+
+        }
 
         public System.Windows.Forms.TextBox textBoxKnackName;
         public System.Windows.Forms.TextBox textBoxAssociatedAttribute;

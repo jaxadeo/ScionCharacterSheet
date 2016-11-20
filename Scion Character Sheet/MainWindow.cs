@@ -321,6 +321,7 @@ namespace Scion_Character_Sheet
             abilityInformation.Add("survival", new abilityInfo(0, false, new List<RadioButton>() { radioSurvival1, radioSurvival2, radioSurvival3, radioSurvival4, radioSurvival5 }, ref chkSurvival));
             abilityInformation.Add("thrown", new abilityInfo(0, false, new List<RadioButton>() { radioThrown1, radioThrown2, radioThrown3, radioThrown4, radioThrown5 }, ref chkThrown));
 
+           
         }
         private void setAbilityRank(object sender, EventArgs e)
         {
@@ -541,8 +542,17 @@ namespace Scion_Character_Sheet
 
         private void buttonAddKnack_Click(object sender, EventArgs e)
         {
-            formAddKnack promptAddKnack = new formAddKnack();
-            promptAddKnack.Show();
+            string outputKnackName, outputKnackAttribute, outputKnackDescription;
+            outputKnackName = outputKnackAttribute = outputKnackDescription = string.Empty;
+            if(formAddKnack.InitializeComponent(ref outputKnackName, ref outputKnackAttribute, ref outputKnackDescription) == DialogResult.OK)
+            {
+                
+            }
+        }
+
+        private void ButtonSubmitKnack_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
