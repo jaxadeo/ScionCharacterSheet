@@ -1,6 +1,6 @@
 ﻿namespace Scion_Character_Sheet
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -243,7 +243,10 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.groupAbilities = new System.Windows.Forms.GroupBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
@@ -450,30 +453,39 @@
             this.chkArt1 = new System.Windows.Forms.CheckBox();
             this.chkAnimalKen = new System.Windows.Forms.CheckBox();
             this.chkAcademics = new System.Windows.Forms.CheckBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabsMain = new System.Windows.Forms.TabControl();
             this.tabAbilities = new System.Windows.Forms.TabPage();
             this.tabItems = new System.Windows.Forms.TabPage();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabBoons = new System.Windows.Forms.TabPage();
+            this.buttonRemoveKnack = new System.Windows.Forms.Button();
+            this.buttonAddKnack = new System.Windows.Forms.Button();
+            this.listKnacks = new System.Windows.Forms.ListView();
+            this.columnKnack = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnKnackAttribute = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnKnackDescription = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupAttributes.SuspendLayout();
             this.groupAbilities.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tabsMain.SuspendLayout();
             this.tabAbilities.SuspendLayout();
+            this.tabBoons.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(12, 12);
+            this.textBoxName.Location = new System.Drawing.Point(12, 25);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(108, 20);
             this.textBoxName.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 39);
+            this.label1.Location = new System.Drawing.Point(9, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -481,15 +493,15 @@
             // 
             // textBoxPlayer
             // 
-            this.textBoxPlayer.Location = new System.Drawing.Point(119, 11);
+            this.textBoxPlayer.Location = new System.Drawing.Point(119, 25);
             this.textBoxPlayer.Name = "textBoxPlayer";
-            this.textBoxPlayer.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPlayer.Size = new System.Drawing.Size(108, 20);
             this.textBoxPlayer.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 38);
+            this.label2.Location = new System.Drawing.Point(119, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 3;
@@ -497,15 +509,15 @@
             // 
             // textBoxPantheon
             // 
-            this.textBoxPantheon.Location = new System.Drawing.Point(226, 11);
+            this.textBoxPantheon.Location = new System.Drawing.Point(226, 25);
             this.textBoxPantheon.Name = "textBoxPantheon";
-            this.textBoxPantheon.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPantheon.Size = new System.Drawing.Size(108, 20);
             this.textBoxPantheon.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(226, 38);
+            this.label3.Location = new System.Drawing.Point(226, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 5;
@@ -513,15 +525,15 @@
             // 
             // textBoxRole
             // 
-            this.textBoxRole.Location = new System.Drawing.Point(333, 11);
+            this.textBoxRole.Location = new System.Drawing.Point(333, 25);
             this.textBoxRole.Name = "textBoxRole";
-            this.textBoxRole.Size = new System.Drawing.Size(100, 20);
+            this.textBoxRole.Size = new System.Drawing.Size(108, 20);
             this.textBoxRole.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(333, 38);
+            this.label4.Location = new System.Drawing.Point(333, 52);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 13);
             this.label4.TabIndex = 7;
@@ -530,7 +542,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(439, 38);
+            this.label5.Location = new System.Drawing.Point(439, 52);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 9;
@@ -538,15 +550,15 @@
             // 
             // textBoxCalling
             // 
-            this.textBoxCalling.Location = new System.Drawing.Point(439, 11);
+            this.textBoxCalling.Location = new System.Drawing.Point(439, 25);
             this.textBoxCalling.Name = "textBoxCalling";
-            this.textBoxCalling.Size = new System.Drawing.Size(100, 20);
+            this.textBoxCalling.Size = new System.Drawing.Size(108, 20);
             this.textBoxCalling.TabIndex = 8;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(545, 38);
+            this.label6.Location = new System.Drawing.Point(545, 52);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 11;
@@ -554,9 +566,9 @@
             // 
             // textBoxNature
             // 
-            this.textBoxNature.Location = new System.Drawing.Point(545, 11);
+            this.textBoxNature.Location = new System.Drawing.Point(545, 25);
             this.textBoxNature.Name = "textBoxNature";
-            this.textBoxNature.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNature.Size = new System.Drawing.Size(108, 20);
             this.textBoxNature.TabIndex = 10;
             // 
             // label7
@@ -3338,6 +3350,22 @@
             this.groupAbilities.Text = "Abilities";
             this.groupAbilities.Enter += new System.EventHandler(this.groupAbilities_Enter);
             // 
+            // label30
+            // 
+            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label30.Location = new System.Drawing.Point(313, 195);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(40, 2);
+            this.label30.TabIndex = 376;
+            // 
+            // label27
+            // 
+            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label27.Location = new System.Drawing.Point(304, 153);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(50, 2);
+            this.label27.TabIndex = 375;
+            // 
             // label38
             // 
             this.label38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -3345,6 +3373,14 @@
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(70, 2);
             this.label38.TabIndex = 379;
+            // 
+            // label28
+            // 
+            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label28.Location = new System.Drawing.Point(284, 132);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(70, 2);
+            this.label28.TabIndex = 374;
             // 
             // label37
             // 
@@ -5849,16 +5885,16 @@
             this.chkAcademics.UseVisualStyleBackColor = true;
             this.chkAcademics.CheckedChanged += new System.EventHandler(this.setAbilityFavored);
             // 
-            // tabControl1
+            // tabsMain
             // 
-            this.tabControl1.Controls.Add(this.tabAbilities);
-            this.tabControl1.Controls.Add(this.tabItems);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(12, 55);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(679, 431);
-            this.tabControl1.TabIndex = 374;
+            this.tabsMain.Controls.Add(this.tabAbilities);
+            this.tabsMain.Controls.Add(this.tabItems);
+            this.tabsMain.Controls.Add(this.tabBoons);
+            this.tabsMain.Location = new System.Drawing.Point(12, 69);
+            this.tabsMain.Name = "tabsMain";
+            this.tabsMain.SelectedIndex = 0;
+            this.tabsMain.Size = new System.Drawing.Size(687, 431);
+            this.tabsMain.TabIndex = 374;
             // 
             // tabAbilities
             // 
@@ -5867,7 +5903,7 @@
             this.tabAbilities.Location = new System.Drawing.Point(4, 22);
             this.tabAbilities.Name = "tabAbilities";
             this.tabAbilities.Padding = new System.Windows.Forms.Padding(3);
-            this.tabAbilities.Size = new System.Drawing.Size(671, 405);
+            this.tabAbilities.Size = new System.Drawing.Size(679, 405);
             this.tabAbilities.TabIndex = 0;
             this.tabAbilities.Text = "Attributes & Abilities";
             this.tabAbilities.UseVisualStyleBackColor = true;
@@ -5877,51 +5913,109 @@
             this.tabItems.Location = new System.Drawing.Point(4, 22);
             this.tabItems.Name = "tabItems";
             this.tabItems.Padding = new System.Windows.Forms.Padding(3);
-            this.tabItems.Size = new System.Drawing.Size(671, 405);
+            this.tabItems.Size = new System.Drawing.Size(679, 405);
             this.tabItems.TabIndex = 1;
             this.tabItems.Text = "Items & Relics";
             this.tabItems.UseVisualStyleBackColor = true;
             // 
-            // label30
+            // tabBoons
             // 
-            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label30.Location = new System.Drawing.Point(313, 195);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(40, 2);
-            this.label30.TabIndex = 376;
+            this.tabBoons.Controls.Add(this.buttonRemoveKnack);
+            this.tabBoons.Controls.Add(this.buttonAddKnack);
+            this.tabBoons.Controls.Add(this.listKnacks);
+            this.tabBoons.Location = new System.Drawing.Point(4, 22);
+            this.tabBoons.Name = "tabBoons";
+            this.tabBoons.Padding = new System.Windows.Forms.Padding(3);
+            this.tabBoons.Size = new System.Drawing.Size(679, 405);
+            this.tabBoons.TabIndex = 2;
+            this.tabBoons.Text = "Knacks & Boons";
+            this.tabBoons.UseVisualStyleBackColor = true;
             // 
-            // label27
+            // buttonRemoveKnack
             // 
-            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label27.Location = new System.Drawing.Point(304, 153);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(50, 2);
-            this.label27.TabIndex = 375;
+            this.buttonRemoveKnack.Location = new System.Drawing.Point(87, 207);
+            this.buttonRemoveKnack.Name = "buttonRemoveKnack";
+            this.buttonRemoveKnack.Size = new System.Drawing.Size(75, 23);
+            this.buttonRemoveKnack.TabIndex = 2;
+            this.buttonRemoveKnack.Text = "Remove Knack";
+            this.buttonRemoveKnack.UseVisualStyleBackColor = true;
             // 
-            // label28
+            // buttonAddKnack
             // 
-            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label28.Location = new System.Drawing.Point(284, 132);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(70, 2);
-            this.label28.TabIndex = 374;
+            this.buttonAddKnack.Location = new System.Drawing.Point(6, 207);
+            this.buttonAddKnack.Name = "buttonAddKnack";
+            this.buttonAddKnack.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddKnack.TabIndex = 1;
+            this.buttonAddKnack.Text = "Add Knack";
+            this.buttonAddKnack.UseVisualStyleBackColor = true;
+            this.buttonAddKnack.Click += new System.EventHandler(this.buttonAddKnack_Click);
             // 
-            // tabPage3
+            // listKnacks
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(671, 405);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.listKnacks.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnKnack,
+            this.columnKnackAttribute,
+            this.columnKnackDescription});
+            this.listKnacks.Location = new System.Drawing.Point(6, 6);
+            this.listKnacks.Name = "listKnacks";
+            this.listKnacks.Size = new System.Drawing.Size(667, 195);
+            this.listKnacks.TabIndex = 0;
+            this.listKnacks.UseCompatibleStateImageBehavior = false;
+            this.listKnacks.View = System.Windows.Forms.View.Details;
+            this.listKnacks.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
-            // Form1
+            // columnKnack
+            // 
+            this.columnKnack.Text = "Knack";
+            this.columnKnack.Width = 181;
+            // 
+            // columnKnackAttribute
+            // 
+            this.columnKnackAttribute.Text = "Attribute";
+            this.columnKnackAttribute.Width = 53;
+            // 
+            // columnKnackDescription
+            // 
+            this.columnKnackDescription.Text = "Description";
+            this.columnKnackDescription.Width = 429;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(711, 24);
+            this.menuStrip1.TabIndex = 375;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveToolStripMenuItem,
+            this.openToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.openToolStripMenuItem.Text = "Open";
+            // 
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 493);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(711, 647);
+            this.Controls.Add(this.tabsMain);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxNature);
             this.Controls.Add(this.label5);
@@ -5934,15 +6028,19 @@
             this.Controls.Add(this.textBoxPlayer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxName);
-            this.Name = "Form1";
+            this.Controls.Add(this.menuStrip1);
+            this.Name = "MainWindow";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupAttributes.ResumeLayout(false);
             this.groupAttributes.PerformLayout();
             this.groupAbilities.ResumeLayout(false);
             this.groupAbilities.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.tabsMain.ResumeLayout(false);
             this.tabAbilities.ResumeLayout(false);
+            this.tabBoons.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -6375,10 +6473,20 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabsMain;
         private System.Windows.Forms.TabPage tabAbilities;
         private System.Windows.Forms.TabPage tabItems;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabBoons;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ListView listKnacks;
+        private System.Windows.Forms.ColumnHeader columnKnack;
+        private System.Windows.Forms.ColumnHeader columnKnackAttribute;
+        private System.Windows.Forms.ColumnHeader columnKnackDescription;
+        private System.Windows.Forms.Button buttonRemoveKnack;
+        private System.Windows.Forms.Button buttonAddKnack;
     }
 }
 

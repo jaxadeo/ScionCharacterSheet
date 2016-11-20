@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace Scion_Character_Sheet
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
         int attributeStrength;
         int attributeEpicStrength;
@@ -89,15 +89,18 @@ namespace Scion_Character_Sheet
             {"science2",""},
             {"science3",""},
         };
-
-        public Form1()
+        
+        
+        public MainWindow()
         {
             InitializeComponent();
 
         }
 
+        
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             listStrength.Add(radioStr01);
             listStrength.Add(radioStr02);
             listStrength.Add(radioStr03);
@@ -317,6 +320,7 @@ namespace Scion_Character_Sheet
             abilityInformation.Add("stealth", new abilityInfo(0, false, new List<RadioButton>() { radioStealth1, radioStealth2, radioStealth3, radioStealth4, radioStealth5 }, ref chkStealth));
             abilityInformation.Add("survival", new abilityInfo(0, false, new List<RadioButton>() { radioSurvival1, radioSurvival2, radioSurvival3, radioSurvival4, radioSurvival5 }, ref chkSurvival));
             abilityInformation.Add("thrown", new abilityInfo(0, false, new List<RadioButton>() { radioThrown1, radioThrown2, radioThrown3, radioThrown4, radioThrown5 }, ref chkThrown));
+
         }
         private void setAbilityRank(object sender, EventArgs e)
         {
@@ -350,7 +354,6 @@ namespace Scion_Character_Sheet
             int value = 0;
             int oldEpic;
             string identifier = "";
-
             // Code determines if the object is a checkbox or radio button. This also is a decent hacky way to identify them as normal or epic stats
             if(sender is RadioButton)
             {
@@ -529,6 +532,16 @@ namespace Scion_Character_Sheet
             identifier = val.Name.Substring(7, val.Name.Length - 7).ToLower();
             abilityTags[identifier] = val.Text;
 
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAddKnack_Click(object sender, EventArgs e)
+        {
+            formAddKnack stuff = new formAddKnack();
         }
     }
 }
