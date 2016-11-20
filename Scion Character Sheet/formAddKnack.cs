@@ -24,7 +24,12 @@ namespace Scion_Character_Sheet
 
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

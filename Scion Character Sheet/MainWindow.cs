@@ -541,7 +541,8 @@ namespace Scion_Character_Sheet
 
         private void buttonAddKnack_Click(object sender, EventArgs e)
         {
-            formAddKnack stuff = new formAddKnack();
+            formAddKnack promptAddKnack = new formAddKnack();
+            promptAddKnack.Show();
         }
     }
 }

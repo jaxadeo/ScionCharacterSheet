@@ -10,3 +10,12 @@ c:\users\jaxad\documents\visual studio 2015\Projects\Scion Character Sheet\Scion
 C:\Users\jaxad\Documents\Visual Studio 2015\Projects\Scion Character Sheet - Copy\Scion Character Sheet\bin\Debug\Scion Character Sheet.exe.config
 C:\Users\jaxad\Documents\Visual Studio 2015\Projects\Scion Character Sheet - Copy\Scion Character Sheet\obj\Debug\Scion Character Sheet.exe
 C:\Users\jaxad\Documents\Visual Studio 2015\Projects\Scion Character Sheet - Copy\Scion Character Sheet\obj\Debug\Scion Character Sheet.pdb
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\bin\Debug\Scion Character Sheet.exe.config
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\bin\Debug\Scion Character Sheet.exe
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\bin\Debug\Scion Character Sheet.pdb
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion_Character_Sheet.formAddKnack.resources
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion_Character_Sheet.MainWindow.resources
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion_Character_Sheet.Properties.Resources.resources
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion Character Sheet.csproj.GenerateResource.Cache
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion Character Sheet.exe
+C:\Users\jaxad\Source\Repos\ScionCharacterSheet\Scion Character Sheet\obj\Debug\Scion Character Sheet.pdb

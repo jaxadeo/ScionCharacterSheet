@@ -28,50 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxKnackName = new System.Windows.Forms.TextBox();
+            this.textBoxAssociatedAttribute = new System.Windows.Forms.TextBox();
+            this.textBoxKnackDescription = new System.Windows.Forms.TextBox();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxKnackName
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Knack Name";
+            this.textBoxKnackName.Location = new System.Drawing.Point(13, 13);
+            this.textBoxKnackName.Name = "textBoxKnackName";
+            this.textBoxKnackName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxKnackName.TabIndex = 0;
+            this.textBoxKnackName.Text = "Knack Name";
             // 
-            // textBox2
+            // textBoxAssociatedAttribute
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "Associated Attribute";
+            this.textBoxAssociatedAttribute.Location = new System.Drawing.Point(13, 39);
+            this.textBoxAssociatedAttribute.Name = "textBoxAssociatedAttribute";
+            this.textBoxAssociatedAttribute.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAssociatedAttribute.TabIndex = 1;
+            this.textBoxAssociatedAttribute.Text = "Associated Attribute";
             // 
-            // textBox3
+            // textBoxKnackDescription
             // 
-            this.textBox3.Location = new System.Drawing.Point(13, 66);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(489, 152);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Description";
+            this.textBoxKnackDescription.Location = new System.Drawing.Point(13, 66);
+            this.textBoxKnackDescription.Multiline = true;
+            this.textBoxKnackDescription.Name = "textBoxKnackDescription";
+            this.textBoxKnackDescription.Size = new System.Drawing.Size(489, 152);
+            this.textBoxKnackDescription.TabIndex = 2;
+            this.textBoxKnackDescription.Text = "Description";
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(174, 225);
+            this.buttonCancel.Location = new System.Drawing.Point(427, 224);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(255, 224);
+            this.buttonSubmit.Location = new System.Drawing.Point(346, 224);
             this.buttonSubmit.Name = "buttonSubmit";
             this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmit.TabIndex = 4;
@@ -86,9 +87,9 @@
             this.ClientSize = new System.Drawing.Size(514, 261);
             this.Controls.Add(this.buttonSubmit);
             this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxKnackDescription);
+            this.Controls.Add(this.textBoxAssociatedAttribute);
+            this.Controls.Add(this.textBoxKnackName);
             this.Name = "formAddKnack";
             this.Text = "Add Knack";
             this.Load += new System.EventHandler(this.formAddKnack_Load);
@@ -99,9 +100,9 @@
 
         #endregion
 
-        public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.TextBox textBox2;
-        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBoxKnackName;
+        public System.Windows.Forms.TextBox textBoxAssociatedAttribute;
+        public System.Windows.Forms.TextBox textBoxKnackDescription;
         public System.Windows.Forms.Button buttonCancel;
         public System.Windows.Forms.Button buttonSubmit;
     }
